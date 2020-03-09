@@ -48,7 +48,7 @@ public class LoginTest extends TestBase{
   @BeforeTest
   public void beforeTest() {
 	  driver=chromeWebDriver();
-	  initLogger();
+	  initLogger("Login with valid username/password");
 	  log.info("0. Initiate Driver");
   }
   @AfterTest

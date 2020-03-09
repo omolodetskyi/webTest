@@ -46,8 +46,9 @@ public class LoginTest_wrongCreds extends TestBase{
 	  Assert.assertEquals(actualLoginPageMsg.contains(expectedLoginPageMsg),true);
   }
   @BeforeTest
-  public void beforeTest() {
-	  initLogger();
+  @Parameters({"testName"})
+  public void beforeTest(String testName) {
+	  initLogger(testName);
 	  log.info("0. Initiate Driver");
 	  driver=chromeWebDriver();
 	 }

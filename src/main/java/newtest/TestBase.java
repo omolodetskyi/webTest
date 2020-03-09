@@ -22,7 +22,7 @@ public class TestBase {
 	public void cleanUp(WebDriver driver){
 		driver.close();
 	}
-   public void initLogger(){
-	   log=LogManager.getRootLogger();
+   public void initLogger(String testName){
+	   log=LogManager.getLogger(testName);
    }
 }

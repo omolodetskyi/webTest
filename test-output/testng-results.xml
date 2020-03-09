@@ -2,32 +2,39 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="10761" started-at="2020-03-09T10:13:01Z" finished-at="2020-03-09T10:13:12Z">
+  <suite name="Suite" duration-ms="11610" started-at="2020-03-09T10:20:23Z" finished-at="2020-03-09T10:20:34Z">
     <groups>
     </groups>
-    <test name="Login with correct creds" duration-ms="4287" started-at="2020-03-09T10:13:01Z" finished-at="2020-03-09T10:13:05Z">
+    <test name="Login with correct creds" duration-ms="4364" started-at="2020-03-09T10:20:23Z" finished-at="2020-03-09T10:20:27Z">
       <class name="tests.LoginTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.LoginTest@4501b7af]" name="beforeTest" is-config="true" duration-ms="1868" started-at="2020-03-09T12:13:01Z" finished-at="2020-03-09T12:13:03Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.LoginTest@4501b7af]" name="beforeTest" is-config="true" duration-ms="1927" started-at="2020-03-09T12:20:23Z" finished-at="2020-03-09T12:20:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:tests.LoginTest@4501b7af]" name="loginTest" duration-ms="2325" started-at="2020-03-09T12:13:03Z" finished-at="2020-03-09T12:13:05Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:tests.LoginTest@4501b7af]" name="loginTest" duration-ms="2335" started-at="2020-03-09T12:20:25Z" finished-at="2020-03-09T12:20:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@4501b7af]" name="closeBrowser" is-config="true" duration-ms="81" started-at="2020-03-09T12:13:05Z" finished-at="2020-03-09T12:13:05Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@4501b7af]" name="closeBrowser" is-config="true" duration-ms="89" started-at="2020-03-09T12:20:27Z" finished-at="2020-03-09T12:20:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- tests.LoginTest -->
     </test> <!-- Login with correct creds -->
-    <test name="Login with wrong user" duration-ms="3274" started-at="2020-03-09T10:13:05Z" finished-at="2020-03-09T10:13:08Z">
+    <test name="Login with wrong user" duration-ms="3257" started-at="2020-03-09T10:20:27Z" finished-at="2020-03-09T10:20:30Z">
       <class name="tests.LoginTest_wrongCreds">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.LoginTest_wrongCreds@77cd7a0]" name="beforeTest" is-config="true" duration-ms="822" started-at="2020-03-09T12:13:05Z" finished-at="2020-03-09T12:13:06Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:tests.LoginTest_wrongCreds@77cd7a0]" name="beforeTest" is-config="true" duration-ms="850" started-at="2020-03-09T12:20:27Z" finished-at="2020-03-09T12:20:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login with wrong user]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginWithWrongCreds(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest_wrongCreds@77cd7a0]" name="loginWithWrongCreds" duration-ms="2368" started-at="2020-03-09T12:13:06Z" finished-at="2020-03-09T12:13:08Z">
+        <test-method status="PASS" signature="loginWithWrongCreds(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest_wrongCreds@77cd7a0]" name="loginWithWrongCreds" duration-ms="2324" started-at="2020-03-09T12:20:28Z" finished-at="2020-03-09T12:20:30Z">
           <params>
             <param index="0">
               <value>
@@ -48,19 +55,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithWrongCreds -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest_wrongCreds@77cd7a0]" name="closeBrowser" is-config="true" duration-ms="80" started-at="2020-03-09T12:13:08Z" finished-at="2020-03-09T12:13:08Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest_wrongCreds@77cd7a0]" name="closeBrowser" is-config="true" duration-ms="80" started-at="2020-03-09T12:20:30Z" finished-at="2020-03-09T12:20:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- tests.LoginTest_wrongCreds -->
     </test> <!-- Login with wrong user -->
-    <test name="Login with wrong password" duration-ms="3182" started-at="2020-03-09T10:13:08Z" finished-at="2020-03-09T10:13:12Z">
+    <test name="Login with wrong password" duration-ms="3967" started-at="2020-03-09T10:20:30Z" finished-at="2020-03-09T10:20:34Z">
       <class name="tests.LoginTest_wrongCreds">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.LoginTest_wrongCreds@464bee09]" name="beforeTest" is-config="true" duration-ms="824" started-at="2020-03-09T12:13:08Z" finished-at="2020-03-09T12:13:09Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:tests.LoginTest_wrongCreds@464bee09]" name="beforeTest" is-config="true" duration-ms="804" started-at="2020-03-09T12:20:30Z" finished-at="2020-03-09T12:20:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login with wrong password]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginWithWrongCreds(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest_wrongCreds@464bee09]" name="loginWithWrongCreds" duration-ms="2278" started-at="2020-03-09T12:13:09Z" finished-at="2020-03-09T12:13:12Z">
+        <test-method status="PASS" signature="loginWithWrongCreds(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest_wrongCreds@464bee09]" name="loginWithWrongCreds" duration-ms="3080" started-at="2020-03-09T12:20:31Z" finished-at="2020-03-09T12:20:34Z">
           <params>
             <param index="0">
               <value>
@@ -81,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithWrongCreds -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest_wrongCreds@464bee09]" name="closeBrowser" is-config="true" duration-ms="77" started-at="2020-03-09T12:13:12Z" finished-at="2020-03-09T12:13:12Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest_wrongCreds@464bee09]" name="closeBrowser" is-config="true" duration-ms="80" started-at="2020-03-09T12:20:34Z" finished-at="2020-03-09T12:20:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
