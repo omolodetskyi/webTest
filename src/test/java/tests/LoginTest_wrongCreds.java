@@ -54,7 +54,7 @@ public class LoginTest_wrongCreds extends TestBase{
 	 }
   @AfterTest
   public void closeBrowser(){
-	 log.info("8. Close Driver");
+	 log.info("7. Close Driver");
 	cleanUp(driver);  
   }
 
