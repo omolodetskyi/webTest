@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Login with wrong password(failed)">
-    <parameter name="password" value="wrongPassword"/>
-    <parameter name="errorMessage" value="Your password2 is invalid!"/>
-    <parameter name="userName" value="tomsmith"/>
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="tests.LoginTest_wrongCreds">
+      <class name="tests.LoginTest">
         <methods>
           <include name="closeBrowser"/>
-          <include name="loginWithWrongCreds" invocation-numbers="0"/>
           <include name="beforeTest"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- tests.LoginTest_wrongCreds -->
+      </class> <!-- tests.LoginTest -->
     </classes>
-  </test> <!-- Login with wrong password(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
