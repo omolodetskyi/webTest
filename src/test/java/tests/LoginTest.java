@@ -13,6 +13,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
 public class LoginTest extends TestBase{
 	WebDriver driver;
@@ -23,32 +24,40 @@ public class LoginTest extends TestBase{
   public void loginTest() {
 	  welcomePage=new WelcomePage(driver);
 	  welcomePage.openPage();
-	  //System.out.println("1. Open welcome Page");
 	  log.info("1. Open welcome Page");
 	  String actualWelcomeTitle=welcomePage.getTitle();
 	  String expectedWelcomeTitle="Available Examples";
-	 // System.out.println("2. Welcome page has Available Examples title");
 	  log.info("2. Welcome page has Available Examples title");
 	  Assert.assertEquals(actualWelcomeTitle, expectedWelcomeTitle);
+	  log.info("3. Click on Form Authentication link");
 	  loginPage=welcomePage.clickFormAuthenticationLink();
 	  String actualLoginTitle=loginPage.getTitle();
 	  String expectedLoginTitle="Login Page";
+	  log.info("4. Check title on Login page");
 	  Assert.assertEquals(actualLoginTitle, expectedLoginTitle);
-	  secureAreaPage=loginPage.formAuthenticationLinkClick("tomsmith", "SuperSecretPassword!");
+	  log.info("5. Enter valid username/password");
+	  secureAreaPage=loginPage.enterUserNamePassword("tomsmith", "SuperSecretPassword!");
 	  String actualSecureAreaPageTitle=secureAreaPage.getTitle();
+	  log.info("6. Check title on Secure Area page");
 	  String expectedSecureAreaPageTitle="Secure Area";
 	  Assert.assertEquals(actualSecureAreaPageTitle, expectedSecureAreaPageTitle);
 	  String actualSecureAreaPageMsg=secureAreaPage.getMessage();
 	  String expectedSecureAreaPageMsg="You logged into a secure area!";
+	  log.info("7. Check message on Secure Area page");
 	  Assert.assertEquals(actualSecureAreaPageMsg.contains(expectedSecureAreaPageMsg),true);
   }
   @BeforeTest
-  public void beforeTest() {
+  @Parameters({"testName"})
+  public void beforeTest(String testName) {
+	  initLogger(testName);
+	  log.info("0. Driver initialisation. Open browser");
 	  driver=chromeWebDriver();
-	  initLogger();
+	  
+	  
   }
   @AfterTest
   public void closeBrowser(){
+	log.info("8. Close browser");  
 	cleanUp(driver);  
   }
 

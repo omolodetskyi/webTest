@@ -3,7 +3,7 @@ package tests;
 import org.testng.annotations.Test;
 
 
-import org.testng.AssertJUnit;
+
 import org.testng.annotations.Test;
 
 import newtest.TestBase;
@@ -27,24 +27,34 @@ public class LoginTest_wrongCreds extends TestBase{
   public void loginWithWrongCreds(String userName,String password, String errorMessage) {
 	  welcomePage=new WelcomePage(driver);
 	  welcomePage.openPage();
+	  log.info("1. Open welcome Page");
 	  String actualWelcomeTitle=welcomePage.getTitle();
 	  String expectedWelcomeTitle="Available Examples";
+	  log.info("2. Welcome page has Available Examples title");
 	  Assert.assertEquals(actualWelcomeTitle, expectedWelcomeTitle);
+	  log.info("3. Click Form Authentication link");
 	  loginPage=welcomePage.clickFormAuthenticationLink();
 	  String actualLoginTitle=loginPage.getTitle();
 	  String expectedLoginTitle="Login Page";
+	  log.info("4. Check Login title");
 	  Assert.assertEquals(actualLoginTitle, expectedLoginTitle);
-	  secureAreaPage=loginPage.formAuthenticationLinkClick(userName, password);
+	  log.info("5. Enter invalid username/password");
+	  secureAreaPage=loginPage.enterUserNamePassword(userName, password);
 	  String actualLoginPageMsg=loginPage.getMessage();
 	  String expectedLoginPageMsg=errorMessage;
+	  log.info("6. Check '"+expectedLoginPageMsg+"' error message on Login Page");
 	  Assert.assertEquals(actualLoginPageMsg.contains(expectedLoginPageMsg),true);
   }
   @BeforeTest
-  public void beforeTest() {
+  @Parameters({"testName"})
+  public void beforeTest(String testName) {
+	  initLogger(testName);
+	  log.info("0. Initiate Driver");
 	  driver=chromeWebDriver();
-  }
+	 }
   @AfterTest
   public void closeBrowser(){
+	 log.info("7. Close Driver");
 	cleanUp(driver);  
   }
 

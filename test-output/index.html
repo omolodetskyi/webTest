@@ -177,6 +177,7 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;test name=&quot;Login with correct creds&quot;&gt;
+    &lt;parameter name=&quot;testName&quot; value=&quot;Login with valid username/password&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.LoginTest&quot;/&gt;
     &lt;/classes&gt;
@@ -185,6 +186,7 @@
     &lt;parameter name=&quot;password&quot; value=&quot;SuperSecretPassword!&quot;/&gt;
     &lt;parameter name=&quot;errorMessage&quot; value=&quot;Your username is invalid!&quot;/&gt;
     &lt;parameter name=&quot;userName&quot; value=&quot;wrongUser&quot;/&gt;
+    &lt;parameter name=&quot;testName&quot; value=&quot;Login with wrong user&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.LoginTest_wrongCreds&quot;/&gt;
     &lt;/classes&gt;
@@ -193,6 +195,7 @@
     &lt;parameter name=&quot;password&quot; value=&quot;wrongPassword&quot;/&gt;
     &lt;parameter name=&quot;errorMessage&quot; value=&quot;Your password is invalid!&quot;/&gt;
     &lt;parameter name=&quot;userName&quot; value=&quot;tomsmith&quot;/&gt;
+    &lt;parameter name=&quot;testName&quot; value=&quot;Login with wrong password&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.LoginTest_wrongCreds&quot;/&gt;
     &lt;/classes&gt;
@@ -244,15 +247,15 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTest')
 data.setCell(0, 2, 'tests.LoginTest')
-data.setCell(0, 3, 2696);
+data.setCell(0, 3, 2519);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginWithWrongCreds')
 data.setCell(1, 2, 'tests.LoginTest_wrongCreds')
-data.setCell(1, 3, 2674);
+data.setCell(1, 3, 2463);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'loginWithWrongCreds')
 data.setCell(2, 2, 'tests.LoginTest_wrongCreds')
-data.setCell(2, 3, 2587);
+data.setCell(2, 3, 2377);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -285,43 +288,43 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
+                <span class="method-name">beforeTest(Login with valid username/password)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">1414 ms</span>
+                <span class="method-start">2059 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">4113 ms</span>
+                <span class="method-start">4582 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.LoginTest_wrongCreds</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
-                <span class="method-start">4212 ms</span>
+                <span class="method-name">beforeTest(Login with wrong user)</span>
+                <span class="method-start">4691 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">loginWithWrongCreds(wrongUser, SuperSecretPassword!, Your username is invalid!)</span>
-                <span class="method-start">5086 ms</span>
+                <span class="method-start">5719 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">7761 ms</span>
+                <span class="method-start">8183 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
-                <span class="method-start">7845 ms</span>
+                <span class="method-name">beforeTest(Login with wrong password)</span>
+                <span class="method-start">8297 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">loginWithWrongCreds(tomsmith, wrongPassword, Your password is invalid!)</span>
-                <span class="method-start">8675 ms</span>
+                <span class="method-start">9333 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">11263 ms</span>
+                <span class="method-start">11711 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -2,9 +2,8 @@ package newtest;
 
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.BasicConfigurator;
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -23,8 +22,8 @@ public class TestBase {
 	public void cleanUp(WebDriver driver){
 		driver.close();
 	}
-   public void initLogger(){
-	   BasicConfigurator.configure();
-	   log=LogManager.getRootLogger();
+   public void initLogger(String testName){
+	   log=LogManager.getLogger(testName);
    }
+   
 }
