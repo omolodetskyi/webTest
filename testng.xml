@@ -31,4 +31,10 @@
       <class name="tests.CheckCheckbox"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Check dropdown">
+  <parameter name="testName" value="Check dropdown" />
+    <classes>
+      <class name="tests.DropDownTest"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->

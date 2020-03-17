@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Check dropdown(failed)">
-    <parameter name="testName" value="Check dropdown"/>
+  <test name="Check File Upload(failed)">
+    <parameter name="testName" value="Check File Upload"/>
     <classes>
-      <class name="tests.DropDownTest">
+      <class name="tests.FileUploadTest">
         <methods>
-          <include name="dropDownTest"/>
           <include name="beforeTest"/>
           <include name="closeBrowser"/>
+          <include name="fileUploadTest"/>
         </methods>
-      </class> <!-- tests.DropDownTest -->
+      </class> <!-- tests.FileUploadTest -->
     </classes>
-  </test> <!-- Check dropdown(failed) -->
+  </test> <!-- Check File Upload(failed) -->
 </suite> <!-- Failed suite [Suite] -->

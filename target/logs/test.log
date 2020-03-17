@@ -262,3 +262,43 @@
 10:37:53.378 [main] INFO  Check dropdown - 5. Select Option1
 10:37:53.485 [main] INFO  Check dropdown - 6. Check that Option 1 is selected
 10:37:53.491 [main] INFO  Check dropdown - 7. Close Driver
+20:18:05.293 [main] INFO  Check dropdown - 0. Initiate Driver
+20:18:07.125 [main] INFO  Check dropdown - 1. Open welcome Page
+20:18:09.512 [main] INFO  Check dropdown - 2. Welcome page has Available Examples title
+20:18:09.515 [main] INFO  Check dropdown - 3. Click DropDown link
+20:18:09.857 [main] INFO  Check dropdown - 4. Check DropDown page title
+20:18:09.857 [main] INFO  Check dropdown - 5. Select Option1
+20:18:09.949 [main] INFO  Check dropdown - 6. Check that Option 1 is selected
+20:18:09.952 [main] INFO  Check dropdown - 7. Close Driver
+20:18:42.355 [main] INFO  Check File Upload - 0. Initiate Driver
+20:18:43.915 [main] INFO  Check File Upload - 1. Open welcome Page
+20:18:45.513 [main] INFO  Check File Upload - 2. Welcome page has Available Examples title
+20:18:45.517 [main] INFO  Check File Upload - 3. Click FileUpload link
+20:18:45.944 [main] INFO  Check File Upload - 4. Check File Upload Page title
+20:18:45.949 [main] INFO  Check File Upload - 7. Close Driver
+20:25:41.931 [main] INFO  Check File Upload - 0. Initiate Driver
+20:25:43.578 [main] INFO  Check File Upload - 1. Open welcome Page
+20:25:44.961 [main] INFO  Check File Upload - 2. Welcome page has Available Examples title
+20:25:44.966 [main] INFO  Check File Upload - 3. Click FileUpload link
+20:25:45.410 [main] INFO  Check File Upload - 4. Check File Upload Page title
+20:25:45.410 [main] INFO  Check File Upload - 5.Select file
+20:25:45.454 [main] INFO  Check File Upload - 9. Close Driver
+20:27:10.132 [main] INFO  Check File Upload - 0. Initiate Driver
+20:27:11.710 [main] INFO  Check File Upload - 1. Open welcome Page
+20:27:13.136 [main] INFO  Check File Upload - 2. Welcome page has Available Examples title
+20:27:13.139 [main] INFO  Check File Upload - 3. Click FileUpload link
+20:27:13.571 [main] INFO  Check File Upload - 4. Check File Upload Page title
+20:27:13.571 [main] INFO  Check File Upload - 5.Select file
+20:27:13.601 [main] INFO  Check File Upload - 6. Upload file
+20:27:14.539 [main] INFO  Check File Upload - 7.Check title of File Upload after file is uploaded
+20:27:18.614 [main] INFO  Check File Upload - 9. Close Driver
+20:28:07.335 [main] INFO  Check File Upload - 0. Initiate Driver
+20:28:09.034 [main] INFO  Check File Upload - 1. Open welcome Page
+20:28:10.694 [main] INFO  Check File Upload - 2. Welcome page has Available Examples title
+20:28:10.700 [main] INFO  Check File Upload - 3. Click FileUpload link
+20:28:11.141 [main] INFO  Check File Upload - 4. Check File Upload Page title
+20:28:11.141 [main] INFO  Check File Upload - 5.Select file
+20:28:11.172 [main] INFO  Check File Upload - 6. Upload file
+20:28:12.731 [main] INFO  Check File Upload - 7.Check title of File Upload after file is uploaded
+20:28:12.751 [main] INFO  Check File Upload - 8. Check file name which was uploaded
+20:28:12.754 [main] INFO  Check File Upload - 9. Close Driver
