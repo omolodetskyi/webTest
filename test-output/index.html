@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>testng.xml</span>
+                    <span>currentTest.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,31 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Suite">
+                    <div class="method-list-content failed suite-Suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.LoginTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.DropDownTest" hash-for-method="dropDownTest">dropDownTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.LoginTest_wrongCreds" hash-for-method="loginWithWrongCreds(wrongUser, SuperSecretPassword!, Your username is invalid!)">loginWithWrongCreds(wrongUser, SuperSecretPassword!, Your username is invalid!)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.LoginTest_wrongCreds" hash-for-method="loginWithWrongCreds(tomsmith, wrongPassword, Your password is invalid!)">loginWithWrongCreds(tomsmith, wrongPassword, Your password is invalid!)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -127,79 +117,41 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">tests.LoginTest_wrongCreds</span>
+              <img src="failed.png"/>
+              <span class="class-name">tests.DropDownTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginWithWrongCreds(wrongUser, SuperSecretPassword!, Your username is invalid!)">
-                  </a> <!-- loginWithWrongCreds(wrongUser, SuperSecretPassword!, Your username is invalid!) -->
-                  <span class="method-name">loginWithWrongCreds</span>
-                  <span class="parameters">(wrongUser, SuperSecretPassword!, Your username is invalid!)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginWithWrongCreds(tomsmith, wrongPassword, Your password is invalid!)">
-                  </a> <!-- loginWithWrongCreds(tomsmith, wrongPassword, Your password is invalid!) -->
-                  <span class="method-name">loginWithWrongCreds</span>
-                  <span class="parameters">(tomsmith, wrongPassword, Your password is invalid!)</span>
+                  <a name="dropDownTest">
+                  </a> <!-- dropDownTest -->
+                  <span class="method-name">dropDownTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Option 1] but found [Option 2]
+	at tests.DropDownTest.dropDownTest(DropDownTest.java:37)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">tests.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/alexander/Documents/workspace2/newtest/testng.xml</span>
+            <span class="header-content">/Users/alexander/Documents/workspace2/newtest/currentTest.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
-  &lt;test name=&quot;Login with correct creds&quot;&gt;
-    &lt;parameter name=&quot;testName&quot; value=&quot;Login with valid username/password&quot;/&gt;
+  &lt;test name=&quot;Check dropdown&quot;&gt;
+    &lt;parameter name=&quot;testName&quot; value=&quot;Check dropdown&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;tests.DropDownTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Login with correct creds --&gt;
-  &lt;test name=&quot;Login with wrong user&quot;&gt;
-    &lt;parameter name=&quot;password&quot; value=&quot;SuperSecretPassword!&quot;/&gt;
-    &lt;parameter name=&quot;errorMessage&quot; value=&quot;Your username is invalid!&quot;/&gt;
-    &lt;parameter name=&quot;userName&quot; value=&quot;wrongUser&quot;/&gt;
-    &lt;parameter name=&quot;testName&quot; value=&quot;Login with wrong user&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;tests.LoginTest_wrongCreds&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Login with wrong user --&gt;
-  &lt;test name=&quot;Login with wrong password&quot;&gt;
-    &lt;parameter name=&quot;password&quot; value=&quot;wrongPassword&quot;/&gt;
-    &lt;parameter name=&quot;errorMessage&quot; value=&quot;Your password is invalid!&quot;/&gt;
-    &lt;parameter name=&quot;userName&quot; value=&quot;tomsmith&quot;/&gt;
-    &lt;parameter name=&quot;testName&quot; value=&quot;Login with wrong password&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;tests.LoginTest_wrongCreds&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Login with wrong password --&gt;
+  &lt;/test&gt; &lt;!-- Check dropdown --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -211,13 +163,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Login with correct creds (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Login with wrong user (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Login with wrong password (1 class)</span>
+                <span class="test-name">Check dropdown (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -243,24 +189,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginTest')
-data.setCell(0, 2, 'tests.LoginTest')
-data.setCell(0, 3, 2519);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginWithWrongCreds')
-data.setCell(1, 2, 'tests.LoginTest_wrongCreds')
-data.setCell(1, 3, 2463);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginWithWrongCreds')
-data.setCell(2, 2, 'tests.LoginTest_wrongCreds')
-data.setCell(2, 3, 2377);
+data.setCell(0, 1, 'dropDownTest')
+data.setCell(0, 2, 'tests.DropDownTest')
+data.setCell(0, 3, 3137);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -286,45 +224,20 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.DropDownTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(Login with valid username/password)</span>
+                <span class="method-name">beforeTest(Check dropdown)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">loginTest</span>
-                <span class="method-start">2059 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">dropDownTest</span>
+                <span class="method-start">1942 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">4582 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">tests.LoginTest_wrongCreds</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest(Login with wrong user)</span>
-                <span class="method-start">4691 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">loginWithWrongCreds(wrongUser, SuperSecretPassword!, Your username is invalid!)</span>
-                <span class="method-start">5719 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">8183 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest(Login with wrong password)</span>
-                <span class="method-start">8297 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">loginWithWrongCreds(tomsmith, wrongPassword, Your password is invalid!)</span>
-                <span class="method-start">9333 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">11711 ms</span>
+                <span class="method-start">5083 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

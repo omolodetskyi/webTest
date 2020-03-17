@@ -25,4 +25,10 @@
       <class name="tests.LoginTest_wrongCreds"/>
     </classes>
   </test> <!-- Test -->
+   <test name="Verify checkboxes">
+  <parameter name="testName" value="Verify checkboxes" />
+    <classes>
+      <class name="tests.CheckCheckbox"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->

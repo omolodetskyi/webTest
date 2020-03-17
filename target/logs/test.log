@@ -123,3 +123,142 @@
 10:09:24.855 [main] INFO  Login with wrong password - 5. Enter invalid username/password
 10:09:25.499 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
 10:09:25.501 [main] INFO  Login with wrong password - 7. Close Driver
+09:45:49.829 [main] INFO  Verify checkboxes - 0. Initiate Driver
+09:45:51.541 [main] INFO  Verify checkboxes - 7. Close Driver
+09:47:45.441 [main] INFO  Verify checkboxes - 0. Initiate Driver
+09:47:47.063 [main] INFO  Verify checkboxes - 1. Open welcome Page
+09:47:48.824 [main] INFO  Verify checkboxes - 2. Welcome page has Available Examples title
+09:47:48.830 [main] INFO  Verify checkboxes - 3. Click Checkboxes link
+09:47:48.894 [main] INFO  Verify checkboxes - 7. Close Driver
+09:57:12.868 [main] INFO  Verify checkboxes - 0. Initiate Driver
+09:57:14.439 [main] INFO  Verify checkboxes - 1. Open welcome Page
+09:57:15.838 [main] INFO  Verify checkboxes - 2. Welcome page has Available Examples title
+09:57:15.844 [main] INFO  Verify checkboxes - 3. Click Checkboxes link
+09:57:16.232 [main] INFO  Verify checkboxes - 4. Check Checkboxes page title
+09:57:16.303 [main] INFO  Verify checkboxes - 7. Close Driver
+09:57:52.512 [main] INFO  Verify checkboxes - 0. Initiate Driver
+09:57:54.393 [main] INFO  Verify checkboxes - 1. Open welcome Page
+09:57:55.763 [main] INFO  Verify checkboxes - 2. Welcome page has Available Examples title
+09:57:55.768 [main] INFO  Verify checkboxes - 3. Click Checkboxes link
+09:57:56.177 [main] INFO  Verify checkboxes - 4. Check Checkboxes page title
+09:57:56.252 [main] INFO  Verify checkboxes - 7. Close Driver
+10:07:09.060 [main] INFO  Verify checkboxes - 0. Initiate Driver
+10:07:10.731 [main] INFO  Verify checkboxes - 1. Open welcome Page
+10:07:12.455 [main] INFO  Verify checkboxes - 2. Welcome page has Available Examples title
+10:07:12.459 [main] INFO  Verify checkboxes - 3. Click Checkboxes link
+10:07:12.885 [main] INFO  Verify checkboxes - 4. Check Checkboxes page title
+10:07:12.885 [main] INFO  Verify checkboxes - 5. Click on the first checkbox
+10:07:12.943 [main] INFO  Verify checkboxes - 6. Verify that both checkboxes selected
+10:07:12.948 [main] INFO  Verify checkboxes - 7. Close Driver
+10:07:42.558 [main] INFO  Verify checkboxes - 0. Initiate Driver
+10:07:44.210 [main] INFO  Verify checkboxes - 1. Open welcome Page
+10:07:45.579 [main] INFO  Verify checkboxes - 2. Welcome page has Available Examples title
+10:07:45.584 [main] INFO  Verify checkboxes - 3. Click Checkboxes link
+10:07:46.006 [main] INFO  Verify checkboxes - 4. Check Checkboxes page title
+10:07:46.006 [main] INFO  Verify checkboxes - 5. Click on the first checkbox
+10:07:46.077 [main] INFO  Verify checkboxes - 6. Verify that both checkboxes selected
+10:07:46.081 [main] INFO  Verify checkboxes - 7. Close Driver
+10:19:01.806 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+10:19:03.648 [main] INFO  Login with valid username/password - 1. Open welcome Page
+10:19:05.396 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+10:19:05.398 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+10:19:05.731 [main] INFO  Login with valid username/password - 4. Check title on Login page
+10:19:05.731 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+10:19:06.515 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+10:19:06.537 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+10:19:06.541 [main] INFO  Login with valid username/password - 8. Close browser
+10:19:06.649 [main] INFO  Login with wrong user - 0. Initiate Driver
+10:19:07.869 [main] INFO  Login with wrong user - 1. Open welcome Page
+10:19:09.256 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+10:19:09.257 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+10:19:09.594 [main] INFO  Login with wrong user - 4. Check Login title
+10:19:09.595 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+10:19:10.301 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+10:19:10.303 [main] INFO  Login with wrong user - 7. Close Driver
+10:19:10.409 [main] INFO  Login with wrong password - 0. Initiate Driver
+10:19:11.500 [main] INFO  Login with wrong password - 1. Open welcome Page
+10:19:13.163 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+10:19:13.163 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+10:19:13.514 [main] INFO  Login with wrong password - 4. Check Login title
+10:19:13.514 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+10:19:14.231 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+10:19:14.232 [main] INFO  Login with wrong password - 7. Close Driver
+10:19:14.353 [main] INFO  Verify checkboxes - 0. Initiate Driver
+10:19:15.358 [main] INFO  Verify checkboxes - 1. Open welcome Page
+10:19:16.971 [main] INFO  Verify checkboxes - 2. Welcome page has Available Examples title
+10:19:16.971 [main] INFO  Verify checkboxes - 3. Click Checkboxes link
+10:19:17.031 [main] INFO  Verify checkboxes - 7. Close Driver
+10:21:47.898 [main] INFO  Check dropdown - 0. Initiate Driver
+10:21:49.687 [main] INFO  Check dropdown - 1. Open welcome Page
+10:21:51.781 [main] INFO  Check dropdown - 2. Welcome page has Available Examples title
+10:21:51.787 [main] INFO  Check dropdown - 3. Click DropDown link
+10:21:51.886 [main] INFO  Check dropdown - 7. Close Driver
+10:24:45.290 [main] INFO  Check dropdown - 0. Initiate Driver
+10:24:46.944 [main] INFO  Check dropdown - 1. Open welcome Page
+10:24:48.338 [main] INFO  Check dropdown - 2. Welcome page has Available Examples title
+10:24:48.341 [main] INFO  Check dropdown - 3. Click DropDown link
+10:24:48.683 [main] INFO  Check dropdown - 4. Check DropDown page title
+10:24:48.686 [main] INFO  Check dropdown - 7. Close Driver
+10:25:20.026 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+10:25:21.720 [main] INFO  Login with valid username/password - 1. Open welcome Page
+10:25:23.128 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+10:25:23.130 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+10:25:23.474 [main] INFO  Login with valid username/password - 4. Check title on Login page
+10:25:23.474 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+10:25:24.224 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+10:25:24.247 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+10:25:24.251 [main] INFO  Login with valid username/password - 8. Close browser
+10:25:24.362 [main] INFO  Login with wrong user - 0. Initiate Driver
+10:25:25.377 [main] INFO  Login with wrong user - 1. Open welcome Page
+10:25:26.786 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+10:25:26.786 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+10:25:27.095 [main] INFO  Login with wrong user - 4. Check Login title
+10:25:27.096 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+10:25:27.849 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+10:25:27.850 [main] INFO  Login with wrong user - 7. Close Driver
+10:25:27.969 [main] INFO  Login with wrong password - 0. Initiate Driver
+10:25:29.206 [main] INFO  Login with wrong password - 1. Open welcome Page
+10:25:30.621 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+10:25:30.621 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+10:25:30.943 [main] INFO  Login with wrong password - 4. Check Login title
+10:25:30.943 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+10:25:31.626 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+10:25:31.627 [main] INFO  Login with wrong password - 7. Close Driver
+10:25:31.718 [main] INFO  Verify checkboxes - 0. Initiate Driver
+10:25:32.990 [main] INFO  Verify checkboxes - 1. Open welcome Page
+10:25:34.510 [main] INFO  Verify checkboxes - 2. Welcome page has Available Examples title
+10:25:34.511 [main] INFO  Verify checkboxes - 3. Click Checkboxes link
+10:25:34.921 [main] INFO  Verify checkboxes - 4. Check Checkboxes page title
+10:25:34.922 [main] INFO  Verify checkboxes - 5. Click on the first checkbox
+10:25:34.993 [main] INFO  Verify checkboxes - 6. Verify that both checkboxes selected
+10:25:34.995 [main] INFO  Verify checkboxes - 7. Close Driver
+10:31:48.318 [main] INFO  Check dropdown - 0. Initiate Driver
+10:31:49.945 [main] INFO  Check dropdown - 1. Open welcome Page
+10:31:51.850 [main] INFO  Check dropdown - 2. Welcome page has Available Examples title
+10:31:51.855 [main] INFO  Check dropdown - 3. Click DropDown link
+10:31:52.238 [main] INFO  Check dropdown - 4. Check DropDown page title
+10:31:52.238 [main] INFO  Check dropdown - 5. Select Option1
+10:31:52.307 [main] INFO  Check dropdown - 7. Close Driver
+10:32:12.156 [main] INFO  Check dropdown - 0. Initiate Driver
+10:32:13.979 [main] INFO  Check dropdown - 1. Open welcome Page
+10:32:15.882 [main] INFO  Check dropdown - 2. Welcome page has Available Examples title
+10:32:15.886 [main] INFO  Check dropdown - 3. Click DropDown link
+10:32:16.234 [main] INFO  Check dropdown - 4. Check DropDown page title
+10:32:16.234 [main] INFO  Check dropdown - 5. Select Option1
+10:32:16.298 [main] INFO  Check dropdown - 7. Close Driver
+10:37:12.780 [main] INFO  Check dropdown - 0. Initiate Driver
+10:37:14.394 [main] INFO  Check dropdown - 1. Open welcome Page
+10:37:16.034 [main] INFO  Check dropdown - 2. Welcome page has Available Examples title
+10:37:16.039 [main] INFO  Check dropdown - 3. Click DropDown link
+10:37:16.380 [main] INFO  Check dropdown - 4. Check DropDown page title
+10:37:16.380 [main] INFO  Check dropdown - 5. Select Option1
+10:37:16.474 [main] INFO  Check dropdown - 6. Check that Option1 is selected
+10:37:16.477 [main] INFO  Check dropdown - 7. Close Driver
+10:37:48.810 [main] INFO  Check dropdown - 0. Initiate Driver
+10:37:50.361 [main] INFO  Check dropdown - 1. Open welcome Page
+10:37:53.034 [main] INFO  Check dropdown - 2. Welcome page has Available Examples title
+10:37:53.038 [main] INFO  Check dropdown - 3. Click DropDown link
+10:37:53.378 [main] INFO  Check dropdown - 4. Check DropDown page title
+10:37:53.378 [main] INFO  Check dropdown - 5. Select Option1
+10:37:53.485 [main] INFO  Check dropdown - 6. Check that Option 1 is selected
+10:37:53.491 [main] INFO  Check dropdown - 7. Close Driver

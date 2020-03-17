@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Check dropdown(failed)">
+    <parameter name="testName" value="Check dropdown"/>
     <classes>
-      <class name="tests.LoginTest_wrongCreds">
+      <class name="tests.DropDownTest">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="loginWithWrongCreds"/>
+          <include name="dropDownTest"/>
           <include name="beforeTest"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- tests.LoginTest_wrongCreds -->
+      </class> <!-- tests.DropDownTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Check dropdown(failed) -->
+</suite> <!-- Failed suite [Suite] -->
