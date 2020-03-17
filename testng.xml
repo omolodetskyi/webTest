@@ -25,4 +25,16 @@
       <class name="tests.LoginTest_wrongCreds"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Check both checkboxes">
+   <parameter name="testName" value="Check both checkboxes" />
+    <classes>
+      <class name="tests.CheckBoxesTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Dropdown value selection">
+   <parameter name="testName" value="Dropdown value selection" />
+    <classes>
+      <class name="tests.DropDownTest"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->

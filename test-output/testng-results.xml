@@ -1,112 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="11799" started-at="2020-03-10T08:09:13Z" finished-at="2020-03-10T08:09:25Z">
+  <suite name="Suite" duration-ms="4548" started-at="2020-03-17T06:43:01Z" finished-at="2020-03-17T06:43:05Z">
     <groups>
     </groups>
-    <test name="Login with correct creds" duration-ms="4673" started-at="2020-03-10T08:09:13Z" finished-at="2020-03-10T08:09:18Z">
-      <class name="tests.LoginTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:tests.LoginTest@5b275dab]" name="beforeTest" is-config="true" duration-ms="2048" started-at="2020-03-10T10:09:13Z" finished-at="2020-03-10T10:09:15Z">
+    <test name="Dropdown value selection" duration-ms="4548" started-at="2020-03-17T06:43:01Z" finished-at="2020-03-17T06:43:05Z">
+      <class name="tests.FileUploadTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:tests.FileUploadTest@5b275dab]" name="beforeTest" is-config="true" duration-ms="2001" started-at="2020-03-17T08:43:01Z" finished-at="2020-03-17T08:43:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Login with valid username/password]]>
+                <![CDATA[File Upload]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:tests.LoginTest@5b275dab]" name="loginTest" duration-ms="2519" started-at="2020-03-10T10:09:15Z" finished-at="2020-03-10T10:09:18Z">
+        <test-method status="PASS" signature="fileUploadTest()[pri:0, instance:tests.FileUploadTest@5b275dab]" name="fileUploadTest" duration-ms="2506" started-at="2020-03-17T08:43:03Z" finished-at="2020-03-17T08:43:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@5b275dab]" name="closeBrowser" is-config="true" duration-ms="88" started-at="2020-03-10T10:09:18Z" finished-at="2020-03-10T10:09:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- tests.LoginTest -->
-    </test> <!-- Login with correct creds -->
-    <test name="Login with wrong user" duration-ms="3598" started-at="2020-03-10T08:09:18Z" finished-at="2020-03-10T08:09:22Z">
-      <class name="tests.LoginTest_wrongCreds">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:tests.LoginTest_wrongCreds@77cd7a0]" name="beforeTest" is-config="true" duration-ms="1026" started-at="2020-03-10T10:09:18Z" finished-at="2020-03-10T10:09:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Login with wrong user]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginWithWrongCreds(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest_wrongCreds@77cd7a0]" name="loginWithWrongCreds" duration-ms="2463" started-at="2020-03-10T10:09:19Z" finished-at="2020-03-10T10:09:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[wrongUser]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[SuperSecretPassword!]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Your username is invalid!]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithWrongCreds -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest_wrongCreds@77cd7a0]" name="closeBrowser" is-config="true" duration-ms="105" started-at="2020-03-10T10:09:21Z" finished-at="2020-03-10T10:09:22Z">
+        </test-method> <!-- fileUploadTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.FileUploadTest@5b275dab]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-03-17T08:43:05Z" finished-at="2020-03-17T08:43:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- tests.LoginTest_wrongCreds -->
-    </test> <!-- Login with wrong user -->
-    <test name="Login with wrong password" duration-ms="3500" started-at="2020-03-10T08:09:22Z" finished-at="2020-03-10T08:09:25Z">
-      <class name="tests.LoginTest_wrongCreds">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:tests.LoginTest_wrongCreds@464bee09]" name="beforeTest" is-config="true" duration-ms="1034" started-at="2020-03-10T10:09:22Z" finished-at="2020-03-10T10:09:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Login with wrong password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginWithWrongCreds(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest_wrongCreds@464bee09]" name="loginWithWrongCreds" duration-ms="2377" started-at="2020-03-10T10:09:23Z" finished-at="2020-03-10T10:09:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[tomsmith]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[wrongPassword]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Your password is invalid!]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithWrongCreds -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest_wrongCreds@464bee09]" name="closeBrowser" is-config="true" duration-ms="85" started-at="2020-03-10T10:09:25Z" finished-at="2020-03-10T10:09:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- tests.LoginTest_wrongCreds -->
-    </test> <!-- Login with wrong password -->
+      </class> <!-- tests.FileUploadTest -->
+    </test> <!-- Dropdown value selection -->
   </suite> <!-- Suite -->
 </testng-results>

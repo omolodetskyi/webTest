@@ -123,3 +123,144 @@
 10:09:24.855 [main] INFO  Login with wrong password - 5. Enter invalid username/password
 10:09:25.499 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
 10:09:25.501 [main] INFO  Login with wrong password - 7. Close Driver
+10:48:09.986 [main] INFO  Check both checkboxes - 0. Initiate Driver
+10:48:11.457 [main] INFO  Check both checkboxes - 7. Close Driver
+23:06:11.558 [main] INFO  Check both checkboxes - 0. Initiate Driver
+23:06:13.187 [main] INFO  Check both checkboxes - 7. Close Driver
+06:21:35.669 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+06:21:38.188 [main] INFO  Login with valid username/password - 8. Close browser
+06:21:38.314 [main] INFO  Login with wrong user - 0. Initiate Driver
+06:21:39.245 [main] INFO  Login with wrong user - 7. Close Driver
+06:21:39.340 [main] INFO  Login with wrong password - 0. Initiate Driver
+06:21:40.180 [main] INFO  Login with wrong password - 7. Close Driver
+06:21:40.269 [main] INFO  Check both checkboxes - 0. Initiate Driver
+06:21:41.155 [main] INFO  Check both checkboxes - 7. Close Driver
+06:22:17.744 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+06:22:19.468 [main] INFO  Login with valid username/password - 1. Open welcome Page
+06:22:21.585 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+06:22:21.588 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+06:22:21.892 [main] INFO  Login with valid username/password - 4. Check title on Login page
+06:22:21.892 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+06:22:22.560 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+06:22:22.581 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+06:22:22.584 [main] INFO  Login with valid username/password - 8. Close browser
+06:22:22.688 [main] INFO  Login with wrong user - 0. Initiate Driver
+06:22:23.575 [main] INFO  Login with wrong user - 1. Open welcome Page
+06:22:25.521 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+06:22:25.521 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+06:22:25.811 [main] INFO  Login with wrong user - 4. Check Login title
+06:22:25.811 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+06:22:26.509 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+06:22:26.511 [main] INFO  Login with wrong user - 7. Close Driver
+06:22:26.594 [main] INFO  Login with wrong password - 0. Initiate Driver
+06:22:27.495 [main] INFO  Login with wrong password - 1. Open welcome Page
+06:22:29.407 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+06:22:29.407 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+06:22:29.711 [main] INFO  Login with wrong password - 4. Check Login title
+06:22:29.712 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+06:22:30.451 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+06:22:30.452 [main] INFO  Login with wrong password - 7. Close Driver
+06:22:30.538 [main] INFO  Check both checkboxes - 0. Initiate Driver
+06:22:31.406 [main] INFO  Check both checkboxes - 7. Close Driver
+06:32:28.553 [main] INFO  Check both checkboxes - 0. Initiate Driver
+06:32:30.155 [main] INFO  Check both checkboxes - 1. Open welcome Page
+06:32:32.176 [main] INFO  Check both checkboxes - 2. Welcome page has Available Examples title
+06:32:32.180 [main] INFO  Check both checkboxes - 3. Click on Checkboxes link
+06:32:32.222 [main] INFO  Check both checkboxes - 7. Close Driver
+06:33:27.573 [main] INFO  Check both checkboxes - 0. Initiate Driver
+06:33:29.243 [main] INFO  Check both checkboxes - 1. Open welcome Page
+06:33:30.662 [main] INFO  Check both checkboxes - 2. Welcome page has Available Examples title
+06:33:30.666 [main] INFO  Check both checkboxes - 3. Click on Checkboxes link
+06:33:31.050 [main] INFO  Check both checkboxes - 3. Check Checkboxes page title
+06:33:31.056 [main] INFO  Check both checkboxes - 7. Close Driver
+06:51:58.683 [main] INFO  Check both checkboxes - 0. Initiate Driver
+06:52:00.401 [main] INFO  Check both checkboxes - 1. Open welcome Page
+06:52:01.989 [main] INFO  Check both checkboxes - 2. Welcome page has Available Examples title
+06:52:01.993 [main] INFO  Check both checkboxes - 3. Click on Checkboxes link
+06:52:02.351 [main] INFO  Check both checkboxes - 3. Check Checkboxes page title
+06:52:02.412 [main] INFO  Check both checkboxes - 7. Close Driver
+06:58:48.593 [main] INFO  Check both checkboxes - 0. Initiate Driver
+06:58:50.239 [main] INFO  Check both checkboxes - 1. Open welcome Page
+06:58:51.664 [main] INFO  Check both checkboxes - 2. Welcome page has Available Examples title
+06:58:51.667 [main] INFO  Check both checkboxes - 3. Click on Checkboxes link
+06:58:52.056 [main] INFO  Check both checkboxes - 3. Check Checkboxes page title
+06:58:52.056 [main] INFO  Check both checkboxes - 4. Check first checkbox
+06:58:52.114 [main] INFO  Check both checkboxes - 5. Verify if all checkboxes checked
+06:58:52.117 [main] INFO  Check both checkboxes - 7. Close Driver
+06:59:37.316 [main] INFO  Check both checkboxes - 0. Initiate Driver
+06:59:38.765 [main] INFO  Check both checkboxes - 1. Open welcome Page
+06:59:40.173 [main] INFO  Check both checkboxes - 2. Welcome page has Available Examples title
+06:59:40.177 [main] INFO  Check both checkboxes - 3. Click on Checkboxes link
+06:59:40.566 [main] INFO  Check both checkboxes - 3. Check Checkboxes page title
+06:59:40.566 [main] INFO  Check both checkboxes - 4. Check first checkbox
+06:59:40.628 [main] INFO  Check both checkboxes - 5. Verify if all checkboxes checked
+06:59:40.632 [main] INFO  Check both checkboxes - 7. Close Driver
+07:16:05.524 [main] INFO  Check both checkboxes - 0. Initiate Driver
+07:16:07.001 [main] INFO  Check both checkboxes - 1. Open welcome Page
+07:16:08.391 [main] INFO  Check both checkboxes - 2. Welcome page has Available Examples title
+07:16:08.392 [main] INFO  Check both checkboxes - 3. Click on Checkboxes link
+07:16:08.788 [main] INFO  Check both checkboxes - 3. Check Checkboxes page title
+07:16:08.788 [main] INFO  Check both checkboxes - 4. Check first checkbox
+07:16:08.841 [main] INFO  Check both checkboxes - 5. Verify if all checkboxes checked
+07:16:08.844 [main] INFO  Check both checkboxes - 7. Close Driver
+07:16:39.645 [main] INFO  Check both checkboxes - 0. Initiate Driver
+07:16:41.050 [main] INFO  Check both checkboxes - 1. Open welcome Page
+07:16:43.008 [main] INFO  Check both checkboxes - 2. Welcome page has Available Examples title
+07:16:43.012 [main] INFO  Check both checkboxes - 3. Click on Checkboxes link
+07:16:47.414 [main] INFO  Check both checkboxes - 7. Close Driver
+07:17:36.554 [main] INFO  Check both checkboxes - 0. Initiate Driver
+07:17:38.054 [main] INFO  Check both checkboxes - 1. Open welcome Page
+07:17:39.831 [main] INFO  Check both checkboxes - 2. Welcome page has Available Examples title
+07:17:39.835 [main] INFO  Check both checkboxes - 3. Click on Checkboxes link
+07:17:40.254 [main] INFO  Check both checkboxes - 3. Check Checkboxes page title
+07:17:40.254 [main] INFO  Check both checkboxes - 4. Check first checkbox
+07:17:40.309 [main] INFO  Check both checkboxes - 5. Verify if all checkboxes checked
+07:17:40.313 [main] INFO  Check both checkboxes - 7. Close Driver
+07:23:07.261 [main] INFO  Dropdown value selection - 0. Driver initialisation. Open browser
+07:23:08.701 [main] INFO  Dropdown value selection - 8. Close browser
+07:24:18.403 [main] INFO  Dropdown value selection - 0. Driver initialisation. Open browser
+07:24:19.796 [main] INFO  Dropdown value selection - 1. Open welcome Page
+07:24:21.229 [main] INFO  Dropdown value selection - 2. Welcome page has Available Examples title
+07:24:21.232 [main] INFO  Dropdown value selection - 3. Click on DropDown link
+07:24:21.244 [main] INFO  Dropdown value selection - 4. Check Dropdown page title
+07:24:21.248 [main] INFO  Dropdown value selection - 8. Close browser
+07:26:16.231 [main] INFO  Dropdown value selection - 0. Driver initialisation. Open browser
+07:26:17.618 [main] INFO  Dropdown value selection - 1. Open welcome Page
+07:26:19.028 [main] INFO  Dropdown value selection - 2. Welcome page has Available Examples title
+07:26:19.031 [main] INFO  Dropdown value selection - 3. Click on DropDown link
+07:26:19.328 [main] INFO  Dropdown value selection - 4. Check Dropdown page title
+07:26:19.330 [main] INFO  Dropdown value selection - 8. Close browser
+07:40:32.625 [main] INFO  Dropdown value selection - 0. Driver initialisation. Open browser
+07:40:34.225 [main] INFO  Dropdown value selection - 1. Open welcome Page
+07:40:36.222 [main] INFO  Dropdown value selection - 2. Welcome page has Available Examples title
+07:40:36.224 [main] INFO  Dropdown value selection - 3. Click on DropDown link
+07:40:36.526 [main] INFO  Dropdown value selection - 4. Check Dropdown page title
+07:40:36.527 [main] INFO  Dropdown value selection - 5. Select Option1
+07:40:36.542 [main] INFO  Dropdown value selection - 8. Close browser
+07:42:15.891 [main] INFO  Dropdown value selection - 0. Driver initialisation. Open browser
+07:42:17.285 [main] INFO  Dropdown value selection - 1. Open welcome Page
+07:42:18.620 [main] INFO  Dropdown value selection - 2. Welcome page has Available Examples title
+07:42:18.623 [main] INFO  Dropdown value selection - 3. Click on DropDown link
+07:42:18.941 [main] INFO  Dropdown value selection - 4. Check Dropdown page title
+07:42:18.941 [main] INFO  Dropdown value selection - 5. Select Option1
+07:42:19.028 [main] INFO  Dropdown value selection - 8. Close browser
+07:50:52.681 [main] INFO  Dropdown value selection - 0. Driver initialisation. Open browser
+07:50:54.375 [main] INFO  Dropdown value selection - 1. Open welcome Page
+07:50:56.778 [main] INFO  Dropdown value selection - 2. Welcome page has Available Examples title
+07:50:56.782 [main] INFO  Dropdown value selection - 3. Click on DropDown link
+07:50:57.096 [main] INFO  Dropdown value selection - 4. Check Dropdown page title
+07:50:57.097 [main] INFO  Dropdown value selection - 5. Select Option1
+07:50:57.163 [main] INFO  Dropdown value selection - 6. Check that Option1 is selected
+07:50:57.201 [main] INFO  Dropdown value selection - 8. Close browser
+07:51:23.451 [main] INFO  Dropdown value selection - 0. Driver initialisation. Open browser
+07:51:24.871 [main] INFO  Dropdown value selection - 1. Open welcome Page
+07:51:26.433 [main] INFO  Dropdown value selection - 2. Welcome page has Available Examples title
+07:51:26.436 [main] INFO  Dropdown value selection - 3. Click on DropDown link
+07:51:26.754 [main] INFO  Dropdown value selection - 4. Check Dropdown page title
+07:51:26.754 [main] INFO  Dropdown value selection - 5. Select Option1
+07:51:26.810 [main] INFO  Dropdown value selection - 6. Check that Option1 is selected
+07:51:26.844 [main] INFO  Dropdown value selection - 8. Close browser
+08:40:48.108 [main] INFO  File Upload - 0. Driver initialisation. Open browser
+08:40:49.759 [main] INFO  File Upload - 8. Close browser
+08:43:01.959 [main] INFO  File Upload - 0. Driver initialisation. Open browser
+08:43:05.921 [main] INFO  File Upload - 8. Close browser

@@ -1,32 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Login with wrong user(failed)">
-    <parameter name="password" value="SuperSecretPassword!"/>
-    <parameter name="errorMessage" value="Your username is invalid!"/>
-    <parameter name="userName" value="wrongUser"/>
+  <test name="Dropdown value selection(failed)">
+    <parameter name="testName" value="Dropdown value selection"/>
     <classes>
-      <class name="tests.LoginTest_wrongCreds">
+      <class name="tests.DropDownTest">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="loginWithWrongCreds"/>
+          <include name="selectDropdownTest"/>
           <include name="beforeTest"/>
-        </methods>
-      </class> <!-- tests.LoginTest_wrongCreds -->
-    </classes>
-  </test> <!-- Login with wrong user(failed) -->
-  <test name="Login with wrong password(failed)">
-    <parameter name="password" value="wrongPassword"/>
-    <parameter name="errorMessage" value="Your password is invalid!"/>
-    <parameter name="userName" value="tomsmith"/>
-    <classes>
-      <class name="tests.LoginTest_wrongCreds">
-        <methods>
           <include name="closeBrowser"/>
-          <include name="loginWithWrongCreds"/>
-          <include name="beforeTest"/>
         </methods>
-      </class> <!-- tests.LoginTest_wrongCreds -->
+      </class> <!-- tests.DropDownTest -->
     </classes>
-  </test> <!-- Login with wrong password(failed) -->
+  </test> <!-- Dropdown value selection(failed) -->
 </suite> <!-- Failed suite [Suite] -->
