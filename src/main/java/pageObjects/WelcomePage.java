@@ -9,6 +9,7 @@ public class WelcomePage extends BasePage{
 	private By formAuthenticationLink=By.xpath("//*[@href='/login']");
 	private By checkboxesLink=By.xpath("//*[@href='/checkboxes']");
 	private By dropDownLink=By.xpath("//*[@href='/dropdown']");
+	private By fileUploadLink=By.xpath("//*[@href='/upload']");
  public WelcomePage(WebDriver driver){
 	 super(driver);
  }
@@ -27,5 +28,9 @@ public class WelcomePage extends BasePage{
  public DropDownPage clickDropDownLink(){
 	 driver.findElement(dropDownLink).click();
 	 return new DropDownPage(driver);
+ }
+ public FileUpload clickFileUploadLink(){
+	 driver.findElement(fileUploadLink).click();
+	 return new FileUpload(driver);
  }
 }
