@@ -262,3 +262,123 @@
 10:37:53.378 [main] INFO  Check dropdown - 5. Select Option1
 10:37:53.485 [main] INFO  Check dropdown - 6. Check that Option 1 is selected
 10:37:53.491 [main] INFO  Check dropdown - 7. Close Driver
+09:44:55.056 [main] INFO  Verify File Upload - 0. Initiate Driver
+09:44:57.018 [main] INFO  Verify File Upload - 1. Open welcome Page
+09:44:59.404 [main] INFO  Verify File Upload - 2. Welcome page has Available Examples title
+09:44:59.409 [main] INFO  Verify File Upload - 3. Click File Upload link
+09:44:59.528 [main] INFO  Verify File Upload - 7. Close Driver
+09:45:13.326 [main] INFO  Verify File Upload - 0. Initiate Driver
+09:45:14.941 [main] INFO  Verify File Upload - 1. Open welcome Page
+09:45:16.639 [main] INFO  Verify File Upload - 2. Welcome page has Available Examples title
+09:45:16.641 [main] INFO  Verify File Upload - 3. Click File Upload link
+09:45:16.771 [main] INFO  Verify File Upload - 7. Close Driver
+09:50:51.445 [main] INFO  Verify File Upload - 0. Initiate Driver
+09:50:53.060 [main] INFO  Verify File Upload - 1. Open welcome Page
+09:50:54.888 [main] INFO  Verify File Upload - 2. Welcome page has Available Examples title
+09:50:54.893 [main] INFO  Verify File Upload - 3. Click File Upload link
+09:50:55.353 [main] INFO  Verify File Upload - 7. Close Driver
+09:54:16.937 [main] INFO  Verify File Upload - 0. Initiate Driver
+09:54:18.877 [main] INFO  Verify File Upload - 1. Open welcome Page
+09:54:20.824 [main] INFO  Verify File Upload - 2. Welcome page has Available Examples title
+09:54:20.826 [main] INFO  Verify File Upload - 3. Click File Upload link
+09:54:25.042 [main] INFO  Verify File Upload - 7. Close Driver
+09:54:57.060 [main] INFO  Verify File Upload - 0. Initiate Driver
+09:54:58.881 [main] INFO  Verify File Upload - 1. Open welcome Page
+09:55:00.795 [main] INFO  Verify File Upload - 2. Welcome page has Available Examples title
+09:55:00.800 [main] INFO  Verify File Upload - 3. Click File Upload link
+09:55:01.311 [main] INFO  Verify File Upload - 7. Close Driver
+10:01:03.946 [main] INFO  Verify File Upload - 0. Initiate Driver
+10:01:05.683 [main] INFO  Verify File Upload - 1. Open welcome Page
+10:01:07.088 [main] INFO  Verify File Upload - 2. Welcome page has Available Examples title
+10:01:07.090 [main] INFO  Verify File Upload - 3. Click File Upload link
+10:01:07.635 [main] INFO  Verify File Upload - 7. Close Driver
+10:01:53.838 [main] INFO  Verify File Upload - 0. Initiate Driver
+10:01:55.619 [main] INFO  Verify File Upload - 1. Open welcome Page
+10:01:57.303 [main] INFO  Verify File Upload - 2. Welcome page has Available Examples title
+10:01:57.308 [main] INFO  Verify File Upload - 3. Click File Upload link
+10:01:57.313 [main] INFO  Verify File Upload - 7. Close Driver
+10:02:46.046 [main] INFO  Verify File Upload - 0. Initiate Driver
+10:02:48.066 [main] INFO  Verify File Upload - 1. Open welcome Page
+10:02:49.542 [main] INFO  Verify File Upload - 2. Welcome page has Available Examples title
+10:02:49.547 [main] INFO  Verify File Upload - 3. Click File Upload link
+10:02:51.037 [main] INFO  Verify File Upload - 7. Close Driver
+10:05:16.353 [main] INFO  Verify File Upload - 0. Initiate Driver
+10:05:18.390 [main] INFO  Verify File Upload - 1. Open welcome Page
+10:05:20.016 [main] INFO  Verify File Upload - 2. Welcome page has Available Examples title
+10:05:20.021 [main] INFO  Verify File Upload - 3. Click File Upload link
+10:05:21.508 [main] INFO  Verify File Upload - 7. Close Driver
+10:06:20.232 [main] INFO  Verify File Upload - 0. Initiate Driver
+10:06:22.069 [main] INFO  Verify File Upload - 1. Open welcome Page
+10:06:23.680 [main] INFO  Verify File Upload - 2. Welcome page has Available Examples title
+10:06:23.685 [main] INFO  Verify File Upload - 3. Click File Upload link
+10:06:25.177 [main] INFO  Verify File Upload - 7. Close Driver
+10:07:36.326 [main] INFO  Verify File Upload - 0. Initiate Driver
+10:07:38.248 [main] INFO  Verify File Upload - 1. Open welcome Page
+10:07:39.791 [main] INFO  Verify File Upload - 2. Welcome page has Available Examples title
+10:07:39.796 [main] INFO  Verify File Upload - 3. Click File Upload link
+10:07:50.413 [main] INFO  Verify File Upload - 7. Close Driver
+10:08:52.185 [main] INFO  Verify File Upload - 0. Initiate Driver
+10:08:53.970 [main] INFO  Verify File Upload - 1. Open welcome Page
+10:08:55.488 [main] INFO  Verify File Upload - 2. Welcome page has Available Examples title
+10:08:55.494 [main] INFO  Verify File Upload - 3. Click File Upload link
+10:08:57.154 [main] INFO  Verify File Upload - 7. Close Driver
+10:17:08.452 [main] INFO  Verify Alerts - 0. Initiate Driver
+10:17:10.202 [main] INFO  Verify Alerts - 1. Open welcome Page
+10:17:12.399 [main] INFO  Verify Alerts - 2. Welcome page has Available Examples title
+10:17:12.403 [main] INFO  Verify Alerts - 3. Click Checkboxes link
+10:17:16.474 [main] INFO  Verify Alerts - 7. Close Driver
+10:19:18.710 [main] INFO  Verify Alerts - 0. Initiate Driver
+10:19:20.382 [main] INFO  Verify Alerts - 1. Open welcome Page
+10:19:22.352 [main] INFO  Verify Alerts - 2. Welcome page has Available Examples title
+10:19:22.357 [main] INFO  Verify Alerts - 3. Click Checkboxes link
+10:19:22.457 [main] INFO  Verify Alerts - 7. Close Driver
+10:27:08.797 [main] INFO  Verify Alerts - 0. Initiate Driver
+10:27:10.649 [main] INFO  Verify Alerts - 1. Open welcome Page
+10:27:12.432 [main] INFO  Verify Alerts - 2. Welcome page has Available Examples title
+10:27:12.438 [main] INFO  Verify Alerts - 3. Click Checkboxes link
+10:27:12.857 [main] INFO  Verify Alerts - 7. Close Driver
+10:27:43.781 [main] INFO  Verify Alerts - 0. Initiate Driver
+10:27:45.480 [main] INFO  Verify Alerts - 1. Open welcome Page
+10:27:48.650 [main] INFO  Verify Alerts - 2. Welcome page has Available Examples title
+10:27:48.654 [main] INFO  Verify Alerts - 3. Click Checkboxes link
+10:27:49.078 [main] INFO  Verify Alerts - 7. Close Driver
+10:28:48.829 [main] INFO  Verify Alerts - 0. Initiate Driver
+10:28:50.539 [main] INFO  Verify Alerts - 1. Open welcome Page
+10:28:52.008 [main] INFO  Verify Alerts - 2. Welcome page has Available Examples title
+10:28:52.012 [main] INFO  Verify Alerts - 3. Click Checkboxes link
+10:28:52.459 [main] INFO  Verify Alerts - 7. Close Driver
+10:29:21.823 [main] INFO  Verify Alerts - 0. Initiate Driver
+10:29:23.485 [main] INFO  Verify Alerts - 1. Open welcome Page
+10:29:25.067 [main] INFO  Verify Alerts - 2. Welcome page has Available Examples title
+10:29:25.073 [main] INFO  Verify Alerts - 3. Click Checkboxes link
+10:29:25.511 [main] INFO  Verify Alerts - 7. Close Driver
+10:33:25.927 [main] INFO  Verify Alerts - 0. Initiate Driver
+10:33:27.723 [main] INFO  Verify Alerts - 1. Open welcome Page
+10:33:29.368 [main] INFO  Verify Alerts - 2. Welcome page has Available Examples title
+10:33:29.372 [main] INFO  Verify Alerts - 3. Click Checkboxes link
+10:33:30.066 [main] INFO  Verify Alerts - 7. Close Driver
+10:36:30.773 [main] INFO  Verify Alerts - 0. Initiate Driver
+10:36:32.656 [main] INFO  Verify Alerts - 1. Open welcome Page
+10:36:34.502 [main] INFO  Verify Alerts - 2. Welcome page has Available Examples title
+10:36:34.506 [main] INFO  Verify Alerts - 3. Click Checkboxes link
+10:36:35.125 [main] INFO  Verify Alerts - 7. Close Driver
+10:37:00.237 [main] INFO  Verify Alerts - 0. Initiate Driver
+10:37:02.184 [main] INFO  Verify Alerts - 1. Open welcome Page
+10:37:03.876 [main] INFO  Verify Alerts - 2. Welcome page has Available Examples title
+10:37:03.880 [main] INFO  Verify Alerts - 3. Click Checkboxes link
+10:37:04.724 [main] INFO  Verify Alerts - 7. Close Driver
+10:37:26.399 [main] INFO  Verify Alerts - 0. Initiate Driver
+10:37:28.333 [main] INFO  Verify Alerts - 1. Open welcome Page
+10:37:29.999 [main] INFO  Verify Alerts - 2. Welcome page has Available Examples title
+10:37:30.005 [main] INFO  Verify Alerts - 3. Click Checkboxes link
+10:37:31.007 [main] INFO  Verify Alerts - 7. Close Driver
+10:43:10.475 [main] INFO  Verify Alerts - 0. Initiate Driver
+10:43:12.726 [main] INFO  Verify Alerts - 1. Open welcome Page
+10:43:14.682 [main] INFO  Verify Alerts - 2. Welcome page has Available Examples title
+10:43:14.687 [main] INFO  Verify Alerts - 3. Click Checkboxes link
+10:43:15.675 [main] INFO  Verify Alerts - 7. Close Driver
+10:44:04.442 [main] INFO  Verify Alerts - 0. Initiate Driver
+10:44:06.374 [main] INFO  Verify Alerts - 1. Open welcome Page
+10:44:07.808 [main] INFO  Verify Alerts - 2. Welcome page has Available Examples title
+10:44:07.812 [main] INFO  Verify Alerts - 3. Click Checkboxes link
+10:44:08.929 [main] INFO  Verify Alerts - 7. Close Driver
