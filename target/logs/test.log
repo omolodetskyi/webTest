@@ -302,3 +302,86 @@
 20:28:12.731 [main] INFO  Check File Upload - 7.Check title of File Upload after file is uploaded
 20:28:12.751 [main] INFO  Check File Upload - 8. Check file name which was uploaded
 20:28:12.754 [main] INFO  Check File Upload - 9. Close Driver
+22:40:47.127 [main] INFO  Check Alerts - 0. Initiate Driver
+22:40:48.895 [main] INFO  Check Alerts - 7. Close Driver
+22:44:10.515 [main] INFO  Check Alerts - 0. Initiate Driver
+22:44:11.882 [main] INFO  Check Alerts - 1. Open welcome Page
+22:44:13.284 [main] INFO  Check Alerts - 2. Welcome page has Available Examples title
+22:44:13.285 [main] INFO  Check Alerts - 3. Click JavaScript Alerts link
+22:44:13.592 [main] INFO  Check Alerts - 4. Check JavaScript Alerts page title
+22:44:13.595 [main] INFO  Check Alerts - 7. Close Driver
+22:47:20.236 [main] INFO  Check Alerts - 0. Initiate Driver
+22:47:21.594 [main] INFO  Check Alerts - 1. Open welcome Page
+22:47:23.127 [main] INFO  Check Alerts - 2. Welcome page has Available Examples title
+22:47:23.131 [main] INFO  Check Alerts - 3. Click JavaScript Alerts link
+22:47:23.429 [main] INFO  Check Alerts - 4. Check JavaScript Alerts page title
+22:47:23.470 [main] INFO  Check Alerts - 7. Close Driver
+22:48:23.244 [main] INFO  Check Alerts - 0. Initiate Driver
+22:48:24.766 [main] INFO  Check Alerts - 1. Open welcome Page
+22:48:26.452 [main] INFO  Check Alerts - 2. Welcome page has Available Examples title
+22:48:26.459 [main] INFO  Check Alerts - 3. Click JavaScript Alerts link
+22:48:26.763 [main] INFO  Check Alerts - 4. Check JavaScript Alerts page title
+22:48:26.802 [main] INFO  Check Alerts - 7. Close Driver
+22:50:16.022 [main] INFO  Check Alerts - 0. Initiate Driver
+22:50:17.692 [main] INFO  Check Alerts - 1. Open welcome Page
+22:50:19.205 [main] INFO  Check Alerts - 2. Welcome page has Available Examples title
+22:50:19.209 [main] INFO  Check Alerts - 3. Click JavaScript Alerts link
+22:50:19.501 [main] INFO  Check Alerts - 4. Check JavaScript Alerts page title
+22:50:19.566 [main] INFO  Check Alerts - 7. Close Driver
+23:01:16.240 [main] INFO  Check Alerts - 0. Initiate Driver
+23:01:17.676 [main] INFO  Check Alerts - 1. Open welcome Page
+23:01:19.408 [main] INFO  Check Alerts - 2. Welcome page has Available Examples title
+23:01:19.410 [main] INFO  Check Alerts - 3. Click JavaScript Alerts link
+23:01:24.603 [main] INFO  Check Alerts - 7. Close Driver
+23:02:19.611 [main] INFO  Check Alerts - 0. Initiate Driver
+23:02:21.091 [main] INFO  Check Alerts - 1. Open welcome Page
+23:02:22.545 [main] INFO  Check Alerts - 2. Welcome page has Available Examples title
+23:02:22.549 [main] INFO  Check Alerts - 3. Click JavaScript Alerts link
+23:02:22.838 [main] INFO  Check Alerts - 4. Check JavaScript Alerts page title
+23:02:22.966 [main] INFO  Check Alerts - 7. Close Driver
+23:02:55.825 [main] INFO  Check Alerts - 0. Initiate Driver
+23:02:57.213 [main] INFO  Check Alerts - 1. Open welcome Page
+23:02:58.586 [main] INFO  Check Alerts - 2. Welcome page has Available Examples title
+23:02:58.590 [main] INFO  Check Alerts - 3. Click JavaScript Alerts link
+23:02:58.883 [main] INFO  Check Alerts - 4. Check JavaScript Alerts page title
+23:02:59.005 [main] INFO  Check Alerts - 7. Close Driver
+23:06:02.761 [main] INFO  Check Alerts - 0. Initiate Driver
+23:06:04.176 [main] INFO  Check Alerts - 1. Open welcome Page
+23:06:05.556 [main] INFO  Check Alerts - 2. Welcome page has Available Examples title
+23:06:05.559 [main] INFO  Check Alerts - 3. Click JavaScript Alerts link
+23:06:05.873 [main] INFO  Check Alerts - 4. Check JavaScript Alerts page title
+23:06:06.042 [main] INFO  Check Alerts - 7. Close Driver
+23:11:51.932 [main] INFO  Check Alerts - 0. Initiate Driver
+23:11:53.502 [main] INFO  Check Alerts - 1. Open welcome Page
+23:11:55.342 [main] INFO  Check Alerts - 2. Welcome page has Available Examples title
+23:11:55.347 [main] INFO  Check Alerts - 3. Click JavaScript Alerts link
+23:11:55.649 [main] INFO  Check Alerts - 4. Check JavaScript Alerts page title
+23:11:56.164 [main] INFO  Check Alerts - 7. Close Driver
+23:19:30.499 [main] INFO  Check Alerts - 0. Initiate Driver
+23:19:32.030 [main] INFO  Check Alerts - 1. Open welcome Page
+23:19:33.391 [main] INFO  Check Alerts - 2. Welcome page has Available Examples title
+23:19:33.394 [main] INFO  Check Alerts - 3. Click JavaScript Alerts link
+23:19:33.678 [main] INFO  Check Alerts - 4. Check JavaScript Alerts page title
+23:19:34.321 [main] INFO  Check Alerts - 7. Close Driver
+23:20:37.622 [main] INFO  Check Alerts - 0. Initiate Driver
+23:20:39.173 [main] INFO  Check Alerts - 1. Open welcome Page
+23:20:40.644 [main] INFO  Check Alerts - 2. Welcome page has Available Examples title
+23:20:40.649 [main] INFO  Check Alerts - 3. Click JavaScript Alerts link
+23:20:40.950 [main] INFO  Check Alerts - 4. Check JavaScript Alerts page title
+23:20:41.670 [main] INFO  Check Alerts - 7. Close Driver
+23:21:26.398 [main] INFO  Check Alerts - 0. Initiate Driver
+23:21:27.993 [main] INFO  Check Alerts - 1. Open welcome Page
+23:21:29.350 [main] INFO  Check Alerts - 2. Welcome page has Available Examples title
+23:21:29.353 [main] INFO  Check Alerts - 3. Click JavaScript Alerts link
+23:21:29.657 [main] INFO  Check Alerts - 4. Check JavaScript Alerts page title
+23:21:30.483 [main] INFO  Check Alerts - 7. Close Driver
+23:41:30.604 [main] INFO  Check Multiple Windows - 0. Initiate Driver
+23:41:32.366 [main] INFO  Check Multiple Windows - 1. Open welcome Page
+23:41:33.787 [main] INFO  Check Multiple Windows - 2. Welcome page has Available Examples title
+23:41:33.791 [main] INFO  Check Multiple Windows - 3. Click Window link
+23:41:33.869 [main] INFO  Check Multiple Windows - 7. Close Driver
+23:43:55.064 [main] INFO  Check Multiple Windows - 0. Initiate Driver
+23:43:56.433 [main] INFO  Check Multiple Windows - 1. Open welcome Page
+23:43:57.873 [main] INFO  Check Multiple Windows - 2. Welcome page has Available Examples title
+23:43:57.875 [main] INFO  Check Multiple Windows - 3. Click Window link
+23:43:58.231 [main] INFO  Check Multiple Windows - 7. Close Driver

@@ -10,6 +10,8 @@ public class WelcomePage extends BasePage{
 	private By checkboxesLink=By.xpath("//*[@href='/checkboxes']");
 	private By dropDownLink=By.xpath("//*[@href='/dropdown']");
 	private By fileUploadLink=By.xpath("//*[@href='/upload']");
+	private By alertsLink=By.xpath("//*[@href='/javascript_alerts']");
+	private By windowLink=By.xpath("//*[@href='/windows']");
  public WelcomePage(WebDriver driver){
 	 super(driver);
  }
@@ -20,6 +22,10 @@ public class WelcomePage extends BasePage{
  public LoginPage clickFormAuthenticationLink(){
 	 driver.findElement(formAuthenticationLink).click();
 	 return new LoginPage(driver);
+ }
+ public WindowPage clickWindowLink(){
+	 driver.findElement(windowLink).click();
+	 return new WindowPage(driver);
  }
  public CheckboxesPage clickCheckboxesLink(){
 	 driver.findElement(checkboxesLink).click();
@@ -32,5 +38,9 @@ public class WelcomePage extends BasePage{
  public FileUpload clickFileUploadLink(){
 	 driver.findElement(fileUploadLink).click();
 	 return new FileUpload(driver);
+ }
+ public AlertsPage clickAlertsLink(){
+	 driver.findElement(alertsLink).click();
+	 return new AlertsPage(driver);
  }
 }

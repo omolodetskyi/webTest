@@ -37,4 +37,16 @@
       <class name="tests.DropDownTest"/>
     </classes>
   </test> <!-- Test -->
+   <test name="Check File Upload">
+  <parameter name="testName" value="Check File Upload" />
+    <classes>
+      <class name="tests.FileUploadTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Check Alerts">
+  <parameter name="testName" value="Check Alerts" />
+    <classes>
+      <class name="tests.AlertTest"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->

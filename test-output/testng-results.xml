@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="6074" started-at="2020-03-17T18:28:06Z" finished-at="2020-03-17T18:28:12Z">
+  <suite name="Suite" duration-ms="3686" started-at="2020-03-17T21:43:54Z" finished-at="2020-03-17T21:43:58Z">
     <groups>
     </groups>
-    <test name="Check File Upload" duration-ms="6074" started-at="2020-03-17T18:28:06Z" finished-at="2020-03-17T18:28:12Z">
-      <class name="tests.FileUploadTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:tests.FileUploadTest@5b275dab]" name="beforeTest" is-config="true" duration-ms="2317" started-at="2020-03-17T20:28:06Z" finished-at="2020-03-17T20:28:09Z">
+    <test name="Check Multiple Windows" duration-ms="3686" started-at="2020-03-17T21:43:54Z" finished-at="2020-03-17T21:43:58Z">
+      <class name="tests.WindowTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:tests.WindowTest@5b275dab]" name="beforeTest" is-config="true" duration-ms="1866" started-at="2020-03-17T23:43:54Z" finished-at="2020-03-17T23:43:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Check File Upload]]>
+                <![CDATA[Check Multiple Windows]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="fileUploadTest()[pri:0, instance:tests.FileUploadTest@5b275dab]" name="fileUploadTest" duration-ms="3739" started-at="2020-03-17T20:28:09Z" finished-at="2020-03-17T20:28:12Z">
+        <test-method status="PASS" signature="windowTest()[pri:0, instance:tests.WindowTest@5b275dab]" name="windowTest" duration-ms="1805" started-at="2020-03-17T23:43:56Z" finished-at="2020-03-17T23:43:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fileUploadTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.FileUploadTest@5b275dab]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-03-17T20:28:12Z" finished-at="2020-03-17T20:28:12Z">
+        </test-method> <!-- windowTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.WindowTest@5b275dab]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-03-17T23:43:58Z" finished-at="2020-03-17T23:43:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- tests.FileUploadTest -->
-    </test> <!-- Check File Upload -->
+      </class> <!-- tests.WindowTest -->
+    </test> <!-- Check Multiple Windows -->
   </suite> <!-- Suite -->
 </testng-results>

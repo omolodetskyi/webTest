@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.FileUploadTest" hash-for-method="fileUploadTest">fileUploadTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.WindowTest" hash-for-method="windowTest">windowTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -120,14 +120,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.FileUploadTest</span>
+              <span class="class-name">tests.WindowTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="fileUploadTest">
-                  </a> <!-- fileUploadTest -->
-                  <span class="method-name">fileUploadTest</span>
+                  <a name="windowTest">
+                  </a> <!-- windowTest -->
+                  <span class="method-name">windowTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -142,12 +142,12 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
-  &lt;test name=&quot;Check File Upload&quot;&gt;
-    &lt;parameter name=&quot;testName&quot; value=&quot;Check File Upload&quot;/&gt;
+  &lt;test name=&quot;Check Multiple Windows&quot;&gt;
+    &lt;parameter name=&quot;testName&quot; value=&quot;Check Multiple Windows&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.FileUploadTest&quot;/&gt;
+      &lt;class name=&quot;tests.WindowTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Check File Upload --&gt;
+  &lt;/test&gt; &lt;!-- Check Multiple Windows --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,7 +159,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Check File Upload (1 class)</span>
+                <span class="test-name">Check Multiple Windows (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,14 +187,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'fileUploadTest')
-data.setCell(0, 2, 'tests.FileUploadTest')
-data.setCell(0, 3, 3739);
+data.setCell(0, 1, 'windowTest')
+data.setCell(0, 2, 'tests.WindowTest')
+data.setCell(0, 3, 1805);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -220,18 +220,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.FileUploadTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.WindowTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(Check File Upload)</span>
+                <span class="method-name">beforeTest(Check Multiple Windows)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">fileUploadTest</span>
-                <span class="method-start">2329 ms</span>
+                <span class="method-name">windowTest</span>
+                <span class="method-start">1875 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">6070 ms</span>
+                <span class="method-start">3683 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
