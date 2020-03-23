@@ -385,3 +385,34 @@
 23:43:57.873 [main] INFO  Check Multiple Windows - 2. Welcome page has Available Examples title
 23:43:57.875 [main] INFO  Check Multiple Windows - 3. Click Window link
 23:43:58.231 [main] INFO  Check Multiple Windows - 7. Close Driver
+22:39:36.970 [main] INFO  Check Multiple Windows - 0. Initiate Driver
+22:39:41.769 [main] INFO  Check Multiple Windows - 1. Open welcome Page
+22:39:43.166 [main] INFO  Check Multiple Windows - 2. Welcome page has Available Examples title
+22:39:43.168 [main] INFO  Check Multiple Windows - 3. Click Window link
+22:39:44.163 [main] INFO  Check Multiple Windows - 7. Close Driver
+22:44:02.629 [main] INFO  Check Multiple Windows - 0. Initiate Driver
+22:44:04.167 [main] INFO  Check Multiple Windows - 1. Open welcome Page
+22:44:11.910 [main] INFO  Check Multiple Windows - 7. Close Driver
+22:44:49.848 [main] INFO  Check Multiple Windows - 0. Initiate Driver
+22:44:51.244 [main] INFO  Check Multiple Windows - 1. Open welcome Page
+22:44:55.283 [main] INFO  Check Multiple Windows - 7. Close Driver
+22:45:59.403 [main] INFO  Check Multiple Windows - 0. Initiate Driver
+22:46:00.913 [main] INFO  Check Multiple Windows - 1. Open welcome Page
+22:46:02.907 [main] INFO  Check Multiple Windows - 2. Welcome page has Available Examples title
+22:46:02.911 [main] INFO  Check Multiple Windows - 3. Click Window link
+22:46:03.351 [main] INFO  Check Multiple Windows - 7. Close Driver
+23:39:08.719 [main] INFO  Check Multiple Windows - 0. Initiate Driver
+23:39:10.267 [main] INFO  Check Multiple Windows - 1. Open welcome Page
+23:39:12.508 [main] INFO  Check Multiple Windows - 2. Welcome page has Available Examples title
+23:39:12.510 [main] INFO  Check Multiple Windows - 3. Click Window link
+23:39:12.874 [main] INFO  Check Multiple Windows - 7. Close Driver
+23:40:34.487 [main] INFO  Check Multiple Windows - 0. Initiate Driver
+23:40:35.987 [main] INFO  Check Multiple Windows - 1. Open welcome Page
+23:40:37.423 [main] INFO  Check Multiple Windows - 2. Welcome page has Available Examples title
+23:40:37.427 [main] INFO  Check Multiple Windows - 3. Click Window link
+23:40:37.996 [main] INFO  Check Multiple Windows - 7. Close Driver
+23:41:16.073 [main] INFO  Check Multiple Windows - 0. Initiate Driver
+23:41:17.917 [main] INFO  Check Multiple Windows - 1. Open welcome Page
+23:41:19.464 [main] INFO  Check Multiple Windows - 2. Welcome page has Available Examples title
+23:41:19.468 [main] INFO  Check Multiple Windows - 3. Click Window link
+23:41:20.049 [main] INFO  Check Multiple Windows - 7. Close Driver

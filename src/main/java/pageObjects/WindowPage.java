@@ -10,7 +10,7 @@ public class WindowPage extends H3TitlePage {
 	}
     public NewWindow clickNewWindowLink(){
     	driver.findElement(newWindowLink).click();
-    	driver.switchTo().window("New Window");
+    	this.switchToWindowByTitle("New Window");
     	return new NewWindow(driver);
     }
 }

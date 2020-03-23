@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Check Alerts(failed)">
-    <parameter name="testName" value="Check Alerts"/>
+  <test name="Check Multiple Windows(failed)">
+    <parameter name="testName" value="Check Multiple Windows"/>
     <classes>
-      <class name="tests.AlertTest">
+      <class name="tests.WindowTest">
         <methods>
           <include name="beforeTest"/>
-          <include name="alertsTest"/>
           <include name="closeBrowser"/>
+          <include name="windowTest"/>
         </methods>
-      </class> <!-- tests.AlertTest -->
+      </class> <!-- tests.WindowTest -->
     </classes>
-  </test> <!-- Check Alerts(failed) -->
+  </test> <!-- Check Multiple Windows(failed) -->
 </suite> <!-- Failed suite [Suite] -->

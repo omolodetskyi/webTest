@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="3686" started-at="2020-03-17T21:43:54Z" finished-at="2020-03-17T21:43:58Z">
+  <suite name="Suite" duration-ms="4528" started-at="2020-03-23T21:41:15Z" finished-at="2020-03-23T21:41:20Z">
     <groups>
     </groups>
-    <test name="Check Multiple Windows" duration-ms="3686" started-at="2020-03-17T21:43:54Z" finished-at="2020-03-17T21:43:58Z">
+    <test name="Check Multiple Windows" duration-ms="4528" started-at="2020-03-23T21:41:15Z" finished-at="2020-03-23T21:41:20Z">
       <class name="tests.WindowTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:tests.WindowTest@5b275dab]" name="beforeTest" is-config="true" duration-ms="1866" started-at="2020-03-17T23:43:54Z" finished-at="2020-03-17T23:43:56Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:tests.WindowTest@5b275dab]" name="beforeTest" is-config="true" duration-ms="2375" started-at="2020-03-23T23:41:15Z" finished-at="2020-03-23T23:41:17Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="windowTest()[pri:0, instance:tests.WindowTest@5b275dab]" name="windowTest" duration-ms="1805" started-at="2020-03-17T23:43:56Z" finished-at="2020-03-17T23:43:58Z">
+        <test-method status="PASS" signature="windowTest()[pri:0, instance:tests.WindowTest@5b275dab]" name="windowTest" duration-ms="2140" started-at="2020-03-23T23:41:17Z" finished-at="2020-03-23T23:41:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.WindowTest@5b275dab]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-03-17T23:43:58Z" finished-at="2020-03-17T23:43:58Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.WindowTest@5b275dab]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-03-23T23:41:20Z" finished-at="2020-03-23T23:41:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

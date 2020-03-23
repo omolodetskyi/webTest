@@ -8,6 +8,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import newtest.TestBase;
+import pageObjects.NewWindow;
 import pageObjects.WelcomePage;
 import pageObjects.WindowPage;
 
@@ -15,6 +16,7 @@ public class WindowTest extends TestBase{
 	WebDriver driver;
 	WelcomePage welcomePage;
 	WindowPage windowPage;
+	NewWindow newWindowPage;
   @Test
   public void windowTest() {
 	  welcomePage=new WelcomePage(driver);
@@ -26,7 +28,10 @@ public class WindowTest extends TestBase{
 	  Assert.assertEquals(actualWelcomeTitle, expectedWelcomeTitle);
 	  log.info("3. Click Window link");
 	  windowPage=welcomePage.clickWindowLink();
-	  windowPage.clickNewWindowLink();
+	  newWindowPage=windowPage.clickNewWindowLink();
+	  String actualNewWindowTitle=newWindowPage.getTitle();
+	  String expectedNewWindowTitle="New Window";
+	  Assert.assertEquals(actualNewWindowTitle, expectedNewWindowTitle);
   }
   @BeforeTest
   @Parameters({"testName"})
