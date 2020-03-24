@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.ScrollTest" hash-for-method="scrollTest">scrollTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.DragAndDropTest" hash-for-method="dragAndDropTest">dragAndDropTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -120,14 +120,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.ScrollTest</span>
+              <span class="class-name">tests.DragAndDropTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="scrollTest">
-                  </a> <!-- scrollTest -->
-                  <span class="method-name">scrollTest</span>
+                  <a name="dragAndDropTest">
+                  </a> <!-- dragAndDropTest -->
+                  <span class="method-name">dragAndDropTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -142,12 +142,12 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
-  &lt;test name=&quot;Check Scroll functionality&quot;&gt;
-    &lt;parameter name=&quot;testName&quot; value=&quot;Check Scroll functionality&quot;/&gt;
+  &lt;test name=&quot;Drag and drop test&quot;&gt;
+    &lt;parameter name=&quot;testName&quot; value=&quot;Drag and drop test&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.ScrollTest&quot;/&gt;
+      &lt;class name=&quot;tests.DragAndDropTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Check Scroll functionality --&gt;
+  &lt;/test&gt; &lt;!-- Drag and drop test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,7 +159,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Check Scroll functionality (1 class)</span>
+                <span class="test-name">Drag and drop test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,14 +187,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'scrollTest')
-data.setCell(0, 2, 'tests.ScrollTest')
-data.setCell(0, 3, 1401);
+data.setCell(0, 1, 'dragAndDropTest')
+data.setCell(0, 2, 'tests.DragAndDropTest')
+data.setCell(0, 3, 2316);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -220,18 +220,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.ScrollTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.DragAndDropTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(Check Scroll functionality)</span>
+                <span class="method-name">beforeTest(Drag and drop test)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">scrollTest</span>
-                <span class="method-start">1776 ms</span>
+                <span class="method-name">dragAndDropTest</span>
+                <span class="method-start">2312 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">3180 ms</span>
+                <span class="method-start">4630 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

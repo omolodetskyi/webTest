@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="3184" started-at="2020-03-24T05:46:38Z" finished-at="2020-03-24T05:46:41Z">
+  <suite name="Suite" duration-ms="4633" started-at="2020-03-24T06:27:50Z" finished-at="2020-03-24T06:27:55Z">
     <groups>
     </groups>
-    <test name="Check Scroll functionality" duration-ms="3184" started-at="2020-03-24T05:46:38Z" finished-at="2020-03-24T05:46:41Z">
-      <class name="tests.ScrollTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:tests.ScrollTest@5b275dab]" name="beforeTest" is-config="true" duration-ms="1766" started-at="2020-03-24T07:46:38Z" finished-at="2020-03-24T07:46:39Z">
+    <test name="Drag and drop test" duration-ms="4633" started-at="2020-03-24T06:27:50Z" finished-at="2020-03-24T06:27:55Z">
+      <class name="tests.DragAndDropTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:tests.DragAndDropTest@5b275dab]" name="beforeTest" is-config="true" duration-ms="2299" started-at="2020-03-24T08:27:50Z" finished-at="2020-03-24T08:27:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Check Scroll functionality]]>
+                <![CDATA[Drag and drop test]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="scrollTest()[pri:0, instance:tests.ScrollTest@5b275dab]" name="scrollTest" duration-ms="1401" started-at="2020-03-24T07:46:39Z" finished-at="2020-03-24T07:46:41Z">
+        <test-method status="PASS" signature="dragAndDropTest()[pri:0, instance:tests.DragAndDropTest@5b275dab]" name="dragAndDropTest" duration-ms="2316" started-at="2020-03-24T08:27:52Z" finished-at="2020-03-24T08:27:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scrollTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.ScrollTest@5b275dab]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-03-24T07:46:41Z" finished-at="2020-03-24T07:46:41Z">
+        </test-method> <!-- dragAndDropTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.DragAndDropTest@5b275dab]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-03-24T08:27:54Z" finished-at="2020-03-24T08:27:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- tests.ScrollTest -->
-    </test> <!-- Check Scroll functionality -->
+      </class> <!-- tests.DragAndDropTest -->
+    </test> <!-- Drag and drop test -->
   </suite> <!-- Suite -->
 </testng-results>

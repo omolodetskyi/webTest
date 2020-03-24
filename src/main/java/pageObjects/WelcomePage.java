@@ -15,6 +15,7 @@ public class WelcomePage extends BasePage{
 	private By fileUploadLink=By.xpath("//*[@href='/upload']");
 	private By alertsLink=By.xpath("//*[@href='/javascript_alerts']");
 	private By windowLink=By.xpath("//*[@href='/windows']");
+	private By dragAndDropLink=By.xpath("//*[@href='/drag_and_drop']");
 	private By bottomLink=By.xpath("//*[@href='http://elementalselenium.com/']");
  public WelcomePage(WebDriver driver){
 	 super(driver);
@@ -52,5 +53,9 @@ public class WelcomePage extends BasePage{
 	 wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(bottomLink));
 	 JavascriptExecutor jsExecutor=(JavascriptExecutor)driver;
 	 jsExecutor.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+ }
+ public DragAndDropPage clickDragAndDropLink(){
+	 driver.findElement(dragAndDropLink).click();
+	 return new  DragAndDropPage(driver);
  }
 }

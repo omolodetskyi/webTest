@@ -55,4 +55,10 @@
       <class name="tests.WindowTest"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Check Scroll functionality">
+  <parameter name="testName" value="Check Scroll functionality" />
+    <classes>
+      <class name="tests.ScrollTest"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -426,3 +426,45 @@
 07:46:18.386 [main] INFO  Check Scroll functionality - 7. Close Driver
 07:46:38.576 [main] INFO  Check Scroll functionality - 0. Initiate Driver
 07:46:41.394 [main] INFO  Check Scroll functionality - 7. Close Driver
+08:05:37.556 [main] INFO  Check Scroll functionality - 0. Initiate Driver
+08:05:40.869 [main] INFO  Check Scroll functionality - 7. Close Driver
+08:06:32.083 [main] INFO  Drag and drop test - 0. Initiate Driver
+08:06:33.617 [main] INFO  Drag and drop test - 1. Open welcome Page
+08:06:35.008 [main] INFO  Drag and drop test - 2. Welcome page has Available Examples title
+08:06:35.011 [main] INFO  Drag and drop test - 3. Click DropDown link
+08:06:35.071 [main] INFO  Drag and drop test - 7. Close Driver
+08:06:48.772 [main] INFO  Drag and drop test - 0. Initiate Driver
+08:06:50.293 [main] INFO  Drag and drop test - 1. Open welcome Page
+08:06:52.211 [main] INFO  Drag and drop test - 2. Welcome page has Available Examples title
+08:06:52.215 [main] INFO  Drag and drop test - 3. Click DropDown link
+08:06:52.280 [main] INFO  Drag and drop test - 7. Close Driver
+08:07:37.039 [main] INFO  Drag and drop test - 0. Initiate Driver
+08:07:38.509 [main] INFO  Drag and drop test - 1. Open welcome Page
+08:07:39.885 [main] INFO  Drag and drop test - 2. Welcome page has Available Examples title
+08:07:39.889 [main] INFO  Drag and drop test - 3. Click DropDown link
+08:07:39.959 [main] INFO  Drag and drop test - 7. Close Driver
+08:09:03.144 [main] INFO  Drag and drop test - 0. Initiate Driver
+08:09:04.706 [main] INFO  Drag and drop test - 1. Open welcome Page
+08:09:06.095 [main] INFO  Drag and drop test - 2. Welcome page has Available Examples title
+08:09:06.102 [main] INFO  Drag and drop test - 3. Click DragAndDrop link
+08:09:06.182 [main] INFO  Drag and drop test - 7. Close Driver
+08:16:33.528 [main] INFO  Drag and drop test - 0. Initiate Driver
+08:16:35.444 [main] INFO  Drag and drop test - 1. Open welcome Page
+08:16:36.851 [main] INFO  Drag and drop test - 2. Welcome page has Available Examples title
+08:16:36.856 [main] INFO  Drag and drop test - 3. Click DragAndDrop link
+08:16:37.150 [main] INFO  Drag and drop test - 7. Close Driver
+08:17:30.190 [main] INFO  Drag and drop test - 0. Initiate Driver
+08:17:31.808 [main] INFO  Drag and drop test - 1. Open welcome Page
+08:17:33.183 [main] INFO  Drag and drop test - 2. Welcome page has Available Examples title
+08:17:33.187 [main] INFO  Drag and drop test - 3. Click DragAndDrop link
+08:17:33.737 [main] INFO  Drag and drop test - 7. Close Driver
+08:19:17.283 [main] INFO  Drag and drop test - 0. Initiate Driver
+08:19:18.797 [main] INFO  Drag and drop test - 1. Open welcome Page
+08:19:20.184 [main] INFO  Drag and drop test - 2. Welcome page has Available Examples title
+08:19:20.188 [main] INFO  Drag and drop test - 3. Click DragAndDrop link
+08:19:20.722 [main] INFO  Drag and drop test - 7. Close Driver
+08:27:50.983 [main] INFO  Drag and drop test - 0. Initiate Driver
+08:27:52.694 [main] INFO  Drag and drop test - 1. Open welcome Page
+08:27:54.683 [main] INFO  Drag and drop test - 2. Welcome page has Available Examples title
+08:27:54.686 [main] INFO  Drag and drop test - 3. Click DragAndDrop link
+08:27:55.000 [main] INFO  Drag and drop test - 7. Close Driver
