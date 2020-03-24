@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4528" started-at="2020-03-23T21:41:15Z" finished-at="2020-03-23T21:41:20Z">
+  <suite name="Suite" duration-ms="3184" started-at="2020-03-24T05:46:38Z" finished-at="2020-03-24T05:46:41Z">
     <groups>
     </groups>
-    <test name="Check Multiple Windows" duration-ms="4528" started-at="2020-03-23T21:41:15Z" finished-at="2020-03-23T21:41:20Z">
-      <class name="tests.WindowTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:tests.WindowTest@5b275dab]" name="beforeTest" is-config="true" duration-ms="2375" started-at="2020-03-23T23:41:15Z" finished-at="2020-03-23T23:41:17Z">
+    <test name="Check Scroll functionality" duration-ms="3184" started-at="2020-03-24T05:46:38Z" finished-at="2020-03-24T05:46:41Z">
+      <class name="tests.ScrollTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:tests.ScrollTest@5b275dab]" name="beforeTest" is-config="true" duration-ms="1766" started-at="2020-03-24T07:46:38Z" finished-at="2020-03-24T07:46:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Check Multiple Windows]]>
+                <![CDATA[Check Scroll functionality]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="windowTest()[pri:0, instance:tests.WindowTest@5b275dab]" name="windowTest" duration-ms="2140" started-at="2020-03-23T23:41:17Z" finished-at="2020-03-23T23:41:20Z">
+        <test-method status="PASS" signature="scrollTest()[pri:0, instance:tests.ScrollTest@5b275dab]" name="scrollTest" duration-ms="1401" started-at="2020-03-24T07:46:39Z" finished-at="2020-03-24T07:46:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- windowTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.WindowTest@5b275dab]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-03-23T23:41:20Z" finished-at="2020-03-23T23:41:20Z">
+        </test-method> <!-- scrollTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.ScrollTest@5b275dab]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-03-24T07:46:41Z" finished-at="2020-03-24T07:46:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- tests.WindowTest -->
-    </test> <!-- Check Multiple Windows -->
+      </class> <!-- tests.ScrollTest -->
+    </test> <!-- Check Scroll functionality -->
   </suite> <!-- Suite -->
 </testng-results>

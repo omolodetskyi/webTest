@@ -416,3 +416,13 @@
 23:41:19.464 [main] INFO  Check Multiple Windows - 2. Welcome page has Available Examples title
 23:41:19.468 [main] INFO  Check Multiple Windows - 3. Click Window link
 23:41:20.049 [main] INFO  Check Multiple Windows - 7. Close Driver
+00:07:09.665 [main] INFO  Check Scroll functionality - 0. Initiate Driver
+00:07:12.328 [main] INFO  Check Scroll functionality - 7. Close Driver
+00:24:07.398 [main] INFO  Check Scroll functionality - 0. Initiate Driver
+00:24:39.317 [main] INFO  Check Scroll functionality - 7. Close Driver
+00:25:29.987 [main] INFO  Check Scroll functionality - 0. Initiate Driver
+00:26:01.908 [main] INFO  Check Scroll functionality - 7. Close Driver
+07:46:15.255 [main] INFO  Check Scroll functionality - 0. Initiate Driver
+07:46:18.386 [main] INFO  Check Scroll functionality - 7. Close Driver
+07:46:38.576 [main] INFO  Check Scroll functionality - 0. Initiate Driver
+07:46:41.394 [main] INFO  Check Scroll functionality - 7. Close Driver

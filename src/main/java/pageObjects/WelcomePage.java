@@ -1,7 +1,10 @@
 package pageObjects;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WelcomePage extends BasePage{
 	
@@ -12,6 +15,7 @@ public class WelcomePage extends BasePage{
 	private By fileUploadLink=By.xpath("//*[@href='/upload']");
 	private By alertsLink=By.xpath("//*[@href='/javascript_alerts']");
 	private By windowLink=By.xpath("//*[@href='/windows']");
+	private By bottomLink=By.xpath("//*[@href='http://elementalselenium.com/']");
  public WelcomePage(WebDriver driver){
 	 super(driver);
  }
@@ -42,5 +46,11 @@ public class WelcomePage extends BasePage{
  public AlertsPage clickAlertsLink(){
 	 driver.findElement(alertsLink).click();
 	 return new AlertsPage(driver);
+ }
+ public void scrollDown(){
+	 WebDriverWait wait = new WebDriverWait(driver,30);
+	 wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(bottomLink));
+	 JavascriptExecutor jsExecutor=(JavascriptExecutor)driver;
+	 jsExecutor.executeScript("window.scrollTo(0,document.body.scrollHeight)");
  }
 }

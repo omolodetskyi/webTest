@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Check Multiple Windows(failed)">
-    <parameter name="testName" value="Check Multiple Windows"/>
+  <test name="Check Scroll functionality(failed)">
+    <parameter name="testName" value="Check Scroll functionality"/>
     <classes>
-      <class name="tests.WindowTest">
+      <class name="tests.ScrollTest">
         <methods>
           <include name="beforeTest"/>
+          <include name="scrollTest"/>
           <include name="closeBrowser"/>
-          <include name="windowTest"/>
         </methods>
-      </class> <!-- tests.WindowTest -->
+      </class> <!-- tests.ScrollTest -->
     </classes>
-  </test> <!-- Check Multiple Windows(failed) -->
+  </test> <!-- Check Scroll functionality(failed) -->
 </suite> <!-- Failed suite [Suite] -->

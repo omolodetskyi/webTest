@@ -49,4 +49,10 @@
       <class name="tests.AlertTest"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Check Multiple Windows">
+  <parameter name="testName" value="Check Multiple Windows" />
+    <classes>
+      <class name="tests.WindowTest"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
