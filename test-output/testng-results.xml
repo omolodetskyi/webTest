@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4633" started-at="2020-03-24T06:27:50Z" finished-at="2020-03-24T06:27:55Z">
+  <suite name="Suite" duration-ms="4938" started-at="2020-03-24T06:55:55Z" finished-at="2020-03-24T06:56:00Z">
     <groups>
     </groups>
-    <test name="Drag and drop test" duration-ms="4633" started-at="2020-03-24T06:27:50Z" finished-at="2020-03-24T06:27:55Z">
-      <class name="tests.DragAndDropTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:tests.DragAndDropTest@5b275dab]" name="beforeTest" is-config="true" duration-ms="2299" started-at="2020-03-24T08:27:50Z" finished-at="2020-03-24T08:27:52Z">
+    <test name="Test hovers" duration-ms="4938" started-at="2020-03-24T06:55:55Z" finished-at="2020-03-24T06:56:00Z">
+      <class name="tests.HoversTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:tests.HoversTest@5b275dab]" name="beforeTest" is-config="true" duration-ms="2576" started-at="2020-03-24T08:55:55Z" finished-at="2020-03-24T08:55:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Drag and drop test]]>
+                <![CDATA[Test hovers]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="dragAndDropTest()[pri:0, instance:tests.DragAndDropTest@5b275dab]" name="dragAndDropTest" duration-ms="2316" started-at="2020-03-24T08:27:52Z" finished-at="2020-03-24T08:27:54Z">
+        <test-method status="PASS" signature="hoversTest()[pri:0, instance:tests.HoversTest@5b275dab]" name="hoversTest" duration-ms="2345" started-at="2020-03-24T08:55:57Z" finished-at="2020-03-24T08:56:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dragAndDropTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.DragAndDropTest@5b275dab]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-03-24T08:27:54Z" finished-at="2020-03-24T08:27:55Z">
+        </test-method> <!-- hoversTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.HoversTest@5b275dab]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-03-24T08:56:00Z" finished-at="2020-03-24T08:56:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- tests.DragAndDropTest -->
-    </test> <!-- Drag and drop test -->
+      </class> <!-- tests.HoversTest -->
+    </test> <!-- Test hovers -->
   </suite> <!-- Suite -->
 </testng-results>

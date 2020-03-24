@@ -468,3 +468,23 @@
 08:27:54.683 [main] INFO  Drag and drop test - 2. Welcome page has Available Examples title
 08:27:54.686 [main] INFO  Drag and drop test - 3. Click DragAndDrop link
 08:27:55.000 [main] INFO  Drag and drop test - 7. Close Driver
+08:36:10.799 [main] INFO  Test hovers - 0. Initiate Driver
+08:36:12.606 [main] INFO  Test hovers - 1. Open welcome Page
+08:36:15.950 [main] INFO  Test hovers - 2. Welcome page has Available Examples title
+08:36:15.952 [main] INFO  Test hovers - 3. Click JavaScript Alerts link
+08:36:15.958 [main] INFO  Test hovers - 7. Close Driver
+08:36:33.885 [main] INFO  Test hovers - 0. Initiate Driver
+08:36:35.255 [main] INFO  Test hovers - 1. Open welcome Page
+08:36:36.616 [main] INFO  Test hovers - 2. Welcome page has Available Examples title
+08:36:36.618 [main] INFO  Test hovers - 3. Click JavaScript Alerts link
+08:36:36.623 [main] INFO  Test hovers - 7. Close Driver
+08:37:12.418 [main] INFO  Test hovers - 0. Initiate Driver
+08:37:13.847 [main] INFO  Test hovers - 1. Open welcome Page
+08:37:15.224 [main] INFO  Test hovers - 2. Welcome page has Available Examples title
+08:37:15.227 [main] INFO  Test hovers - 3. Click JavaScript Alerts link
+08:37:15.295 [main] INFO  Test hovers - 7. Close Driver
+08:55:55.806 [main] INFO  Test hovers - 0. Initiate Driver
+08:55:57.721 [main] INFO  Test hovers - 1. Open welcome Page
+08:55:59.604 [main] INFO  Test hovers - 2. Welcome page has Available Examples title
+08:55:59.609 [main] INFO  Test hovers - 3. Click JavaScript Alerts link
+08:56:00.051 [main] INFO  Test hovers - 7. Close Driver

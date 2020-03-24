@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite"  parallel="none">
-  <test name="Drag and drop test">
-  <parameter name="testName" value="Drag and drop test" />
+  <test name="Test hovers">
+  <parameter name="testName" value="Test hovers" />
     <classes>
-      <class name="tests.DragAndDropTest"/>
+      <class name="tests.HoversTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
