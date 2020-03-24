@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite"  parallel="none">
-  <test name="Verify Alerts">
-  <parameter name="testName" value="Verify Alerts" />
+  <test name="Drag and Drop Test">
+  <parameter name="testName" value="Drag and Drop Test" />
     <classes>
-      <class name="tests.AlertsTest"/>
+      <class name="tests.DragAndDropTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

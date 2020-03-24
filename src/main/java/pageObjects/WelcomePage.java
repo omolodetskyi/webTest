@@ -1,7 +1,10 @@
 package pageObjects;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WelcomePage extends BasePage{
 	
@@ -11,6 +14,9 @@ public class WelcomePage extends BasePage{
 	private By dropDownLink=By.xpath("//*[@href='/dropdown']");
 	private By fileUploadLink=By.xpath("//*[@href='/upload']");
 	private By alertsLink=By.xpath("//*[@href='/javascript_alerts']");
+	private By windowsLink=By.xpath("//*[@href='/windows']");
+	private By dragAndDropLink=By.xpath("//*[@href='/drag_and_drop']");
+	private By bottomLink=By.xpath("//*[@href='http://elementalselenium.com/']");
  public WelcomePage(WebDriver driver){
 	 super(driver);
  }
@@ -37,5 +43,19 @@ public class WelcomePage extends BasePage{
  public AlertsPage clickAlertsLink(){
 	 driver.findElement(alertsLink).click();
 	 return new AlertsPage(driver);
+ }
+ public WindowsPage clickWindowsLink(){
+	 driver.findElement(windowsLink).click();
+	 return new WindowsPage(driver);
+ }
+ public DragAndDropPage clickDragAndDropLink(){
+	 driver.findElement(dragAndDropLink).click();
+	 return new DragAndDropPage(driver);
+ }
+ public void scrollDown(){
+	 WebDriverWait wait=new WebDriverWait(driver,5);
+	 wait.until(ExpectedConditions.presenceOfElementLocated(bottomLink));
+	 JavascriptExecutor js=(JavascriptExecutor)driver;
+	 js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
  }
 }

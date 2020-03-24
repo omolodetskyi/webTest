@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Verify Alerts(failed)">
-    <parameter name="testName" value="Verify Alerts"/>
+  <test name="Verify scroll(failed)">
+    <parameter name="testName" value="Verify scroll"/>
     <classes>
-      <class name="tests.AlertsTest">
+      <class name="tests.ScrollTest">
         <methods>
-          <include name="alertsTest"/>
-          <include name="closeBrowser"/>
           <include name="beforeTest"/>
+          <include name="scrollTest"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- tests.AlertsTest -->
+      </class> <!-- tests.ScrollTest -->
     </classes>
-  </test> <!-- Verify Alerts(failed) -->
+  </test> <!-- Verify scroll(failed) -->
 </suite> <!-- Failed suite [Suite] -->

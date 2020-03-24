@@ -382,3 +382,59 @@
 10:44:07.808 [main] INFO  Verify Alerts - 2. Welcome page has Available Examples title
 10:44:07.812 [main] INFO  Verify Alerts - 3. Click Checkboxes link
 10:44:08.929 [main] INFO  Verify Alerts - 7. Close Driver
+09:54:27.362 [main] INFO  Verify Multiple Windows - 0. Initiate Driver
+09:54:29.294 [main] INFO  Verify Multiple Windows - 1. Open welcome Page
+09:54:30.702 [main] INFO  Verify Multiple Windows - 2. Welcome page has Available Examples title
+09:54:30.706 [main] INFO  Verify Multiple Windows - 3. Click Multiple Windows link
+09:54:30.787 [main] INFO  Verify Multiple Windows - 7. Close Driver
+09:59:18.497 [main] INFO  Verify Multiple Windows - 0. Initiate Driver
+09:59:19.986 [main] INFO  Verify Multiple Windows - 1. Open welcome Page
+09:59:21.393 [main] INFO  Verify Multiple Windows - 2. Welcome page has Available Examples title
+09:59:21.396 [main] INFO  Verify Multiple Windows - 3. Click Multiple Windows link
+09:59:21.768 [main] INFO  Verify Multiple Windows - 7. Close Driver
+10:00:07.428 [main] INFO  Verify Multiple Windows - 0. Initiate Driver
+10:00:08.929 [main] INFO  Verify Multiple Windows - 1. Open welcome Page
+10:00:10.339 [main] INFO  Verify Multiple Windows - 2. Welcome page has Available Examples title
+10:00:10.341 [main] INFO  Verify Multiple Windows - 3. Click Multiple Windows link
+10:00:10.711 [main] INFO  Verify Multiple Windows - 7. Close Driver
+10:13:02.383 [main] INFO  Verify Multiple Windows - 0. Initiate Driver
+10:13:03.875 [main] INFO  Verify Multiple Windows - 1. Open welcome Page
+10:13:05.401 [main] INFO  Verify Multiple Windows - 2. Welcome page has Available Examples title
+10:13:05.405 [main] INFO  Verify Multiple Windows - 3. Click Multiple Windows link
+10:13:06.070 [main] INFO  Verify Multiple Windows - 7. Close Driver
+10:15:11.001 [main] INFO  Verify Multiple Windows - 0. Initiate Driver
+10:15:12.478 [main] INFO  Verify Multiple Windows - 1. Open welcome Page
+10:15:13.935 [main] INFO  Verify Multiple Windows - 2. Welcome page has Available Examples title
+10:15:13.937 [main] INFO  Verify Multiple Windows - 3. Click Multiple Windows link
+10:15:14.533 [main] INFO  Verify Multiple Windows - 7. Close Driver
+10:15:30.553 [main] INFO  Verify Multiple Windows - 0. Initiate Driver
+10:15:32.051 [main] INFO  Verify Multiple Windows - 1. Open welcome Page
+10:15:33.757 [main] INFO  Verify Multiple Windows - 2. Welcome page has Available Examples title
+10:15:33.762 [main] INFO  Verify Multiple Windows - 3. Click Multiple Windows link
+10:15:34.368 [main] INFO  Verify Multiple Windows - 7. Close Driver
+10:17:20.761 [main] INFO  Verify Multiple Windows - 0. Initiate Driver
+10:17:22.438 [main] INFO  Verify Multiple Windows - 1. Open welcome Page
+10:17:23.921 [main] INFO  Verify Multiple Windows - 2. Welcome page has Available Examples title
+10:17:23.925 [main] INFO  Verify Multiple Windows - 3. Click Multiple Windows link
+10:17:24.512 [main] INFO  Verify Multiple Windows - 7. Close Driver
+10:26:16.951 [main] INFO  Verify scroll - 0. Initiate Driver
+10:26:18.944 [main] INFO  Verify scroll - 7. Close Driver
+10:34:06.998 [main] INFO  Verify scroll - 0. Initiate Driver
+10:34:09.938 [main] INFO  Verify scroll - 7. Close Driver
+10:34:27.209 [main] INFO  Verify scroll - 0. Initiate Driver
+10:34:30.066 [main] INFO  Verify scroll - 7. Close Driver
+10:41:41.262 [main] INFO  Drag and Drop Test - 0. Initiate Driver
+10:41:42.813 [main] INFO  Drag and Drop Test - 1. Open welcome Page
+10:41:44.670 [main] INFO  Drag and Drop Test - 2. Welcome page has Available Examples title
+10:41:44.674 [main] INFO  Drag and Drop Test - 3. Click Drag and Drop link
+10:41:44.738 [main] INFO  Drag and Drop Test - 7. Close Driver
+10:48:01.168 [main] INFO  Drag and Drop Test - 0. Initiate Driver
+10:48:02.706 [main] INFO  Drag and Drop Test - 1. Open welcome Page
+10:48:04.104 [main] INFO  Drag and Drop Test - 2. Welcome page has Available Examples title
+10:48:04.106 [main] INFO  Drag and Drop Test - 3. Click Drag and Drop link
+10:48:04.702 [main] INFO  Drag and Drop Test - 7. Close Driver
+10:50:10.078 [main] INFO  Drag and Drop Test - 0. Initiate Driver
+10:50:11.737 [main] INFO  Drag and Drop Test - 1. Open welcome Page
+10:50:13.202 [main] INFO  Drag and Drop Test - 2. Welcome page has Available Examples title
+10:50:13.206 [main] INFO  Drag and Drop Test - 3. Click Drag and Drop link
+10:50:13.530 [main] INFO  Drag and Drop Test - 7. Close Driver
