@@ -438,3 +438,13 @@
 10:50:13.202 [main] INFO  Drag and Drop Test - 2. Welcome page has Available Examples title
 10:50:13.206 [main] INFO  Drag and Drop Test - 3. Click Drag and Drop link
 10:50:13.530 [main] INFO  Drag and Drop Test - 7. Close Driver
+06:31:35.039 [main] INFO  Test hover action - 0. Initiate Driver
+06:31:37.416 [main] INFO  Test hover action - 1. Open welcome Page
+06:31:38.820 [main] INFO  Test hover action - 2. Welcome page has Available Examples title
+06:31:38.823 [main] INFO  Test hover action - 3. Click JavaScript Alerts link
+06:31:39.286 [main] INFO  Test hover action - 7. Close Driver
+06:35:07.802 [main] INFO  Test hover action - 0. Initiate Driver
+06:35:09.413 [main] INFO  Test hover action - 1. Open welcome Page
+06:35:10.951 [main] INFO  Test hover action - 2. Welcome page has Available Examples title
+06:35:10.955 [main] INFO  Test hover action - 3. Click JavaScript Alerts link
+06:35:11.573 [main] INFO  Test hover action - 7. Close Driver

@@ -17,6 +17,7 @@ public class WelcomePage extends BasePage{
 	private By windowsLink=By.xpath("//*[@href='/windows']");
 	private By dragAndDropLink=By.xpath("//*[@href='/drag_and_drop']");
 	private By bottomLink=By.xpath("//*[@href='http://elementalselenium.com/']");
+	private By hoversLink=By.xpath("//*[@href='/hovers']");
  public WelcomePage(WebDriver driver){
 	 super(driver);
  }
@@ -51,6 +52,10 @@ public class WelcomePage extends BasePage{
  public DragAndDropPage clickDragAndDropLink(){
 	 driver.findElement(dragAndDropLink).click();
 	 return new DragAndDropPage(driver);
+ }
+ public HoversPage clickHoversLink(){
+	 driver.findElement(hoversLink).click();
+	 return new HoversPage(driver);
  }
  public void scrollDown(){
 	 WebDriverWait wait=new WebDriverWait(driver,5);

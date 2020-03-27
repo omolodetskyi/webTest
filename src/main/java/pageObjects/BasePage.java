@@ -34,4 +34,7 @@ public class BasePage {
 		}
 		
 	}
+	public String getPageUrl(){
+		return driver.getCurrentUrl();
+	}
 }

@@ -43,6 +43,6 @@ public class WindowsTest extends TestBase {
   @AfterTest
   public void closeBrowser(){
 	 log.info("7. Close Driver");
-	 //cleanUp(driver);  
+	 cleanUp(driver);  
   }
 }

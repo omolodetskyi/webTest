@@ -8,15 +8,15 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import newtest.TestBase;
-import pageObjects.DragAndDropPage;
+import pageObjects.HoversPage;
 import pageObjects.WelcomePage;
 
-public class DragAndDropTest extends TestBase{
+public class HoversTest extends TestBase{
 	WebDriver driver;
 	WelcomePage welcomePage;
-	DragAndDropPage dragAndDropPage;
+	HoversPage hoversPage;
   @Test
-  public void dragAndDropTest() {
+  public void hoversTest() {
 	  welcomePage=new WelcomePage(driver);
 	  welcomePage.openPage();
 	  log.info("1. Open welcome Page");
@@ -24,10 +24,14 @@ public class DragAndDropTest extends TestBase{
 	  String expectedWelcomeTitle="Available Examples";
 	  log.info("2. Welcome page has Available Examples title");
 	  Assert.assertEquals(actualWelcomeTitle, expectedWelcomeTitle);
-	  log.info("3. Click Drag and Drop link");
-	  dragAndDropPage=welcomePage.clickDragAndDropLink();
-	  dragAndDropPage.dragAndDrop(dragAndDropPage.getColumnA(), dragAndDropPage.getColumnB());
-	  
+	  log.info("3. Click JavaScript Alerts link");
+	  hoversPage=welcomePage.clickHoversLink();
+	  hoversPage.hoverAvatar(0);
+	  hoversPage.clickViewProfile();
+	  String actualURL=hoversPage.getPageUrl();
+	  String expectedURL="http://the-internet.herokuapp.com/users/1";
+	  Assert.assertEquals(actualURL, expectedURL);
+	
   }
   @BeforeTest
   @Parameters({"testName"})
