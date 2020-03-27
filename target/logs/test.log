@@ -548,3 +548,28 @@
 07:44:21.588 [main] INFO  Test slider - 2. Welcome page has Available Examples title
 07:44:21.592 [main] INFO  Test slider - 3. Click on Horizontal Slider link
 07:44:21.980 [main] INFO  Test slider - 7. Close Driver
+08:01:35.041 [main] INFO  Test keys - 0. Initiate Driver
+08:01:37.093 [main] INFO  Test keys - 1. Open welcome Page
+08:01:38.548 [main] INFO  Test keys - 2. Welcome page has Available Examples title
+08:01:38.552 [main] INFO  Test keys - 3. Click Checkboxes link
+08:01:38.926 [main] INFO  Test keys - 7. Close Driver
+08:02:26.221 [main] INFO  Test keys - 0. Initiate Driver
+08:02:27.805 [main] INFO  Test keys - 1. Open welcome Page
+08:02:29.204 [main] INFO  Test keys - 2. Welcome page has Available Examples title
+08:02:29.208 [main] INFO  Test keys - 3. Click Checkboxes link
+08:02:29.550 [main] INFO  Test keys - 7. Close Driver
+08:02:51.964 [main] INFO  Test keys - 0. Initiate Driver
+08:02:53.586 [main] INFO  Test keys - 1. Open welcome Page
+08:02:55.032 [main] INFO  Test keys - 2. Welcome page has Available Examples title
+08:02:55.036 [main] INFO  Test keys - 3. Click Checkboxes link
+08:02:55.395 [main] INFO  Test keys - 7. Close Driver
+08:04:07.143 [main] INFO  Test keys - 0. Initiate Driver
+08:04:08.846 [main] INFO  Test keys - 1. Open welcome Page
+08:04:10.235 [main] INFO  Test keys - 2. Welcome page has Available Examples title
+08:04:10.236 [main] INFO  Test keys - 3. Click Checkboxes link
+08:04:10.316 [main] INFO  Test keys - 7. Close Driver
+08:10:19.124 [main] INFO  Test keys - 0. Initiate Driver
+08:10:21.113 [main] INFO  Test keys - 1. Open welcome Page
+08:10:23.107 [main] INFO  Test keys - 2. Welcome page has Available Examples title
+08:10:23.112 [main] INFO  Test keys - 3. Click Checkboxes link
+08:10:23.472 [main] INFO  Test keys - 7. Close Driver
