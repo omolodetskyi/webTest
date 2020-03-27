@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite"  parallel="none">
-  <test name="Test hover action">
-  <parameter name="testName" value="Test hover action" />
+  <test name="Test slider">
+  <parameter name="testName" value="Test slider" />
     <classes>
-      <class name="tests.HoversTest"/>
+      <class name="tests.SliderTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

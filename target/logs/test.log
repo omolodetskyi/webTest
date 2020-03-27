@@ -448,3 +448,103 @@
 06:35:10.951 [main] INFO  Test hover action - 2. Welcome page has Available Examples title
 06:35:10.955 [main] INFO  Test hover action - 3. Click JavaScript Alerts link
 06:35:11.573 [main] INFO  Test hover action - 7. Close Driver
+06:50:51.573 [main] INFO  Test slider - 0. Initiate Driver
+06:50:53.410 [main] INFO  Test slider - 1. Open welcome Page
+06:50:55.342 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+06:50:55.348 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+06:50:55.419 [main] INFO  Test slider - 7. Close Driver
+07:08:46.821 [main] INFO  Test slider - 0. Initiate Driver
+07:08:49.011 [main] INFO  Test slider - 1. Open welcome Page
+07:08:50.377 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:08:50.381 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:08:51.101 [main] INFO  Test slider - 7. Close Driver
+07:09:43.821 [main] INFO  Test slider - 0. Initiate Driver
+07:09:45.573 [main] INFO  Test slider - 1. Open welcome Page
+07:09:46.981 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:09:46.987 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:09:47.681 [main] INFO  Test slider - 7. Close Driver
+07:10:19.684 [main] INFO  Test slider - 0. Initiate Driver
+07:10:21.293 [main] INFO  Test slider - 1. Open welcome Page
+07:10:22.698 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:10:22.701 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:10:23.401 [main] INFO  Test slider - 7. Close Driver
+07:13:02.489 [main] INFO  Test slider - 0. Initiate Driver
+07:13:04.507 [main] INFO  Test slider - 1. Open welcome Page
+07:13:05.870 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:13:05.874 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:13:06.584 [main] INFO  Test slider - 7. Close Driver
+07:16:26.798 [main] INFO  Test slider - 0. Initiate Driver
+07:16:28.781 [main] INFO  Test slider - 1. Open welcome Page
+07:16:30.147 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:16:30.151 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:16:30.788 [main] INFO  Test slider - 7. Close Driver
+07:16:44.649 [main] INFO  Test slider - 0. Initiate Driver
+07:16:46.293 [main] INFO  Test slider - 1. Open welcome Page
+07:16:47.759 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:16:47.764 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:16:48.405 [main] INFO  Test slider - 7. Close Driver
+07:20:47.286 [main] INFO  Test slider - 0. Initiate Driver
+07:20:49.116 [main] INFO  Test slider - 1. Open welcome Page
+07:20:50.498 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:20:50.503 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:20:51.186 [main] INFO  Test slider - 7. Close Driver
+07:21:04.624 [main] INFO  Test slider - 0. Initiate Driver
+07:21:06.190 [main] INFO  Test slider - 1. Open welcome Page
+07:21:07.568 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:21:07.573 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:21:08.255 [main] INFO  Test slider - 7. Close Driver
+07:23:20.532 [main] INFO  Test slider - 0. Initiate Driver
+07:23:22.416 [main] INFO  Test slider - 1. Open welcome Page
+07:23:23.763 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:23:23.769 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:23:24.490 [main] INFO  Test slider - 7. Close Driver
+07:28:39.614 [main] INFO  Test slider - 0. Initiate Driver
+07:28:41.370 [main] INFO  Test slider - 1. Open welcome Page
+07:28:42.687 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:28:42.691 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:28:43.387 [main] INFO  Test slider - 7. Close Driver
+07:29:01.274 [main] INFO  Test slider - 0. Initiate Driver
+07:29:02.881 [main] INFO  Test slider - 1. Open welcome Page
+07:29:04.257 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:29:04.261 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:29:04.958 [main] INFO  Test slider - 7. Close Driver
+07:31:35.248 [main] INFO  Test slider - 0. Initiate Driver
+07:31:36.809 [main] INFO  Test slider - 1. Open welcome Page
+07:31:38.543 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:31:38.547 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:31:39.241 [main] INFO  Test slider - 7. Close Driver
+07:31:54.631 [main] INFO  Test slider - 0. Initiate Driver
+07:31:56.178 [main] INFO  Test slider - 1. Open welcome Page
+07:31:57.544 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:31:57.547 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:31:58.247 [main] INFO  Test slider - 7. Close Driver
+07:32:10.358 [main] INFO  Test slider - 0. Initiate Driver
+07:32:11.925 [main] INFO  Test slider - 1. Open welcome Page
+07:32:13.858 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:32:13.862 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:32:14.548 [main] INFO  Test slider - 7. Close Driver
+07:32:33.923 [main] INFO  Test slider - 0. Initiate Driver
+07:32:35.529 [main] INFO  Test slider - 1. Open welcome Page
+07:32:36.965 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:32:36.969 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:32:37.686 [main] INFO  Test slider - 7. Close Driver
+07:33:58.652 [main] INFO  Test slider - 0. Initiate Driver
+07:34:00.466 [main] INFO  Test slider - 1. Open welcome Page
+07:34:01.941 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:34:01.944 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:34:02.660 [main] INFO  Test slider - 7. Close Driver
+07:43:36.389 [main] INFO  Test slider - 0. Initiate Driver
+07:43:38.279 [main] INFO  Test slider - 1. Open welcome Page
+07:43:39.672 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:43:39.677 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:43:40.057 [main] INFO  Test slider - 7. Close Driver
+07:44:00.304 [main] INFO  Test slider - 0. Initiate Driver
+07:44:01.858 [main] INFO  Test slider - 1. Open welcome Page
+07:44:03.172 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:44:03.176 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:44:03.606 [main] INFO  Test slider - 7. Close Driver
+07:44:18.684 [main] INFO  Test slider - 0. Initiate Driver
+07:44:20.193 [main] INFO  Test slider - 1. Open welcome Page
+07:44:21.588 [main] INFO  Test slider - 2. Welcome page has Available Examples title
+07:44:21.592 [main] INFO  Test slider - 3. Click on Horizontal Slider link
+07:44:21.980 [main] INFO  Test slider - 7. Close Driver
