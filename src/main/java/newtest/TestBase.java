@@ -14,9 +14,11 @@ public class TestBase {
 	public static WebDriver chromeWebDriver(){
 		System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
 		ChromeOptions options=new ChromeOptions();
-		options.setPageLoadStrategy(PageLoadStrategy.NONE);
+	   // options.setProxy(null);
+		//options.setPageLoadStrategy(PageLoadStrategy.NONE);
+		options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 		WebDriver driver=new ChromeDriver(options);
-		driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		return driver;
 	}
 	public void cleanUp(WebDriver driver){

@@ -61,4 +61,22 @@
       <class name="tests.ScrollTest"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Drag and Drop Test">
+  <parameter name="testName" value="Drag and Drop Test" />
+    <classes>
+      <class name="tests.DragAndDropTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Hover Test">
+  <parameter name="testName" value="Hover Test" />
+    <classes>
+      <class name="tests.HoverTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test slider">
+  <parameter name="testName" value="Test slider" />
+    <classes>
+      <class name="tests.SliderTest"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
