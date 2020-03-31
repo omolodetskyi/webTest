@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.FrameTest" hash-for-method="frameTest">frameTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.jsErrorTest" hash-for-method="jsErrorTest">jsErrorTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -120,36 +120,19 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">tests.FrameTest</span>
+              <span class="class-name">tests.jsErrorTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="frameTest">
-                  </a> <!-- frameTest -->
-                  <span class="method-name">frameTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;tinymce&apos;]/p&quot;}
-  (Session info: chrome=80.0.3987.149)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Alexanders-MacBook-Pro.local&apos;, ip: &apos;192.168.1.58&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.3&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/k_/n1nt8q6522x...}, goog:chromeOptions: {debuggerAddress: localhost:63263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7b4109021dc91bf020539c2d15182dca
-*** Element info: {Using=xpath, value=//*[@id=&apos;tinymce&apos;]/p}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at pageObjects.FramePage.getPlaceHolder(FramePage.java:12)
-	at tests.FrameTest.frameTest(FrameTest.java:29)
-... Removed 29 stack frames
+                  <a name="jsErrorTest">
+                  </a> <!-- jsErrorTest -->
+                  <span class="method-name">jsErrorTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	some fail of test,
+	JS error is found http://the-internet.herokuapp.com/javascript_error 6:51 Uncaught TypeError: Cannot read property &apos;xyz&apos; of undefined
+	at tests.jsErrorTest.jsErrorTest(jsErrorTest.java:45)
+... Removed 26 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -165,12 +148,12 @@ Session ID: 7b4109021dc91bf020539c2d15182dca
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
-  &lt;test name=&quot;Test frame&quot;&gt;
-    &lt;parameter name=&quot;testName&quot; value=&quot;Test frame&quot;/&gt;
+  &lt;test name=&quot;Check logs&quot;&gt;
+    &lt;parameter name=&quot;testName&quot; value=&quot;Check logs&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.FrameTest&quot;/&gt;
+      &lt;class name=&quot;tests.jsErrorTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test frame --&gt;
+  &lt;/test&gt; &lt;!-- Check logs --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -182,7 +165,7 @@ Session ID: 7b4109021dc91bf020539c2d15182dca
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test frame (1 class)</span>
+                <span class="test-name">Check logs (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -210,14 +193,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'frameTest')
-data.setCell(0, 2, 'tests.FrameTest')
-data.setCell(0, 3, 7822);
+data.setCell(0, 1, 'jsErrorTest')
+data.setCell(0, 2, 'tests.jsErrorTest')
+data.setCell(0, 3, 2129);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -243,20 +226,20 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.FrameTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.jsErrorTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(Test frame)</span>
+                <span class="method-name">beforeTest(Check logs)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">frameTest</span>
-                <span class="method-start">4982 ms</span>
+                <span class="method-name">jsErrorTest</span>
+                <span class="method-start">1736 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">12812 ms</span>
+                <span class="method-start">3869 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

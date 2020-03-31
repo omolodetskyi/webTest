@@ -20,6 +20,7 @@ public class WelcomePage extends BasePage{
 	private By hoversLink=By.xpath("//*[@href='/hovers']");
 	private By sliderLink=By.xpath("//*[@href='/horizontal_slider']");
 	private By framerLink=By.xpath("//*[@href='/tinymce']");
+	private By jsErrorLink=By.xpath("//*[@href='/javascript_error']");
 	
  public WelcomePage(WebDriver driver){
 	 super(driver);
@@ -43,6 +44,10 @@ public class WelcomePage extends BasePage{
  public FileUploadPage clickFileUpload(){
 	 driver.findElement(fileUploadLink).click();
 	 return new FileUploadPage(driver);
+ }
+ public jsErrorPage clickJsErrorLink(){
+	 driver.findElement(jsErrorLink).click();
+	 return new jsErrorPage(driver);
  }
  public AlertsPage clickAlertsLink(){
 	 driver.findElement(alertsLink).click();

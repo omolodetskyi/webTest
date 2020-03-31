@@ -654,3 +654,54 @@
 19:37:49.303 [main] INFO  Test frame - 2. Welcome page has Available Examples title
 19:37:49.307 [main] INFO  Test frame - 3. Click Checkboxes link
 19:37:55.463 [main] INFO  Test frame - 7. Close Driver
+14:40:46.405 [main] INFO  Test frame - 0. Initiate Driver
+14:40:49.329 [main] INFO  Test frame - 1. Open welcome Page
+14:40:49.359 [main] INFO  Test frame - 2. Welcome page has Available Examples title
+14:40:49.360 [main] INFO  Test frame - 3. Click Checkboxes link
+14:40:55.607 [main] INFO  Test frame - 7. Close Driver
+14:43:24.143 [main] INFO  Test frame - 0. Initiate Driver
+14:43:27.019 [main] INFO  Test frame - 1. Open welcome Page
+14:43:27.049 [main] INFO  Test frame - 2. Welcome page has Available Examples title
+14:43:27.051 [main] INFO  Test frame - 3. Click Checkboxes link
+14:43:27.734 [main] INFO  Test frame - 7. Close Driver
+14:43:51.927 [main] INFO  Test frame - 0. Initiate Driver
+14:43:54.884 [main] INFO  Test frame - 1. Open welcome Page
+14:43:54.915 [main] INFO  Test frame - 2. Welcome page has Available Examples title
+14:43:54.919 [main] INFO  Test frame - 3. Click Checkboxes link
+14:43:55.877 [main] INFO  Test frame - 7. Close Driver
+14:50:16.098 [main] INFO  Test frame - 0. Initiate Driver
+14:50:19.318 [main] INFO  Test frame - 1. Open welcome Page
+14:50:19.347 [main] INFO  Test frame - 2. Welcome page has Available Examples title
+14:50:19.349 [main] INFO  Test frame - 3. Click Checkboxes link
+14:50:20.037 [main] INFO  Test frame - 7. Close Driver
+15:04:40.156 [main] INFO  Take screenshot - 0. Initiate Driver
+15:04:44.684 [main] INFO  Take screenshot - 7. Close Driver
+15:08:57.660 [main] INFO  Take screenshot - 0. Initiate Driver
+15:09:01.115 [main] INFO  Take screenshot - 7. Close Driver
+15:09:45.602 [main] INFO  Take screenshot - 0. Initiate Driver
+15:09:49.011 [main] INFO  Take screenshot - 7. Close Driver
+15:10:15.117 [main] INFO  Take screenshot - 0. Initiate Driver
+15:10:18.175 [main] INFO  Take screenshot - 7. Close Driver
+15:10:39.014 [main] INFO  Take screenshot - 0. Initiate Driver
+15:10:42.359 [main] INFO  Take screenshot - 7. Close Driver
+15:17:35.548 [main] INFO  Check logs - 0. Initiate Driver
+15:17:39.087 [main] INFO  Check logs - 1. Open welcome Page
+15:17:39.120 [main] INFO  Check logs - 2. Welcome page has Available Examples title
+15:17:39.123 [main] INFO  Check logs - 3. Click Hovers link
+15:17:39.374 [main] INFO  Check logs - 7. Close Driver
+15:25:58.593 [main] INFO  Check logs - 0. Initiate Driver
+15:26:01.680 [main] INFO  Check logs - 1. Open welcome Page
+15:26:01.714 [main] INFO  Check logs - 2. Welcome page has Available Examples title
+15:26:01.716 [main] INFO  Check logs - 3. Click Hovers link
+15:26:02.014 [main] INFO  Check logs - JS error is foundhttp://the-internet.herokuapp.com/javascript_error 6:51 Uncaught TypeError: Cannot read property 'xyz' of undefined
+15:26:02.020 [main] INFO  Check logs - 7. Close Driver
+15:31:07.802 [main] INFO  Check logs - 0. Initiate Driver
+15:31:11.302 [main] INFO  Check logs - 1. Open welcome Page
+15:31:11.334 [main] INFO  Check logs - 2. Welcome page has Available Examples title
+15:31:11.335 [main] INFO  Check logs - 3. Click Hovers link
+15:31:11.622 [main] INFO  Check logs - 7. Close Driver
+15:31:58.763 [main] INFO  Check logs - 0. Initiate Driver
+15:32:01.921 [main] INFO  Check logs - 1. Open welcome Page
+15:32:01.949 [main] INFO  Check logs - 2. Welcome page has Available Examples title
+15:32:01.951 [main] INFO  Check logs - 3. Click Hovers link
+15:32:02.264 [main] INFO  Check logs - 7. Close Driver

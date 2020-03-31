@@ -79,4 +79,16 @@
       <class name="tests.SliderTest"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Test frame">
+  <parameter name="testName" value="Test frame" />
+    <classes>
+      <class name="tests.FrameTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Take screenshot">
+  <parameter name="testName" value="Take screenshot" />
+    <classes>
+      <class name="tests.ScreenShotTest"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
