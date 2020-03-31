@@ -20,7 +20,7 @@ public class WelcomePage extends BasePage{
 	private By hoversLink=By.xpath("//*[@href='/hovers']");
 	private By sliderLink=By.xpath("//*[@href='/horizontal_slider']");
 	private By framerLink=By.xpath("//*[@href='/tinymce']");
-	
+	private By jsErrorPageLink=By.xpath("//*[@href='/javascript_error']");
  public WelcomePage(WebDriver driver){
 	 super(driver);
  }
@@ -67,6 +67,10 @@ public class WelcomePage extends BasePage{
  public FramePage clickFrameLink(){
 	 driver.findElement(framerLink).click();
 	 return new FramePage(driver);
+ }
+ public JsErrorPage clickJsErrorPageLink(){
+	 driver.findElement(jsErrorPageLink).click();
+	 return new JsErrorPage(driver);
  }
  public void scrollDown(){
 	 WebDriverWait wait=new WebDriverWait(driver,5);

@@ -822,3 +822,33 @@
 11:26:09.634 [main] INFO  Take screenshot - 8. Close browser
 11:26:09.634 [main] INFO  Take screenshot - test is failed, so taking screenshot
 11:26:10.199 [main] INFO  Take screenshot - 8. Close browser
+14:00:06.815 [main] INFO  Check log - 0. Initiate Driver
+14:00:10.649 [main] INFO  Check log - 1. Open welcome Page
+14:00:10.676 [main] INFO  Check log - 2. Welcome page has Available Examples title
+14:00:10.683 [main] INFO  Check log - 7. Close Driver
+14:00:29.378 [main] INFO  Check log - 0. Initiate Driver
+14:00:32.326 [main] INFO  Check log - 1. Open welcome Page
+14:00:32.353 [main] INFO  Check log - 2. Welcome page has Available Examples title
+14:00:32.358 [main] INFO  Check log - 7. Close Driver
+14:01:25.068 [main] INFO  Check log - 0. Initiate Driver
+14:01:28.033 [main] INFO  Check log - 1. Open welcome Page
+14:01:28.061 [main] INFO  Check log - 2. Welcome page has Available Examples title
+14:01:28.298 [main] INFO  Check log - 7. Close Driver
+14:09:17.827 [main] INFO  Check log - 0. Initiate Driver
+14:09:21.191 [main] INFO  Check log - 1. Open welcome Page
+14:09:21.221 [main] INFO  Check log - 2. Welcome page has Available Examples title
+14:09:21.477 [main] INFO  Check log - 7. Close Driver
+14:10:45.529 [main] INFO  Check log - 0. Initiate Driver
+14:10:48.749 [main] INFO  Check log - 1. Open welcome Page
+14:10:48.777 [main] INFO  Check log - 2. Welcome page has Available Examples title
+14:10:49.010 [main] INFO  Check log - JS error is found: http://the-internet.herokuapp.com/javascript_error 6:51 Uncaught TypeError: Cannot read property 'xyz' of undefined
+14:10:49.015 [main] INFO  Check log - 7. Close Driver
+14:11:36.684 [main] INFO  Check log - 0. Initiate Driver
+14:11:39.600 [main] INFO  Check log - 1. Open welcome Page
+14:11:39.627 [main] INFO  Check log - 2. Welcome page has Available Examples title
+14:11:39.896 [main] INFO  Check log - 7. Close Driver
+14:16:31.626 [main] INFO  Check log - 0. Initiate Driver
+14:16:34.731 [main] INFO  Check log - 1. Open welcome Page
+14:16:34.760 [main] INFO  Check log - 2. Welcome page has Available Examples title
+14:16:35.003 [main] INFO  Check log - JS error is found: http://the-internet.herokuapp.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+14:16:35.008 [main] INFO  Check log - 7. Close Driver

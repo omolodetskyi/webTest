@@ -85,4 +85,10 @@
       <class name="tests.FrameTest"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Take screenshot">
+  <parameter name="testName" value="Take screenshot" />
+    <classes>
+      <class name="tests.ScreenshotTest"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->

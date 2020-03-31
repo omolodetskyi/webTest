@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.ScreenshotTest" hash-for-method="screenShotTest">screenShotTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.JsErrorTest" hash-for-method="checkLog">checkLog</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -120,16 +120,16 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">tests.ScreenshotTest</span>
+              <span class="class-name">tests.JsErrorTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="screenShotTest">
-                  </a> <!-- screenShotTest -->
-                  <span class="method-name">screenShotTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Available Examples2] but found [Available Examples]
-	at tests.ScreenshotTest.screenShotTest(ScreenshotTest.java:36)
+                  <a name="checkLog">
+                  </a> <!-- checkLog -->
+                  <span class="method-name">checkLog</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at tests.JsErrorTest.checkLog(JsErrorTest.java:41)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -146,12 +146,12 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
-  &lt;test name=&quot;Take screenshot&quot;&gt;
-    &lt;parameter name=&quot;testName&quot; value=&quot;Take screenshot&quot;/&gt;
+  &lt;test name=&quot;check log&quot;&gt;
+    &lt;parameter name=&quot;testName&quot; value=&quot;Check log&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.ScreenshotTest&quot;/&gt;
+      &lt;class name=&quot;tests.JsErrorTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Take screenshot --&gt;
+  &lt;/test&gt; &lt;!-- check log --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -163,7 +163,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Take screenshot (1 class)</span>
+                <span class="test-name">check log (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -191,9 +191,9 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'screenShotTest')
-data.setCell(0, 2, 'tests.ScreenshotTest')
-data.setCell(0, 3, 1987);
+data.setCell(0, 1, 'checkLog')
+data.setCell(0, 2, 'tests.JsErrorTest')
+data.setCell(0, 3, 1716);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -224,24 +224,20 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.ScreenshotTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.JsErrorTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(Take screenshot)</span>
+                <span class="method-name">beforeTest(Check log)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">screenShotTest</span>
-                <span class="method-start">2002 ms</span>
+                <span class="method-name">checkLog</span>
+                <span class="method-start">2314 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">checkStatus([TestResult name=screenShotTest status=FAILURE method=ScreenshotTest.screenShotTest()[pri:0, instanc...)</span>
-                <span class="method-start">3993 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">4559 ms</span>
+                <span class="method-start">4034 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

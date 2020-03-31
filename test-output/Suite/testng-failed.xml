@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Take screenshot(failed)">
-    <parameter name="testName" value="Take screenshot"/>
+  <test name="check log(failed)">
+    <parameter name="testName" value="Check log"/>
     <classes>
-      <class name="tests.ScreenshotTest">
+      <class name="tests.JsErrorTest">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="checkStatus"/>
           <include name="beforeTest"/>
-          <include name="screenShotTest"/>
+          <include name="closeBrowser"/>
+          <include name="checkLog"/>
         </methods>
-      </class> <!-- tests.ScreenshotTest -->
+      </class> <!-- tests.JsErrorTest -->
     </classes>
-  </test> <!-- Take screenshot(failed) -->
+  </test> <!-- check log(failed) -->
 </suite> <!-- Failed suite [Suite] -->
