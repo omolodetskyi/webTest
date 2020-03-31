@@ -26,6 +26,7 @@ public class FrameTest  extends TestBase{
 	  Assert.assertEquals(actualWelcomeTitle, expectedWelcomeTitle);
 	  log.info("3. Click Checkboxes link");
 	  framePage=welcomePage.clickFrameLink();
+	  framePage.switchToFrame();
 	  String actualPlaceHolder= framePage.getPlaceHolder();
 	  String expectedPlaceHolder="Your content goes here.";
 	  Assert.assertEquals(actualPlaceHolder, expectedPlaceHolder);

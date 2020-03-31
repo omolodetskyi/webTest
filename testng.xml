@@ -79,4 +79,10 @@
       <class name="tests.SliderTest"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Test frame">
+  <parameter name="testName" value="Test frame" />
+    <classes>
+      <class name="tests.FrameTest"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->

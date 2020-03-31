@@ -654,3 +654,171 @@
 19:37:49.303 [main] INFO  Test frame - 2. Welcome page has Available Examples title
 19:37:49.307 [main] INFO  Test frame - 3. Click Checkboxes link
 19:37:55.463 [main] INFO  Test frame - 7. Close Driver
+23:23:19.842 [main] INFO  Test frame - 0. Initiate Driver
+23:23:24.609 [main] INFO  Test frame - 1. Open welcome Page
+23:23:24.659 [main] INFO  Test frame - 2. Welcome page has Available Examples title
+23:23:24.666 [main] INFO  Test frame - 3. Click Checkboxes link
+23:23:25.902 [main] INFO  Test frame - 7. Close Driver
+23:24:20.642 [main] INFO  Test frame - 0. Initiate Driver
+23:24:20.942 [main] INFO  Test frame - 0. Initiate Driver
+23:24:25.762 [main] INFO  Test frame - 1. Open welcome Page
+23:24:25.810 [main] INFO  Test frame - 2. Welcome page has Available Examples title
+23:24:25.818 [main] INFO  Test frame - 3. Click Checkboxes link
+23:24:27.537 [main] INFO  Test frame - 1. Open welcome Page
+23:24:27.604 [main] INFO  Test frame - 2. Welcome page has Available Examples title
+23:24:27.608 [main] INFO  Test frame - 3. Click Checkboxes link
+23:24:31.732 [main] INFO  Test frame - 7. Close Driver
+23:24:33.724 [main] INFO  Test frame - 7. Close Driver
+23:24:43.725 [main] INFO  Test frame - 0. Initiate Driver
+23:24:47.119 [main] INFO  Test frame - 1. Open welcome Page
+23:24:47.165 [main] INFO  Test frame - 2. Welcome page has Available Examples title
+23:24:47.172 [main] INFO  Test frame - 3. Click Checkboxes link
+23:24:53.061 [main] INFO  Test frame - 7. Close Driver
+23:31:24.712 [main] INFO  Test frame - 0. Initiate Driver
+23:31:28.920 [main] INFO  Test frame - 1. Open welcome Page
+23:31:28.982 [main] INFO  Test frame - 2. Welcome page has Available Examples title
+23:31:28.990 [main] INFO  Test frame - 3. Click Checkboxes link
+23:31:29.968 [main] INFO  Test frame - 7. Close Driver
+23:33:28.234 [main] INFO  Test frame - 0. Initiate Driver
+23:33:32.054 [main] INFO  Test frame - 1. Open welcome Page
+23:33:32.094 [main] INFO  Test frame - 2. Welcome page has Available Examples title
+23:33:32.100 [main] INFO  Test frame - 3. Click Checkboxes link
+23:33:37.877 [main] INFO  Test frame - 7. Close Driver
+23:34:58.594 [main] INFO  Test frame - 0. Initiate Driver
+23:35:02.873 [main] INFO  Test frame - 1. Open welcome Page
+23:35:02.930 [main] INFO  Test frame - 2. Welcome page has Available Examples title
+23:35:02.941 [main] INFO  Test frame - 3. Click Checkboxes link
+23:35:03.917 [main] INFO  Test frame - 7. Close Driver
+09:20:53.024 [main] INFO  Test frame - 0. Initiate Driver
+09:20:56.788 [main] INFO  Test frame - 1. Open welcome Page
+09:20:56.818 [main] INFO  Test frame - 2. Welcome page has Available Examples title
+09:20:56.820 [main] INFO  Test frame - 3. Click Checkboxes link
+09:20:57.591 [main] INFO  Test frame - 7. Close Driver
+09:22:23.044 [main] INFO  Test frame - 0. Initiate Driver
+09:22:25.863 [main] INFO  Test frame - 1. Open welcome Page
+09:22:25.891 [main] INFO  Test frame - 2. Welcome page has Available Examples title
+09:22:25.895 [main] INFO  Test frame - 3. Click Checkboxes link
+09:22:31.667 [main] INFO  Test frame - 7. Close Driver
+09:53:14.277 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+09:53:18.057 [main] INFO  Take screenshot - 1. Open welcome Page
+09:53:18.091 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+09:53:18.641 [main] INFO  Take screenshot - 8. Close browser
+10:04:25.193 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+10:04:28.217 [main] INFO  Take screenshot - 1. Open welcome Page
+10:04:28.244 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+10:04:28.250 [main] INFO  Take screenshot - 8. Close browser
+10:06:03.674 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+10:06:06.687 [main] INFO  Take screenshot - 1. Open welcome Page
+10:06:06.718 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+10:06:06.724 [main] INFO  Take screenshot - 8. Close browser
+10:09:11.507 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+10:09:14.526 [main] INFO  Take screenshot - 1. Open welcome Page
+10:09:14.553 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+10:09:14.560 [main] INFO  Take screenshot - 8. Close browser
+10:10:19.502 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+10:10:22.893 [main] INFO  Take screenshot - 1. Open welcome Page
+10:10:22.925 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+10:10:22.931 [main] INFO  Take screenshot - 8. Close browser
+10:10:48.348 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+10:10:51.379 [main] INFO  Take screenshot - 1. Open welcome Page
+10:10:51.411 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+10:10:51.418 [main] INFO  Take screenshot - 8. Close browser
+10:11:30.133 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+10:11:33.549 [main] INFO  Take screenshot - 1. Open welcome Page
+10:11:33.579 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+10:11:33.588 [main] INFO  Take screenshot - 8. Close browser
+10:13:31.168 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+10:13:34.487 [main] INFO  Take screenshot - 1. Open welcome Page
+10:13:34.518 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+10:13:34.523 [main] INFO  Take screenshot - 8. Close browser
+10:14:22.632 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+10:14:25.941 [main] INFO  Take screenshot - 1. Open welcome Page
+10:14:25.971 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+10:14:26.528 [main] INFO  Take screenshot - 8. Close browser
+10:15:20.510 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+10:15:23.933 [main] INFO  Take screenshot - 1. Open welcome Page
+10:15:23.966 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+10:15:24.496 [main] INFO  Take screenshot - 8. Close browser
+10:15:41.531 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+10:15:44.903 [main] INFO  Take screenshot - 1. Open welcome Page
+10:15:44.935 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+10:15:45.487 [main] INFO  Take screenshot - 8. Close browser
+10:16:07.367 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+10:16:10.780 [main] INFO  Take screenshot - 1. Open welcome Page
+10:16:10.810 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+10:16:11.375 [main] INFO  Take screenshot - 8. Close browser
+10:34:15.805 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+10:34:18.711 [main] INFO  Take screenshot - 1. Open welcome Page
+10:34:18.739 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+10:34:19.283 [main] INFO  Take screenshot - 8. Close browser
+10:44:22.622 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+10:44:25.739 [main] INFO  Take screenshot - 1. Open welcome Page
+10:44:25.767 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+10:44:52.153 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+10:44:55.220 [main] INFO  Take screenshot - 1. Open welcome Page
+10:44:55.247 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title2
+10:46:34.696 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+10:46:37.873 [main] INFO  Take screenshot - 1. Open welcome Page
+10:46:37.900 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title2
+10:47:37.883 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+10:47:40.955 [main] INFO  Take screenshot - 1. Open welcome Page
+10:47:40.981 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title2
+10:56:17.231 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+10:56:20.179 [main] INFO  Take screenshot - 1. Open welcome Page
+10:56:20.210 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title2
+11:02:11.782 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+11:02:15.178 [main] INFO  Take screenshot - 1. Open welcome Page
+11:02:15.206 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title2
+11:02:54.077 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+11:02:57.102 [main] INFO  Take screenshot - 1. Open welcome Page
+11:02:57.130 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title2
+11:02:57.643 [main] INFO  Take screenshot - 8. Close browser
+11:03:23.858 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+11:03:26.931 [main] INFO  Take screenshot - 1. Open welcome Page
+11:03:26.959 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+11:03:26.965 [main] INFO  Take screenshot - 8. Close browser
+11:03:26.965 [main] INFO  Take screenshot - test is failed, so taking screenshot
+11:04:45.421 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+11:04:48.383 [main] INFO  Take screenshot - 1. Open welcome Page
+11:04:48.409 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+11:04:48.417 [main] INFO  Take screenshot - 8. Close browser
+11:04:48.417 [main] INFO  Take screenshot - test is failed, so taking screenshot
+11:04:48.946 [main] INFO  Take screenshot - 8. Close browser
+11:06:10.414 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+11:06:13.668 [main] INFO  Take screenshot - 1. Open welcome Page
+11:06:13.696 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+11:06:13.703 [main] INFO  Take screenshot - 8. Close browser
+11:06:13.704 [main] INFO  Take screenshot - test is failed, so taking screenshot
+11:06:37.414 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+11:06:40.585 [main] INFO  Take screenshot - 1. Open welcome Page
+11:06:40.616 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+11:06:40.623 [main] INFO  Take screenshot - 8. Close browser
+11:06:40.623 [main] INFO  Take screenshot - test is failed, so taking screenshot
+11:08:36.870 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+11:08:39.751 [main] INFO  Take screenshot - 1. Open welcome Page
+11:08:39.779 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+11:08:39.785 [main] INFO  Take screenshot - 8. Close browser
+11:08:39.785 [main] INFO  Take screenshot - test is failed, so taking screenshot
+11:17:44.623 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+11:17:47.730 [main] INFO  Take screenshot - 1. Open welcome Page
+11:17:47.756 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+11:17:47.762 [main] INFO  Take screenshot - 8. Close browser
+11:17:47.762 [main] INFO  Take screenshot - test is failed, so taking screenshot
+11:17:48.298 [main] INFO  Take screenshot - 8. Close browser
+11:18:20.279 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+11:18:23.232 [main] INFO  Take screenshot - 1. Open welcome Page
+11:18:23.260 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+11:18:23.265 [main] INFO  Take screenshot - 8. Close browser
+11:18:23.265 [main] INFO  Take screenshot - test is failed, so taking screenshot
+11:18:23.761 [main] INFO  Take screenshot - 8. Close browser
+11:22:34.405 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+11:22:37.516 [main] INFO  Take screenshot - 1. Open welcome Page
+11:22:37.543 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+11:22:37.550 [main] INFO  Take screenshot - 8. Close browser
+11:22:37.550 [main] INFO  Take screenshot - test is failed, so taking screenshot
+11:26:06.220 [main] INFO  Take screenshot - 0. Driver initialisation. Open browser
+11:26:09.594 [main] INFO  Take screenshot - 1. Open welcome Page
+11:26:09.626 [main] INFO  Take screenshot - 2. Welcome page has Available Examples title
+11:26:09.634 [main] INFO  Take screenshot - 8. Close browser
+11:26:09.634 [main] INFO  Take screenshot - test is failed, so taking screenshot
+11:26:10.199 [main] INFO  Take screenshot - 8. Close browser

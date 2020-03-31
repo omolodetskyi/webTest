@@ -1,5 +1,6 @@
 package newtest;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.LogManager;
@@ -8,6 +9,11 @@ import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+
+import utils.Helpers;
 
 public class TestBase {
 	protected static Logger log;
@@ -27,5 +33,5 @@ public class TestBase {
    public void initLogger(String testName){
 	   log=LogManager.getLogger(testName);
    }
-   
+
 }
