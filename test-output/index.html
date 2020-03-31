@@ -128,9 +128,11 @@
                   <a name="checkLog">
                   </a> <!-- checkLog -->
                   <span class="method-name">checkLog</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
-	at tests.JsErrorTest.checkLog(JsErrorTest.java:41)
-... Removed 31 stack frames
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Failed because of JS error: http://the-internet.herokuapp.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found),
+	Failed because of JS error: http://the-internet.herokuapp.com/javascript_error 6:51 Uncaught TypeError: Cannot read property &apos;xyz&apos; of undefined
+	at tests.JsErrorTest.checkLog(JsErrorTest.java:49)
+... Removed 26 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -193,7 +195,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkLog')
 data.setCell(0, 2, 'tests.JsErrorTest')
-data.setCell(0, 3, 1716);
+data.setCell(0, 3, 1707);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -233,11 +235,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">checkLog</span>
-                <span class="method-start">2314 ms</span>
+                <span class="method-start">1906 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">4034 ms</span>
+                <span class="method-start">3617 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
