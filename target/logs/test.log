@@ -705,3 +705,28 @@
 15:32:01.949 [main] INFO  Check logs - 2. Welcome page has Available Examples title
 15:32:01.951 [main] INFO  Check logs - 3. Click Hovers link
 15:32:02.264 [main] INFO  Check logs - 7. Close Driver
+16:55:30.385 [main] INFO  Check logs - 0. Initiate Driver
+16:57:36.988 [main] INFO  Check logs - 0. Initiate Driver
+16:58:00.995 [main] INFO  Check logs - 0. Initiate Driver
+16:59:15.284 [main] INFO  Check logs - 0. Initiate Driver
+17:00:49.635 [main] INFO  Check logs - 0. Initiate Driver
+17:01:26.937 [main] INFO  Check logs - 0. Initiate Driver
+17:02:19.127 [main] INFO  Check logs - 0. Initiate Driver
+17:02:28.486 [main] INFO  Check logs - 1. Open welcome Page
+17:02:28.508 [main] INFO  Check logs - 2. Welcome page has Available Examples title
+17:02:28.510 [main] INFO  Check logs - 3. Click Hovers link
+17:02:28.820 [main] INFO  Check logs - 7. Close Driver
+17:03:32.488 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+17:03:44.059 [main] INFO  Login with valid username/password - 1. Open welcome Page
+17:03:44.093 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+17:03:44.095 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+17:03:44.341 [main] INFO  Login with valid username/password - 8. Close browser
+17:04:36.738 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+17:04:56.415 [main] INFO  Login with valid username/password - 1. Open welcome Page
+17:04:56.448 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+17:04:56.450 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+17:04:59.346 [main] INFO  Login with valid username/password - 4. Check title on Login page
+17:04:59.346 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+17:04:59.963 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+17:04:59.975 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+17:04:59.978 [main] INFO  Login with valid username/password - 8. Close browser

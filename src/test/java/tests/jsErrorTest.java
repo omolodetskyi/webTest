@@ -50,7 +50,8 @@ public class jsErrorTest extends TestBase{
 	  initLogger(testName);
 	  log.info("0. Initiate Driver");
 	  softAssert=new SoftAssert();
-	  driver=chromeWebDriver();
+	 // driver=chromeWebDriver();
+	  driver=fireFoxWebDriver();
 	 }
   @AfterTest
   public void closeBrowser(){

@@ -51,7 +51,8 @@ public class LoginTest extends TestBase{
   public void beforeTest(String testName) {
 	  initLogger(testName);
 	  log.info("0. Driver initialisation. Open browser");
-	  driver=chromeWebDriver();
+	  //driver=chromeWebDriver();
+	  driver=fireFoxWebDriver();
 	  
 	  
   }
