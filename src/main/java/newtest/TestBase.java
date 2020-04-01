@@ -8,30 +8,31 @@ import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class TestBase {
 	protected static Logger log;
-	public static WebDriver chromeWebDriver(){
-		System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
-		ChromeOptions options=new ChromeOptions();
-	   // options.setProxy(null);
-		//options.setPageLoadStrategy(PageLoadStrategy.NONE);
-		options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-		WebDriver driver=new ChromeDriver(options);
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		return driver;
-	}
-	public static WebDriver fireFoxWebDriver(){
-		System.setProperty("webdriver.gecko.driver", "resources/geckodriver");
-		//ChromeOptions options=new ChromeOptions();
-	   // options.setProxy(null);
-		//options.setPageLoadStrategy(PageLoadStrategy.NONE);
-		//options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-		WebDriver driver=new FirefoxDriver();
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		return driver;
-	}
+	WebDriver driver;
+	public WebDriver createWebDriver(String browser){
+			switch(browser){
+			case "chrome":
+				System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+				ChromeOptions options=new ChromeOptions();
+				options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+				driver=new ChromeDriver(options);
+				driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+				break;
+			case "firefox":
+				System.setProperty("webdriver.gecko.driver", "resources/geckodriver");
+				driver=new FirefoxDriver();
+				driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+			    break;
+	        }
+			log.info("Started driver on "+browser);
+			return driver;
+		}
+		
 	public void cleanUp(WebDriver driver){
 		driver.close();
 	}

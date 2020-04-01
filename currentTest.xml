@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite"  parallel="none">
-  <test name="Login with correct creds">
+  <test name="Login with correct creds on Firefox">
   <parameter name="testName" value="Login with valid username/password" />
+  <parameter name="browser" value="firefox" />
+    <classes>
+      <class name="tests.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Login with correct creds on Chrome">
+  <parameter name="testName" value="Login with valid username/password" />
+  <parameter name="browser" value="chrome" />
     <classes>
       <class name="tests.LoginTest"/>
     </classes>

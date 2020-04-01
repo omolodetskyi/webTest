@@ -730,3 +730,171 @@
 17:04:59.963 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
 17:04:59.975 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
 17:04:59.978 [main] INFO  Login with valid username/password - 8. Close browser
+17:45:35.490 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+17:45:38.934 [main] INFO  Login with valid username/password - 1. Open welcome Page
+17:45:38.973 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+17:45:38.974 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+17:45:39.564 [main] INFO  Login with valid username/password - 4. Check title on Login page
+17:45:39.564 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+17:45:40.225 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+17:45:40.248 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+17:45:40.251 [main] INFO  Login with valid username/password - 8. Close browser
+17:45:58.276 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+17:46:04.436 [main] INFO  Login with valid username/password - 1. Open welcome Page
+17:46:04.458 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+17:46:04.459 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+17:46:05.041 [main] INFO  Login with valid username/password - 4. Check title on Login page
+17:46:05.041 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+17:46:05.661 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+17:46:05.686 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+17:46:05.689 [main] INFO  Login with valid username/password - 8. Close browser
+17:47:35.694 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+17:47:41.382 [main] INFO  Login with valid username/password - 1. Open welcome Page
+17:47:41.405 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+17:47:41.407 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+17:47:41.947 [main] INFO  Login with valid username/password - 4. Check title on Login page
+17:47:41.947 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+17:47:42.466 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+17:47:42.480 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+17:47:42.484 [main] INFO  Login with valid username/password - 8. Close browser
+17:49:11.424 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+17:49:16.958 [main] INFO  Login with valid username/password - 1. Open welcome Page
+17:49:16.983 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+17:49:16.985 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+17:49:17.459 [main] INFO  Login with valid username/password - 4. Check title on Login page
+17:49:17.459 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+17:49:17.982 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+17:49:17.996 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+17:49:18.000 [main] INFO  Login with valid username/password - 8. Close browser
+17:49:19.631 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+17:49:24.787 [main] INFO  Login with valid username/password - 1. Open welcome Page
+17:49:24.806 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+17:49:24.806 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+17:49:25.278 [main] INFO  Login with valid username/password - 4. Check title on Login page
+17:49:25.279 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+17:49:25.816 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+17:49:25.829 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+17:49:25.830 [main] INFO  Login with valid username/password - 8. Close browser
+17:50:36.686 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+17:50:39.835 [main] INFO  Login with valid username/password - Started driver on firefox
+17:50:42.567 [main] INFO  Login with valid username/password - 1. Open welcome Page
+17:50:42.587 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+17:50:42.588 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+17:50:43.104 [main] INFO  Login with valid username/password - 4. Check title on Login page
+17:50:43.104 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+17:50:43.624 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+17:50:43.638 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+17:50:43.640 [main] INFO  Login with valid username/password - 8. Close browser
+17:50:46.318 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+17:50:48.837 [main] INFO  Login with valid username/password - Started driver on firefox
+17:50:51.650 [main] INFO  Login with valid username/password - 1. Open welcome Page
+17:50:51.671 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+17:50:51.672 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+17:50:52.192 [main] INFO  Login with valid username/password - 4. Check title on Login page
+17:50:52.193 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+17:50:52.688 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+17:50:52.700 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+17:50:52.702 [main] INFO  Login with valid username/password - 8. Close browser
+17:51:44.318 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+17:51:47.379 [main] INFO  Login with valid username/password - Started driver on firefox
+17:51:49.829 [main] INFO  Login with valid username/password - 1. Open welcome Page
+17:51:49.852 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+17:51:49.853 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+17:51:50.353 [main] INFO  Login with valid username/password - 4. Check title on Login page
+17:51:50.354 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+17:51:50.880 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+17:51:50.895 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+17:51:50.898 [main] INFO  Login with valid username/password - 8. Close browser
+17:51:52.544 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+17:51:53.444 [main] INFO  Login with valid username/password - Started driver on chrome
+17:51:55.568 [main] INFO  Login with valid username/password - 1. Open welcome Page
+17:51:55.594 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+17:51:55.594 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+17:51:56.160 [main] INFO  Login with valid username/password - 4. Check title on Login page
+17:51:56.160 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+17:51:56.775 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+17:51:56.797 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+17:51:56.798 [main] INFO  Login with valid username/password - 8. Close browser
+18:02:17.865 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+18:02:21.772 [main] INFO  Login with valid username/password - Started driver on firefox
+18:02:25.121 [main] INFO  Login with valid username/password - 1. Open welcome Page
+18:02:25.152 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+18:02:25.155 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+18:02:25.663 [main] INFO  Login with valid username/password - 4. Check title on Login page
+18:02:25.663 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+18:02:26.223 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+18:02:26.237 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+18:02:26.242 [main] INFO  Login with valid username/password - 8. Close browser
+18:02:27.998 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+18:02:29.043 [main] INFO  Login with valid username/password - Started driver on chrome
+18:02:31.434 [main] INFO  Login with valid username/password - 1. Open welcome Page
+18:02:31.465 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+18:02:31.465 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+18:02:32.010 [main] INFO  Login with valid username/password - 4. Check title on Login page
+18:02:32.010 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+18:02:32.659 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+18:02:32.682 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+18:02:32.684 [main] INFO  Login with valid username/password - 8. Close browser
+18:02:32.769 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+18:03:09.993 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+18:03:13.182 [main] INFO  Login with valid username/password - Started driver on firefox
+18:03:16.008 [main] INFO  Login with valid username/password - 1. Open welcome Page
+18:03:16.032 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+18:03:16.034 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+18:03:16.566 [main] INFO  Login with valid username/password - 4. Check title on Login page
+18:03:16.566 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+18:03:17.207 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+18:03:17.221 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+18:03:17.225 [main] INFO  Login with valid username/password - 8. Close browser
+18:03:19.901 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+18:03:20.933 [main] INFO  Login with valid username/password - Started driver on chrome
+18:03:23.400 [main] INFO  Login with valid username/password - 1. Open welcome Page
+18:03:23.425 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+18:03:23.425 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+18:03:23.979 [main] INFO  Login with valid username/password - 4. Check title on Login page
+18:03:23.979 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+18:03:24.591 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+18:03:24.614 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+18:03:24.616 [main] INFO  Login with valid username/password - 8. Close browser
+18:03:24.700 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+18:06:40.134 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+18:06:43.445 [main] INFO  Login with valid username/password - Started driver on firefox
+18:06:46.024 [main] INFO  Login with valid username/password - 1. Open welcome Page
+18:06:46.046 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+18:06:46.047 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+18:06:46.678 [main] INFO  Login with valid username/password - 4. Check title on Login page
+18:06:46.678 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+18:06:47.296 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+18:06:47.312 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+18:06:47.315 [main] INFO  Login with valid username/password - 8. Close browser
+18:06:48.951 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+18:06:49.963 [main] INFO  Login with valid username/password - Started driver on chrome
+18:06:52.826 [main] INFO  Login with valid username/password - 1. Open welcome Page
+18:06:52.858 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+18:06:52.858 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+18:06:53.429 [main] INFO  Login with valid username/password - 4. Check title on Login page
+18:06:53.429 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+18:06:54.082 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+18:06:54.107 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+18:06:54.108 [main] INFO  Login with valid username/password - 8. Close browser
+18:06:54.191 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+18:08:07.374 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+18:08:10.621 [main] INFO  Login with valid username/password - Started driver on firefox
+18:08:13.668 [main] INFO  Login with valid username/password - 1. Open welcome Page
+18:08:13.689 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+18:08:13.690 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+18:08:14.413 [main] INFO  Login with valid username/password - 4. Check title on Login page
+18:08:14.414 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+18:08:15.030 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+18:08:15.044 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+18:08:15.047 [main] INFO  Login with valid username/password - 8. Close browser
+18:08:16.685 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+18:08:17.518 [main] INFO  Login with valid username/password - Started driver on chrome
+18:08:19.992 [main] INFO  Login with valid username/password - 1. Open welcome Page
+18:08:20.020 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+18:08:20.020 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+18:08:20.662 [main] INFO  Login with valid username/password - 4. Check title on Login page
+18:08:20.662 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+18:08:21.534 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+18:08:21.557 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+18:08:21.558 [main] INFO  Login with valid username/password - 8. Close browser

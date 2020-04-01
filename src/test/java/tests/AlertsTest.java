@@ -59,7 +59,7 @@ public class AlertsTest extends TestBase{
   public void beforeTest(String testName) {
 	  initLogger(testName);
 	  log.info("0. Initiate Driver");
-	  driver=chromeWebDriver();
+	  driver=createWebDriver("chrome");
 	 }
   @AfterTest
   public void closeBrowser(){
