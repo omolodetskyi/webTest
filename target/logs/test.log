@@ -898,3 +898,211 @@
 18:08:21.534 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
 18:08:21.557 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
 18:08:21.558 [main] INFO  Login with valid username/password - 8. Close browser
+22:47:36.654 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+22:47:40.583 [main] INFO  Login with valid username/password - Started driver on firefox
+22:47:42.128 [main] INFO  Login with valid username/password - 1. Open welcome Page
+22:47:42.156 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+22:47:42.158 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+22:47:42.696 [main] INFO  Login with valid username/password - 4. Check title on Login page
+22:47:42.696 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+22:47:43.196 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+22:47:43.212 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+22:47:43.215 [main] INFO  Login with valid username/password - 8. Close browser
+22:47:44.961 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+22:47:45.952 [main] INFO  Login with valid username/password - Started driver on chrome
+22:47:47.357 [main] INFO  Login with valid username/password - 1. Open welcome Page
+22:47:47.383 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+22:47:47.384 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+22:47:47.855 [main] INFO  Login with valid username/password - 4. Check title on Login page
+22:47:47.855 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+22:47:48.459 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+22:47:48.482 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+22:47:48.483 [main] INFO  Login with valid username/password - 8. Close browser
+22:48:23.699 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+22:48:26.782 [main] INFO  Login with valid username/password - Started driver on firefox
+22:48:28.397 [main] INFO  Login with valid username/password - 1. Open welcome Page
+22:48:28.417 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+22:48:28.419 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+22:48:28.866 [main] INFO  Login with valid username/password - 4. Check title on Login page
+22:48:28.866 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+22:48:29.403 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+22:48:29.417 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+22:48:29.421 [main] INFO  Login with valid username/password - 8. Close browser
+22:48:31.070 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+22:48:31.888 [main] INFO  Login with valid username/password - Started driver on chrome
+22:48:33.249 [main] INFO  Login with valid username/password - 1. Open welcome Page
+22:48:33.275 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+22:48:33.276 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+22:48:33.817 [main] INFO  Login with valid username/password - 4. Check title on Login page
+22:48:33.818 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+22:48:34.484 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+22:48:34.506 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+22:48:34.507 [main] INFO  Login with valid username/password - 8. Close browser
+22:48:34.591 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+22:48:35.424 [main] INFO  Login with valid username/password - Started driver on unknown browser, so starting chrome
+22:48:36.799 [main] INFO  Login with valid username/password - 1. Open welcome Page
+22:48:36.825 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+22:48:36.825 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+22:48:37.308 [main] INFO  Login with valid username/password - 4. Check title on Login page
+22:48:37.309 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+22:48:37.929 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+22:48:37.950 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+22:48:37.951 [main] INFO  Login with valid username/password - 8. Close browser
+23:06:22.945 [main] INFO  Calendar Test - 0. Initiate Driver
+23:06:25.164 [main] INFO  Calendar Test - Started driver on chrome
+23:06:29.783 [main] INFO  Calendar Test - 7. Close Driver
+23:06:54.484 [main] INFO  Calendar Test - 0. Initiate Driver
+23:06:55.980 [main] INFO  Calendar Test - Started driver on chrome
+23:07:00.979 [main] INFO  Calendar Test - 7. Close Driver
+23:07:13.814 [main] INFO  Calendar Test - 0. Initiate Driver
+23:07:15.300 [main] INFO  Calendar Test - Started driver on chrome
+23:07:20.039 [main] INFO  Calendar Test - 7. Close Driver
+23:08:15.953 [main] INFO  Calendar Test - 0. Initiate Driver
+23:08:17.633 [main] INFO  Calendar Test - Started driver on chrome
+23:08:22.221 [main] INFO  Calendar Test - 7. Close Driver
+23:13:07.556 [main] INFO  Calendar Test - 0. Initiate Driver
+23:13:09.378 [main] INFO  Calendar Test - Started driver on chrome
+23:13:50.134 [main] INFO  Calendar Test - 0. Initiate Driver
+23:13:51.616 [main] INFO  Calendar Test - Started driver on chrome
+23:13:56.338 [main] INFO  Calendar Test - 7. Close Driver
+23:34:07.285 [main] INFO  Calendar Test - 0. Initiate Driver
+23:34:09.079 [main] INFO  Calendar Test - Started driver on chrome
+23:34:12.708 [main] INFO  Calendar Test - 7. Close Driver
+23:36:50.652 [main] INFO  Calendar Test - 0. Initiate Driver
+23:36:52.567 [main] INFO  Calendar Test - Started driver on chrome
+23:36:56.118 [main] INFO  Calendar Test - 7. Close Driver
+23:37:38.398 [main] INFO  Calendar Test - 0. Initiate Driver
+23:37:40.195 [main] INFO  Calendar Test - Started driver on chrome
+23:37:43.793 [main] INFO  Calendar Test - 7. Close Driver
+23:44:41.835 [main] INFO  Calendar Test - 0. Initiate Driver
+23:44:43.448 [main] INFO  Calendar Test - Started driver on chrome
+23:44:49.069 [main] INFO  Calendar Test - 7. Close Driver
+23:48:10.885 [main] INFO  Calendar Test - 0. Initiate Driver
+23:48:12.612 [main] INFO  Calendar Test - Started driver on chrome
+23:48:16.352 [main] INFO  Calendar Test - 7. Close Driver
+23:52:47.478 [main] INFO  Calendar Test - 0. Initiate Driver
+23:52:49.420 [main] INFO  Calendar Test - Started driver on chrome
+23:52:53.108 [main] INFO  Calendar Test - 7. Close Driver
+23:53:39.244 [main] INFO  Calendar Test - 0. Initiate Driver
+23:53:40.997 [main] INFO  Calendar Test - Started driver on chrome
+23:53:45.889 [main] INFO  Calendar Test - 7. Close Driver
+23:55:08.931 [main] INFO  Calendar Test - 0. Initiate Driver
+23:55:10.723 [main] INFO  Calendar Test - Started driver on chrome
+23:55:15.591 [main] INFO  Calendar Test - 7. Close Driver
+23:56:22.043 [main] INFO  Calendar Test - 0. Initiate Driver
+23:56:23.927 [main] INFO  Calendar Test - Started driver on chrome
+23:56:27.886 [main] INFO  Calendar Test - 7. Close Driver
+23:57:49.424 [main] INFO  Calendar Test - 0. Initiate Driver
+23:57:51.128 [main] INFO  Calendar Test - Started driver on chrome
+23:57:59.989 [main] INFO  Calendar Test - 7. Close Driver
+23:59:34.006 [main] INFO  Calendar Test - 0. Initiate Driver
+23:59:35.411 [main] INFO  Calendar Test - Started driver on chrome
+23:59:39.219 [main] INFO  Calendar Test - 7. Close Driver
+00:01:23.236 [main] INFO  Calendar Test - 0. Initiate Driver
+00:01:24.942 [main] INFO  Calendar Test - Started driver on chrome
+00:01:33.621 [main] INFO  Calendar Test - 7. Close Driver
+00:04:32.709 [main] INFO  Calendar Test - 0. Initiate Driver
+00:04:34.472 [main] INFO  Calendar Test - Started driver on chrome
+00:04:43.267 [main] INFO  Calendar Test - 7. Close Driver
+00:05:09.524 [main] INFO  Calendar Test - 0. Initiate Driver
+00:05:10.923 [main] INFO  Calendar Test - Started driver on chrome
+00:05:19.658 [main] INFO  Calendar Test - 7. Close Driver
+00:08:51.188 [main] INFO  Calendar Test - 0. Initiate Driver
+00:08:53.032 [main] INFO  Calendar Test - Started driver on chrome
+00:09:02.635 [main] INFO  Calendar Test - 7. Close Driver
+00:09:25.009 [main] INFO  Calendar Test - 0. Initiate Driver
+00:09:27.014 [main] INFO  Calendar Test - Started driver on chrome
+00:09:41.516 [main] INFO  Calendar Test - 7. Close Driver
+00:11:01.127 [main] INFO  Calendar Test - 0. Initiate Driver
+00:11:03.022 [main] INFO  Calendar Test - Started driver on chrome
+00:11:17.302 [main] INFO  Calendar Test - 7. Close Driver
+00:15:13.443 [main] INFO  Calendar Test - 0. Initiate Driver
+00:15:15.043 [main] INFO  Calendar Test - Started driver on chrome
+00:15:24.238 [main] INFO  Calendar Test - 7. Close Driver
+00:16:28.979 [main] INFO  Calendar Test - 0. Initiate Driver
+00:16:30.721 [main] INFO  Calendar Test - Started driver on chrome
+00:16:40.863 [main] INFO  Calendar Test - 7. Close Driver
+00:17:33.737 [main] INFO  Calendar Test - 0. Initiate Driver
+00:17:35.249 [main] INFO  Calendar Test - Started driver on chrome
+00:17:44.478 [main] INFO  Calendar Test - 7. Close Driver
+00:18:04.925 [main] INFO  Calendar Test - 0. Initiate Driver
+00:18:06.660 [main] INFO  Calendar Test - Started driver on chrome
+00:18:10.659 [main] INFO  Calendar Test - 7. Close Driver
+00:18:47.032 [main] INFO  Calendar Test - 0. Initiate Driver
+00:18:48.541 [main] INFO  Calendar Test - Started driver on chrome
+00:18:52.802 [main] INFO  Calendar Test - 7. Close Driver
+00:20:49.395 [main] INFO  Calendar Test - 0. Initiate Driver
+00:20:51.375 [main] INFO  Calendar Test - Started driver on chrome
+00:20:56.135 [main] INFO  Calendar Test - 7. Close Driver
+00:21:53.024 [main] INFO  Calendar Test - 0. Initiate Driver
+00:21:54.998 [main] INFO  Calendar Test - Started driver on chrome
+00:22:01.531 [main] INFO  Calendar Test - 7. Close Driver
+00:23:25.723 [main] INFO  Calendar Test - 0. Initiate Driver
+00:23:27.259 [main] INFO  Calendar Test - Started driver on chrome
+00:23:36.433 [main] INFO  Calendar Test - 7. Close Driver
+00:24:10.651 [main] INFO  Calendar Test - 0. Initiate Driver
+00:24:12.176 [main] INFO  Calendar Test - Started driver on chrome
+00:24:21.886 [main] INFO  Calendar Test - 7. Close Driver
+00:25:17.129 [main] INFO  Calendar Test - 0. Initiate Driver
+00:25:19.089 [main] INFO  Calendar Test - Started driver on chrome
+00:25:28.789 [main] INFO  Calendar Test - 7. Close Driver
+00:29:14.267 [main] INFO  Calendar Test - 0. Initiate Driver
+00:29:15.858 [main] INFO  Calendar Test - Started driver on chrome
+00:29:20.239 [main] INFO  Calendar Test - 7. Close Driver
+07:26:32.533 [main] INFO  Calendar Test - 0. Initiate Driver
+07:26:34.491 [main] INFO  Calendar Test - Started driver on chrome
+07:26:44.333 [main] INFO  Calendar Test - 7. Close Driver
+07:27:28.908 [main] INFO  Calendar Test - 0. Initiate Driver
+07:27:30.453 [main] INFO  Calendar Test - Started driver on chrome
+07:27:33.911 [main] INFO  Calendar Test - 7. Close Driver
+07:37:11.256 [main] INFO  Calendar Test - 0. Initiate Driver
+07:37:13.013 [main] INFO  Calendar Test - Started driver on chrome
+07:37:17.013 [main] INFO  Calendar Test - 7. Close Driver
+07:37:54.874 [main] INFO  Calendar Test - 0. Initiate Driver
+07:37:56.517 [main] INFO  Calendar Test - Started driver on chrome
+07:37:59.769 [main] INFO  Calendar Test - 7. Close Driver
+07:44:01.671 [main] INFO  Calendar Test - 0. Initiate Driver
+07:44:03.262 [main] INFO  Calendar Test - Started driver on chrome
+07:44:06.136 [main] INFO  Calendar Test - 7. Close Driver
+07:44:31.897 [main] INFO  Calendar Test - 0. Initiate Driver
+07:44:33.229 [main] INFO  Calendar Test - Started driver on chrome
+07:44:36.515 [main] INFO  Calendar Test - 7. Close Driver
+07:45:47.802 [main] INFO  Calendar Test - 0. Initiate Driver
+07:45:49.318 [main] INFO  Calendar Test - Started driver on chrome
+07:45:52.342 [main] INFO  Calendar Test - 7. Close Driver
+07:54:07.573 [main] INFO  Calendar Test - 0. Initiate Driver
+07:54:09.437 [main] INFO  Calendar Test - Started driver on chrome
+07:54:13.931 [main] INFO  Calendar Test - 7. Close Driver
+07:56:56.148 [main] INFO  Calendar Test - 0. Initiate Driver
+07:56:57.902 [main] INFO  Calendar Test - Started driver on chrome
+07:57:05.879 [main] INFO  Calendar Test - 7. Close Driver
+08:18:23.748 [main] INFO  Calendar Test - 0. Initiate Driver
+08:18:25.622 [main] INFO  Calendar Test - Started driver on chrome
+08:18:31.285 [main] INFO  Calendar Test - 7. Close Driver
+08:19:55.131 [main] INFO  Calendar Test - 0. Initiate Driver
+08:19:56.971 [main] INFO  Calendar Test - Started driver on chrome
+08:20:05.511 [main] INFO  Calendar Test - 7. Close Driver
+08:23:59.651 [main] INFO  Calendar Test - 0. Initiate Driver
+08:24:01.659 [main] INFO  Calendar Test - Started driver on chrome
+08:24:10.407 [main] INFO  Calendar Test - 7. Close Driver
+08:26:24.661 [main] INFO  Calendar Test - 0. Initiate Driver
+08:26:26.521 [main] INFO  Calendar Test - Started driver on chrome
+08:26:30.394 [main] INFO  Calendar Test - 7. Close Driver
+08:27:41.310 [main] INFO  Calendar Test - 0. Initiate Driver
+08:27:43.432 [main] INFO  Calendar Test - Started driver on chrome
+08:27:58.202 [main] INFO  Calendar Test - 7. Close Driver
+08:28:54.653 [main] INFO  Calendar Test - 0. Initiate Driver
+08:28:56.225 [main] INFO  Calendar Test - Started driver on chrome
+08:29:00.843 [main] INFO  Calendar Test - 7. Close Driver
+08:31:12.581 [main] INFO  Calendar Test - 0. Initiate Driver
+08:31:14.620 [main] INFO  Calendar Test - Started driver on chrome
+08:31:23.691 [main] INFO  Calendar Test - 7. Close Driver
+08:33:05.274 [main] INFO  Calendar Test - 0. Initiate Driver
+08:33:06.839 [main] INFO  Calendar Test - Started driver on chrome
+08:33:16.993 [main] INFO  Calendar Test - 7. Close Driver
+08:34:48.706 [main] INFO  Calendar Test - 0. Initiate Driver
+08:34:50.267 [main] INFO  Calendar Test - Started driver on chrome
+08:34:59.899 [main] INFO  Calendar Test - 7. Close Driver
+08:37:27.019 [main] INFO  Calendar Test - 0. Initiate Driver
+08:37:29.023 [main] INFO  Calendar Test - Started driver on chrome
+08:37:33.325 [main] INFO  Calendar Test - 7. Close Driver

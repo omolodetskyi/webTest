@@ -15,10 +15,11 @@ public class TestBase {
 	protected static Logger log;
 	WebDriver driver;
 	public WebDriver createWebDriver(String browser){
+		ChromeOptions options;
 			switch(browser){
 			case "chrome":
 				System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
-				ChromeOptions options=new ChromeOptions();
+				options=new ChromeOptions();
 				options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 				driver=new ChromeDriver(options);
 				driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -28,6 +29,14 @@ public class TestBase {
 				driver=new FirefoxDriver();
 				driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 			    break;
+			 default:
+				 browser="unknown browser, so starting chrome";
+				 System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+				 options=new ChromeOptions();
+				 options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+				 driver=new ChromeDriver(options);
+				 driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+				 break;
 	        }
 			log.info("Started driver on "+browser);
 			return driver;

@@ -23,7 +23,7 @@ public class ScrollTest extends TestBase{
   public void beforeTest(String testName) {
 	  initLogger(testName);
 	  log.info("0. Initiate Driver");
-	  driver=createWebDriver();
+	  driver=createWebDriver("chrome");
 	 }
   @AfterTest
   public void closeBrowser(){

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Login with correct creds on MS Edge(failed)">
-    <parameter name="browser" value="msedge"/>
-    <parameter name="testName" value="Login with valid username/password"/>
+  <test name="Calendar Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="testName" value="Calendar Test"/>
     <classes>
-      <class name="tests.LoginTest">
+      <class name="tests.CalendarTest">
         <methods>
-          <include name="closeBrowser"/>
+          <include name="calendarTest"/>
           <include name="beforeTest"/>
-          <include name="loginTest"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- tests.LoginTest -->
+      </class> <!-- tests.CalendarTest -->
     </classes>
-  </test> <!-- Login with correct creds on MS Edge(failed) -->
+  </test> <!-- Calendar Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
