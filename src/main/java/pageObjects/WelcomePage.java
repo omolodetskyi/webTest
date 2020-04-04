@@ -21,6 +21,7 @@ public class WelcomePage extends BasePage{
 	private By sliderLink=By.xpath("//*[@href='/horizontal_slider']");
 	private By framerLink=By.xpath("//*[@href='/tinymce']");
 	private By jsErrorLink=By.xpath("//*[@href='/javascript_error']");
+	private By dynamicLoadingLink=By.xpath("//*[@href='/dynamic_loading']");
 	
  public WelcomePage(WebDriver driver){
 	 super(driver);
@@ -72,6 +73,10 @@ public class WelcomePage extends BasePage{
  public FramePage clickFrameLink(){
 	 driver.findElement(framerLink).click();
 	 return new FramePage(driver);
+ }
+ public DynamicLoadingPage clickDynamicLoadingLink(){
+	 driver.findElement(dynamicLoadingLink).click();
+	 return new DynamicLoadingPage(driver);
  }
  public void scrollDown(){
 	 WebDriverWait wait=new WebDriverWait(driver,5);

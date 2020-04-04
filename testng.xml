@@ -91,4 +91,10 @@
       <class name="tests.ScreenShotTest"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Check logs">
+  <parameter name="testName" value="Check logs" />
+    <classes>
+      <class name="tests.jsErrorTest"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->

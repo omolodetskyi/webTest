@@ -47,12 +47,12 @@ public class LoginTest extends TestBase{
 	  Assert.assertEquals(actualSecureAreaPageMsg.contains(expectedSecureAreaPageMsg),true);
   }
   @BeforeTest
-  @Parameters({"testName"})
-  public void beforeTest(String testName) {
+  @Parameters({"testName","browser"})
+  public void beforeTest(String testName, String browser) {
 	  initLogger(testName);
 	  log.info("0. Driver initialisation. Open browser");
-	  driver=chromeWebDriver();
-	  
+	  //driver=firefoxWebDriver();
+	  driver=createWebDriver(browser);
 	  
   }
   @AfterTest
