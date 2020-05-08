@@ -829,3 +829,11 @@
 23:12:35.084 [main] INFO  Dynamic loading test - 2. Welcome page has Available Examples title
 23:12:35.084 [main] INFO  Dynamic loading test - 3. Click DropDown link
 23:12:40.625 [main] INFO  Dynamic loading test - 7. Close Driver
+12:26:58.396 [main] INFO  Dynamic loading test - 0. Initiate Driver
+12:27:01.375 [main] INFO  Dynamic loading test - 1. Open welcome Page
+12:27:01.402 [main] INFO  Dynamic loading test - 2. Welcome page has Available Examples title
+12:27:01.405 [main] INFO  Dynamic loading test - 3. Click DropDown link
+12:27:07.446 [main] INFO  Dynamic loading test - 1. Open welcome Page
+12:27:07.466 [main] INFO  Dynamic loading test - 2. Welcome page has Available Examples title
+12:27:07.466 [main] INFO  Dynamic loading test - 3. Click DropDown link
+12:27:13.019 [main] INFO  Dynamic loading test - 7. Close Driver
