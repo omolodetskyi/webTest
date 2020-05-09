@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Dynamic loading test(failed)">
-    <parameter name="testName" value="Dynamic loading test"/>
+  <test name="CSS test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="testName" value="CSS test"/>
     <classes>
-      <class name="tests.DynamicLoadingTest">
+      <class name="tests.CssTest">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="hiddenElementTest"/>
           <include name="beforeTest"/>
+          <include name="cssTest"/>
         </methods>
-      </class> <!-- tests.DynamicLoadingTest -->
+      </class> <!-- tests.CssTest -->
     </classes>
-  </test> <!-- Dynamic loading test(failed) -->
+  </test> <!-- CSS test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
