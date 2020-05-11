@@ -837,3 +837,46 @@
 12:27:07.466 [main] INFO  Dynamic loading test - 2. Welcome page has Available Examples title
 12:27:07.466 [main] INFO  Dynamic loading test - 3. Click DropDown link
 12:27:13.019 [main] INFO  Dynamic loading test - 7. Close Driver
+18:05:51.118 [main] INFO  Login test - 0. Driver initialisation. Open browser
+18:05:53.663 [main] INFO  Login test - Strated with driver onchrome
+18:05:56.342 [main] INFO  Login test - 1. Open welcome Page
+18:05:56.372 [main] INFO  Login test - 2. Welcome page has Available Examples title
+18:05:56.374 [main] INFO  Login test - 3. Click on Form Authentication link
+18:05:57.684 [main] INFO  Login test - 4. Check title on Login page
+18:05:57.684 [main] INFO  Login test - 5. Enter valid username/password
+18:05:58.410 [main] INFO  Login test - 6. Check title on Secure Area page
+18:05:58.437 [main] INFO  Login test - 7. Check message on Secure Area page
+18:05:58.441 [main] INFO  Login test - 8. Close browser
+18:07:06.044 [main] INFO  Login test - 0. Driver initialisation. Open browser
+18:07:07.707 [main] INFO  Login test - Strated with driver onchrome
+18:07:09.318 [main] INFO  Login test - 1. Open welcome Page
+18:07:09.350 [main] INFO  Login test - 2. Welcome page has Available Examples title
+18:07:09.351 [main] INFO  Login test - 3. Click on Form Authentication link
+18:07:09.973 [main] INFO  Login test - 4. Check title on Login page
+18:07:09.974 [main] INFO  Login test - 5. Enter valid username/password
+18:07:10.670 [main] INFO  Login test - 6. Check title on Secure Area page
+18:07:10.696 [main] INFO  Login test - 7. Check message on Secure Area page
+18:07:10.700 [main] INFO  Login test - 8. Close browser
+18:09:09.649 [main] INFO  Login test - 0. Driver initialisation. Open browser
+18:09:11.432 [main] INFO  Login test - Strated with driver onchrome
+18:09:13.058 [main] INFO  Login test - 1. Open welcome Page
+18:09:13.103 [main] INFO  Login test - 2. Welcome page has Available Examples title
+18:09:13.105 [main] INFO  Login test - 3. Click on Form Authentication link
+18:09:13.841 [main] INFO  Login test - 4. Check title on Login page
+18:09:13.841 [main] INFO  Login test - 5. Enter valid username/password
+18:09:14.543 [main] INFO  Login test - 6. Check title on Secure Area page
+18:09:14.569 [main] INFO  Login test - 7. Check message on Secure Area page
+18:09:14.571 [main] INFO  Login test - 8. Close browser
+18:10:39.555 [main] INFO  Login test - 0. Driver initialisation. Open browser
+18:10:41.201 [main] INFO  Login test - Strated with driver onchrome
+18:10:42.779 [main] INFO  Login test - 1. Open welcome Page
+18:10:42.815 [main] INFO  Login test - 2. Welcome page has Available Examples title
+18:10:42.817 [main] INFO  Login test - 3. Click on Form Authentication link
+18:10:44.289 [main] INFO  Login test - 4. Check title on Login page
+18:10:44.290 [main] INFO  Login test - 5. Enter valid username/password
+18:10:44.975 [main] INFO  Login test - 6. Check title on Secure Area page
+18:10:45.000 [main] INFO  Login test - 7. Check message on Secure Area page
+18:10:45.003 [main] INFO  Login test - 8. Close browser
+18:43:41.259 [main] INFO  Shop test - Strated with driver onchrome
+18:44:11.503 [main] INFO  Shop test - Strated with driver onchrome
+18:44:43.047 [main] INFO  Shop test - Strated with driver onchrome
