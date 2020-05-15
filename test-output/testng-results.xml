@@ -1,13 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[0. Driver initialisation. Open browser<p>]]>
+    </line>
+    <line>
+      <![CDATA[1. Open welcome Page<p>]]>
+    </line>
+    <line>
+      <![CDATA[2. Welcome page has Available Examples title<p>]]>
+    </line>
+    <line>
+      <![CDATA[3. Click on Form Authentication link<p>]]>
+    </line>
+    <line>
+      <![CDATA[4. Check title on Login page<p>]]>
+    </line>
+    <line>
+      <![CDATA[5. Enter valid username/password<p>]]>
+    </line>
+    <line>
+      <![CDATA[6. Check title on Secure Area page<p>]]>
+    </line>
+    <line>
+      <![CDATA[7. Check message on Secure Area page<p>]]>
+    </line>
+    <line>
+      <![CDATA[8. Take screenshot<p>]]>
+    </line>
+    <line>
+      <![CDATA[9. Close browser<p>]]>
+    </line>
+    <line>
+      <![CDATA[0. Driver initialisation. Open browser<p>]]>
+    </line>
+    <line>
+      <![CDATA[1. Open welcome Page<p>]]>
+    </line>
+    <line>
+      <![CDATA[2. Welcome page has Available Examples title<p>]]>
+    </line>
+    <line>
+      <![CDATA[3. Click on Form Authentication link<p>]]>
+    </line>
+    <line>
+      <![CDATA[4. Check title on Login page<p>]]>
+    </line>
+    <line>
+      <![CDATA[5. Enter invalid username/password:wrongUser/SuperSecretPassword!<p>]]>
+    </line>
+    <line>
+      <![CDATA[6. Check 'Your username is invalid!' error message on Login Page<p>]]>
+    </line>
+    <line>
+      <![CDATA[9. Close browser<p>]]>
+    </line>
+    <line>
+      <![CDATA[0. Driver initialisation. Open browser<p>]]>
+    </line>
+    <line>
+      <![CDATA[1. Open welcome Page<p>]]>
+    </line>
+    <line>
+      <![CDATA[2. Welcome page has Available Examples title<p>]]>
+    </line>
+    <line>
+      <![CDATA[3. Click on Form Authentication link<p>]]>
+    </line>
+    <line>
+      <![CDATA[4. Check title on Login page<p>]]>
+    </line>
+    <line>
+      <![CDATA[5. Enter invalid username/password:tomsmith/wrongPassword<p>]]>
+    </line>
+    <line>
+      <![CDATA[6. Check 'Your password is invalid!' error message on Login Page<p>]]>
+    </line>
+    <line>
+      <![CDATA[9. Close browser<p>]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="22759" started-at="2020-05-15T14:49:16Z" finished-at="2020-05-15T14:49:39Z">
+  <suite name="Suite" duration-ms="13043" started-at="2020-05-15T16:40:10Z" finished-at="2020-05-15T16:40:23Z">
     <groups>
     </groups>
-    <test name="Login with correct creds" duration-ms="14230" started-at="2020-05-15T14:49:16Z" finished-at="2020-05-15T14:49:31Z">
+    <test name="Login with correct creds" duration-ms="5421" started-at="2020-05-15T16:40:10Z" finished-at="2020-05-15T16:40:16Z">
       <class name="tests.LoginTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@5e5792a0]" name="beforeTest" is-config="true" duration-ms="8467" started-at="2020-05-15T17:49:16Z" finished-at="2020-05-15T17:49:25Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@5e5792a0]" name="beforeTest" is-config="true" duration-ms="2062" started-at="2020-05-15T19:40:10Z" finished-at="2020-05-15T19:40:12Z">
           <params>
             <param index="0">
               <value>
@@ -16,26 +94,56 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[grid]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[0. Driver initialisation. Open browser<p>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:tests.LoginTest@5e5792a0]" name="loginTest" duration-ms="5580" started-at="2020-05-15T17:49:25Z" finished-at="2020-05-15T17:49:30Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:tests.LoginTest@5e5792a0]" name="loginTest" duration-ms="3214" started-at="2020-05-15T19:40:12Z" finished-at="2020-05-15T19:40:16Z">
           <reporter-output>
+            <line>
+              <![CDATA[1. Open welcome Page<p>]]>
+            </line>
+            <line>
+              <![CDATA[2. Welcome page has Available Examples title<p>]]>
+            </line>
+            <line>
+              <![CDATA[3. Click on Form Authentication link<p>]]>
+            </line>
+            <line>
+              <![CDATA[4. Check title on Login page<p>]]>
+            </line>
+            <line>
+              <![CDATA[5. Enter valid username/password<p>]]>
+            </line>
+            <line>
+              <![CDATA[6. Check title on Secure Area page<p>]]>
+            </line>
+            <line>
+              <![CDATA[7. Check message on Secure Area page<p>]]>
+            </line>
+            <line>
+              <![CDATA[8. Take screenshot<p>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@5e5792a0]" name="closeBrowser" is-config="true" duration-ms="168" started-at="2020-05-15T17:49:30Z" finished-at="2020-05-15T17:49:31Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@5e5792a0]" name="closeBrowser" is-config="true" duration-ms="129" started-at="2020-05-15T19:40:16Z" finished-at="2020-05-15T19:40:16Z">
           <reporter-output>
+            <line>
+              <![CDATA[9. Close browser<p>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- tests.LoginTest -->
     </test> <!-- Login with correct creds -->
-    <test name="Login with wrong user" duration-ms="4138" started-at="2020-05-15T14:49:31Z" finished-at="2020-05-15T14:49:35Z">
+    <test name="Login with wrong user" duration-ms="3737" started-at="2020-05-15T16:40:16Z" finished-at="2020-05-15T16:40:19Z">
       <class name="tests.LoginTest_wrongCreds">
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest_wrongCreds@146ba0ac]" name="beforeTest" is-config="true" duration-ms="1161" started-at="2020-05-15T17:49:31Z" finished-at="2020-05-15T17:49:32Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest_wrongCreds@146ba0ac]" name="beforeTest" is-config="true" duration-ms="1004" started-at="2020-05-15T19:40:16Z" finished-at="2020-05-15T19:40:17Z">
           <params>
             <param index="0">
               <value>
@@ -44,14 +152,17 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[grid]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[0. Driver initialisation. Open browser<p>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginWithWrongCreds(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest_wrongCreds@146ba0ac]" name="loginWithWrongCreds" duration-ms="2844" started-at="2020-05-15T17:49:32Z" finished-at="2020-05-15T17:49:35Z">
+        <test-method status="PASS" signature="loginWithWrongCreds(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest_wrongCreds@146ba0ac]" name="loginWithWrongCreds" duration-ms="2653" started-at="2020-05-15T19:40:17Z" finished-at="2020-05-15T19:40:19Z">
           <params>
             <param index="0">
               <value>
@@ -70,17 +181,38 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[1. Open welcome Page<p>]]>
+            </line>
+            <line>
+              <![CDATA[2. Welcome page has Available Examples title<p>]]>
+            </line>
+            <line>
+              <![CDATA[3. Click on Form Authentication link<p>]]>
+            </line>
+            <line>
+              <![CDATA[4. Check title on Login page<p>]]>
+            </line>
+            <line>
+              <![CDATA[5. Enter invalid username/password:wrongUser/SuperSecretPassword!<p>]]>
+            </line>
+            <line>
+              <![CDATA[6. Check 'Your username is invalid!' error message on Login Page<p>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- loginWithWrongCreds -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest_wrongCreds@146ba0ac]" name="closeBrowser" is-config="true" duration-ms="129" started-at="2020-05-15T17:49:35Z" finished-at="2020-05-15T17:49:35Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest_wrongCreds@146ba0ac]" name="closeBrowser" is-config="true" duration-ms="79" started-at="2020-05-15T19:40:19Z" finished-at="2020-05-15T19:40:19Z">
           <reporter-output>
+            <line>
+              <![CDATA[9. Close browser<p>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- tests.LoginTest_wrongCreds -->
     </test> <!-- Login with wrong user -->
-    <test name="Login with wrong password" duration-ms="4348" started-at="2020-05-15T14:49:35Z" finished-at="2020-05-15T14:49:39Z">
+    <test name="Login with wrong password" duration-ms="3862" started-at="2020-05-15T16:40:19Z" finished-at="2020-05-15T16:40:23Z">
       <class name="tests.LoginTest_wrongCreds">
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest_wrongCreds@3abbfa04]" name="beforeTest" is-config="true" duration-ms="1046" started-at="2020-05-15T17:49:35Z" finished-at="2020-05-15T17:49:36Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest_wrongCreds@3abbfa04]" name="beforeTest" is-config="true" duration-ms="968" started-at="2020-05-15T19:40:19Z" finished-at="2020-05-15T19:40:20Z">
           <params>
             <param index="0">
               <value>
@@ -89,14 +221,17 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[grid]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[0. Driver initialisation. Open browser<p>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginWithWrongCreds(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest_wrongCreds@3abbfa04]" name="loginWithWrongCreds" duration-ms="3166" started-at="2020-05-15T17:49:36Z" finished-at="2020-05-15T17:49:39Z">
+        <test-method status="PASS" signature="loginWithWrongCreds(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest_wrongCreds@3abbfa04]" name="loginWithWrongCreds" duration-ms="2764" started-at="2020-05-15T19:40:20Z" finished-at="2020-05-15T19:40:23Z">
           <params>
             <param index="0">
               <value>
@@ -115,10 +250,31 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[1. Open welcome Page<p>]]>
+            </line>
+            <line>
+              <![CDATA[2. Welcome page has Available Examples title<p>]]>
+            </line>
+            <line>
+              <![CDATA[3. Click on Form Authentication link<p>]]>
+            </line>
+            <line>
+              <![CDATA[4. Check title on Login page<p>]]>
+            </line>
+            <line>
+              <![CDATA[5. Enter invalid username/password:tomsmith/wrongPassword<p>]]>
+            </line>
+            <line>
+              <![CDATA[6. Check 'Your password is invalid!' error message on Login Page<p>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- loginWithWrongCreds -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest_wrongCreds@3abbfa04]" name="closeBrowser" is-config="true" duration-ms="132" started-at="2020-05-15T17:49:39Z" finished-at="2020-05-15T17:49:39Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest_wrongCreds@3abbfa04]" name="closeBrowser" is-config="true" duration-ms="127" started-at="2020-05-15T19:40:23Z" finished-at="2020-05-15T19:40:23Z">
           <reporter-output>
+            <line>
+              <![CDATA[9. Close browser<p>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- tests.LoginTest_wrongCreds -->
