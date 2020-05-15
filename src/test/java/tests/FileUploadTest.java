@@ -9,6 +9,8 @@ import newtest.TestBase;
 import pageObjects.FileUploadPage;
 import pageObjects.WelcomePage;
 
+import java.net.MalformedURLException;
+
 import org.openqa.selenium.WebDriver;
 
 public class FileUploadTest extends TestBase{
@@ -39,12 +41,13 @@ public class FileUploadTest extends TestBase{
   }
   //TODO move beforetest and aftertest to TestBase
   @BeforeTest
-  @Parameters({"testName"})
-  public void beforeTest(String testName) {
+  @Parameters({"testName","browser"})
+  public void beforeTest(String testName, String browser) throws MalformedURLException {
 	  initLogger(testName);
-	  log.info("0. Initiate Driver");
-	  driver=chromeWebDriver();
-	 }
+	  log.info("0. Driver initialisation. Open browser");
+	  //driver=firefoxWebDriver();
+	  driver=createWebDriver(browser); 
+  }
   @AfterTest
   public void closeBrowser(){
 	 log.info("7. Close Driver");

@@ -1,5 +1,6 @@
 package tests;
 
+import java.net.MalformedURLException;
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
@@ -45,13 +46,13 @@ public class jsErrorTest extends TestBase{
 	  softAssert.assertAll();
   }
   @BeforeTest
-  @Parameters({"testName"})
-  public void beforeTest(String testName) {
+  @Parameters({"testName","browser"})
+  public void beforeTest(String testName, String browser) throws MalformedURLException {
 	  initLogger(testName);
-	  log.info("0. Initiate Driver");
-	  softAssert=new SoftAssert();
-	  driver=chromeWebDriver();
-	 }
+	  log.info("0. Driver initialisation. Open browser");
+	  //driver=firefoxWebDriver();
+	  driver=createWebDriver(browser); 
+  }
   @AfterTest
   public void closeBrowser(){
 	 log.info("7. Close Driver");

@@ -30,72 +30,84 @@
   </test> <!-- Test -->
    <test name="Verify checkboxes">
   <parameter name="testName" value="Verify checkboxes" />
+  <parameter name="browser" value="chrome" />
     <classes>
       <class name="tests.CheckCheckbox"/>
     </classes>
   </test> <!-- Test -->
    <test name="Check dropdown">
   <parameter name="testName" value="Check dropdown" />
+  <parameter name="browser" value="chrome" />
     <classes>
       <class name="tests.DropDownTest"/>
     </classes>
   </test> <!-- Test -->
    <test name="Verify File Upload">
   <parameter name="testName" value="Verify File Upload" />
+  <parameter name="browser" value="chrome" />
     <classes>
       <class name="tests.FileUploadTest"/>
     </classes>
   </test> <!-- Test -->
   <test name="Verify Alerts">
   <parameter name="testName" value="Verify Alerts" />
+  <parameter name="browser" value="chrome" />
     <classes>
       <class name="tests.AlertsTest"/>
     </classes>
   </test> <!-- Test -->
   <test name="Verify Multiple Windows">
   <parameter name="testName" value="Verify Multiple Windows" />
+  <parameter name="browser" value="chrome" />
     <classes>
       <class name="tests.WindowsTest"/>
     </classes>
   </test> <!-- Test -->
   <test name="Verify scroll">
   <parameter name="testName" value="Verify scroll" />
+  <parameter name="browser" value="chrome" />
     <classes>
       <class name="tests.ScrollTest"/>
     </classes>
   </test> <!-- Test -->
   <test name="Drag and Drop Test">
   <parameter name="testName" value="Drag and Drop Test" />
+  <parameter name="browser" value="chrome" />
     <classes>
       <class name="tests.DragAndDropTest"/>
     </classes>
   </test> <!-- Test -->
   <test name="Hover Test">
   <parameter name="testName" value="Hover Test" />
+  <parameter name="browser" value="chrome" />
     <classes>
       <class name="tests.HoverTest"/>
     </classes>
   </test> <!-- Test -->
   <test name="Test slider">
   <parameter name="testName" value="Test slider" />
+  <parameter name="browser" value="chrome" />
     <classes>
       <class name="tests.SliderTest"/>
     </classes>
   </test> <!-- Test -->
   <test name="Test frame">
   <parameter name="testName" value="Test frame" />
+  <parameter name="browser" value="chrome" />
     <classes>
       <class name="tests.FrameTest"/>
     </classes>
   </test> <!-- Test -->
   <test name="Take screenshot">
   <parameter name="testName" value="Take screenshot" />
+  <parameter name="browser" value="chrome" />
     <classes>
       <class name="tests.ScreenShotTest"/>
     </classes>
   </test> <!-- Test -->
   <test name="Check logs">
   <parameter name="testName" value="Check logs" />
+  <parameter name="browser" value="chrome" />
     <classes>
       <class name="tests.jsErrorTest"/>
     </classes>

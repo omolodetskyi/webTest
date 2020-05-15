@@ -8,6 +8,10 @@ import newtest.TestBase;
 import pageObjects.LoginPage;
 import pageObjects.SecureAreaPage;
 import pageObjects.WelcomePage;
+import utils.Helpers;
+
+import java.io.IOException;
+import java.net.MalformedURLException;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -21,7 +25,7 @@ public class LoginTest extends TestBase{
 	LoginPage loginPage;
 	SecureAreaPage secureAreaPage;
   @Test
-  public void loginTest() {
+  public void loginTest() throws IOException {
 	  welcomePage=new WelcomePage(driver);
 	  welcomePage.openPage();
 	  log.info("1. Open welcome Page");
@@ -45,15 +49,15 @@ public class LoginTest extends TestBase{
 	  String expectedSecureAreaPageMsg="You logged into a secure area!";
 	  log.info("7. Check message on Secure Area page");
 	  Assert.assertEquals(actualSecureAreaPageMsg.contains(expectedSecureAreaPageMsg),true);
+	  Helpers.takeScreenshot(driver, "logintestEdge.jpg");
   }
   @BeforeTest
   @Parameters({"testName","browser"})
-  public void beforeTest(String testName, String browser) {
+  public void beforeTest(String testName, String browser) throws MalformedURLException {
 	  initLogger(testName);
 	  log.info("0. Driver initialisation. Open browser");
 	  //driver=firefoxWebDriver();
-	  driver=createWebDriver(browser);
-	  
+	  driver=createWebDriver(browser); 
   }
   @AfterTest
   public void closeBrowser(){

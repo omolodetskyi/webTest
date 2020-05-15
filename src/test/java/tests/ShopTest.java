@@ -1,5 +1,7 @@
 package tests;
 
+import java.net.MalformedURLException;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
@@ -26,7 +28,7 @@ public class ShopTest extends TestBase{
   }
   @BeforeTest
   @Parameters({"testName","browser"})
-  public void beforeTest(String testName, String browser) {
+  public void beforeTest(String testName, String browser) throws MalformedURLException {
 	  initLogger(testName);
 	  driver=createWebDriver(browser);
 	  shopPage=new ShopPage(driver);

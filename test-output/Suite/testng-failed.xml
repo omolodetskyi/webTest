@@ -1,16 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Shop test(failed)">
-    <parameter name="browser" value="chrome"/>
-    <parameter name="testName" value="Shop test"/>
+  <test name="Login with correct creds(failed)">
+    <parameter name="browser" value="grid"/>
+    <parameter name="testName" value="Login with valid username/password"/>
     <classes>
-      <class name="tests.ShopTest">
+      <class name="tests.LoginTest">
         <methods>
+          <include name="closeBrowser"/>
           <include name="beforeTest"/>
-          <include name="shopTest"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- tests.ShopTest -->
+      </class> <!-- tests.LoginTest -->
     </classes>
-  </test> <!-- Shop test(failed) -->
+  </test> <!-- Login with correct creds(failed) -->
+  <test name="Login with wrong user(failed)">
+    <parameter name="password" value="SuperSecretPassword!"/>
+    <parameter name="browser" value="grid"/>
+    <parameter name="errorMessage" value="Your username is invalid!"/>
+    <parameter name="userName" value="wrongUser"/>
+    <parameter name="testName" value="Login with wrong user"/>
+    <classes>
+      <class name="tests.LoginTest_wrongCreds">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="loginWithWrongCreds"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- tests.LoginTest_wrongCreds -->
+    </classes>
+  </test> <!-- Login with wrong user(failed) -->
+  <test name="Login with wrong password(failed)">
+    <parameter name="password" value="wrongPassword"/>
+    <parameter name="browser" value="grid"/>
+    <parameter name="errorMessage" value="Your password is invalid!"/>
+    <parameter name="userName" value="tomsmith"/>
+    <parameter name="testName" value="Login with wrong password"/>
+    <classes>
+      <class name="tests.LoginTest_wrongCreds">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="loginWithWrongCreds"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- tests.LoginTest_wrongCreds -->
+    </classes>
+  </test> <!-- Login with wrong password(failed) -->
 </suite> <!-- Failed suite [Suite] -->

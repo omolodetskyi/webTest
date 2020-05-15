@@ -1,5 +1,7 @@
 package tests;
 
+import java.net.MalformedURLException;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -32,12 +34,13 @@ public class FrameTest  extends TestBase{
 	  Assert.assertEquals(actualPlaceHolder, expectedPlaceHolder);
   }
   @BeforeTest
-  @Parameters({"testName"})
-  public void beforeTest(String testName) {
+  @Parameters({"testName","browser"})
+  public void beforeTest(String testName, String browser) throws MalformedURLException {
 	  initLogger(testName);
-	  log.info("0. Initiate Driver");
-	  driver=chromeWebDriver();
-	 }
+	  log.info("0. Driver initialisation. Open browser");
+	  //driver=firefoxWebDriver();
+	  driver=createWebDriver(browser); 
+  }
   @AfterTest
   public void closeBrowser(){
 	 log.info("7. Close Driver");
