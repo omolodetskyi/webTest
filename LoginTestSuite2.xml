@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  parallel="none">
+<listeners>
+       <listener class-name="utils.Listeners"/>
+  </listeners>
+  <test name="Login with correct creds">
+  <parameter name="testName" value="Login with valid username/password" />
+  <parameter name="browser" value="grid" />
+    <classes>
+      <class name="tests.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

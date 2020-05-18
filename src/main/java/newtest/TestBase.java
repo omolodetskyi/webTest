@@ -13,6 +13,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.model.Test;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -21,8 +26,11 @@ public class TestBase {
 	public static final String USERNAME = "someName"; //should be replaced with correct name
 	public static final String AUTOMATE_KEY = "someKey"; //should be replaced with correct key
 	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
-	public static final String nodeURL="http://192.168.1.58:5556/wd/hub";
+	public static final String nodeURL="http://192.168.1.57:5555/wd/hub";
 	WebDriver driver;
+	
+	
+	
 	public WebDriver createWebDriver(String browser) throws MalformedURLException{
 		switch (browser){
 		case "chrome":
@@ -47,8 +55,6 @@ public class TestBase {
 	private WebDriver chromeWebDriver(){
 		System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
 		ChromeOptions options=new ChromeOptions();
-	   // options.setProxy(null);
-		//options.setPageLoadStrategy(PageLoadStrategy.NONE);
 		options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 		WebDriver driver=new ChromeDriver(options);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -75,7 +81,7 @@ public class TestBase {
 	private WebDriver grid() throws MalformedURLException{
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setCapability("browserName", "chrome");
-		caps.setCapability("platformName","mac");
+		caps.setCapability("platformName","windows");
 		WebDriver driver=new RemoteWebDriver(new URL(nodeURL), caps);
 		return driver;
 	}
@@ -85,5 +91,6 @@ public class TestBase {
    public void initLogger(String testName){
 	   log=LogManager.getLogger(testName);
    }
-   
+  
+  
 }

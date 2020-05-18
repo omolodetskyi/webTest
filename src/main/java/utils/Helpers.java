@@ -13,11 +13,12 @@ import org.openqa.selenium.logging.LogEntry;
 import org.openqa.selenium.logging.LogType;
 public class Helpers {
 
-		public static void takeScreenshot(WebDriver driver, String fileName) throws IOException{
+		public static String takeScreenshot(WebDriver driver, String fileName) throws IOException{
 			TakesScreenshot ts=(TakesScreenshot) driver;
 			String filePath="./screenshots/"+fileName+".png";
 			File screenshot=ts.getScreenshotAs(OutputType.FILE);
 			FileUtils.copyFile(screenshot, new File(filePath));
+			return filePath;
 		}
 		public static List <LogEntry> getBrowserLogs(WebDriver driver){
 			LogEntries logs=driver.manage().logs().get(LogType.BROWSER);
