@@ -21,7 +21,7 @@ public class TestBase {
 	public static final String USERNAME = "someName"; //should be replaced with correct name
 	public static final String AUTOMATE_KEY = "someKey"; //should be replaced with correct key
 	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
-	public static final String nodeURL="http://192.168.1.58:5556/wd/hub";
+	public static final String nodeURL="http://192.168.1.57:5555/wd/hub";
 	WebDriver driver;
 	public WebDriver createWebDriver(String browser) throws MalformedURLException{
 		switch (browser){
@@ -75,7 +75,7 @@ public class TestBase {
 	private WebDriver grid() throws MalformedURLException{
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setCapability("browserName", "chrome");
-		caps.setCapability("platformName","mac");
+		caps.setCapability("platformName","windows");
 		WebDriver driver=new RemoteWebDriver(new URL(nodeURL), caps);
 		return driver;
 	}
