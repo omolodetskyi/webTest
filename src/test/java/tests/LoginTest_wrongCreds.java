@@ -13,6 +13,7 @@ import pageObjects.LoginPage;
 import pageObjects.SecureAreaPage;
 import pageObjects.WelcomePage;
 import utils.extentReports.ExtentReportsManager;
+import utils.extentReports.ExtentTestManager;
 
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
@@ -72,10 +73,10 @@ public class LoginTest_wrongCreds extends TestBase{
 	  initLogger(testName);
 	  log.info("0. Driver initialisation. Open browser");
 	  Reporter.log("0. Driver initialisation. Open browser<p/>");
-	  
-	  //driver=firefoxWebDriver();
 	  extent=ExtentReportsManager.getInstance();
-      test = extent.createTest(testName, "Testing login page with invalid username or password");
+	  test=ExtentTestManager.startTest(testName, "Login test with valid username/password");
+	  //driver=firefoxWebDriver();
+      //test = extent.createTest(testName, "Testing login page with invalid username or password");
       test.log(Status.INFO, "0. Driver initialisation. Open browser");
 	  driver=createWebDriver(browser); 
   }
@@ -85,7 +86,6 @@ public class LoginTest_wrongCreds extends TestBase{
 	 Reporter.log("7. Close browser<p/>");
 	cleanUp(driver); 
 	test.log(Status.INFO, "7. Close browser");
-	extent.flush();
   }
 
 }

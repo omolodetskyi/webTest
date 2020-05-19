@@ -8,6 +8,13 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 
+import com.aventstack.extentreports.MediaEntityBuilder;
+import com.aventstack.extentreports.MediaEntityModelProvider;
+import com.aventstack.extentreports.Status;
+
+import utils.extentReports.ExtentReportsManager;
+import utils.extentReports.ExtentTestManager;
+
 public class Listener implements ITestListener {
 
 	@Override
@@ -18,16 +25,18 @@ public class Listener implements ITestListener {
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		// TODO Auto-generated method stub
+		ExtentTestManager.getTest().pass("Test passed");
 		
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
 		WebDriver driver=(WebDriver)result.getTestContext().getAttribute("driver");
+		
 		try {
 			String imgPath=Helpers.takeScreenshot(driver, result.getName());
 			Reporter.log("<b>Test Failed!</b> See screenshot<p/><img src='."+imgPath+"'>");
+			ExtentTestManager.getTest().log(Status.FAIL, "Test Failed",MediaEntityBuilder.createScreenCaptureFromPath("."+imgPath).build());
 			
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -37,7 +46,7 @@ public class Listener implements ITestListener {
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
+		ExtentTestManager.getTest().skip("Step skipped");
 		
 	}
 
@@ -55,8 +64,7 @@ public class Listener implements ITestListener {
 
 	@Override
 	public void onFinish(ITestContext context) {
-		// TODO Auto-generated method stub
-		
+		ExtentReportsManager.getInstance().flush();
 	}
 
 }

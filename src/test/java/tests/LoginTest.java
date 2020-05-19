@@ -27,6 +27,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import utils.extentReports.ExtentReportsManager;
+import utils.extentReports.ExtentTestManager;
 
 public class LoginTest extends TestBase{
 	WebDriver driver;
@@ -66,7 +67,7 @@ public class LoginTest extends TestBase{
 	  log.info("6. Check title on Secure Area page");
 	  Reporter.log("6. Check title on Secure Area page<p/>");
 	  test.log(Status.INFO, "6. Check title on Secure Area page");
-	  String expectedSecureAreaPageTitle="Secure Area";
+	  String expectedSecureAreaPageTitle="Secure Area2";
 	  Assert.assertEquals(actualSecureAreaPageTitle, expectedSecureAreaPageTitle);
 	  String actualSecureAreaPageMsg=secureAreaPage.getMessage();
 	  String expectedSecureAreaPageMsg="You logged into a secure area!";
@@ -82,7 +83,8 @@ public class LoginTest extends TestBase{
 	  log.info("0. Driver initialisation. Open browser");
 	  Reporter.log("0. Driver initialisation. Open browser<p/>");
 	  extent=ExtentReportsManager.getInstance();
-      test = extent.createTest(testName, "Testing login page with happy path(valid name/password)");
+	  test=ExtentTestManager.startTest(testName, "Login test with valid username/password");
+      //test = extent.createTest(testName, "Testing login page with happy path(valid name/password)");
 	  //driver=firefoxWebDriver();
 	  driver=createWebDriver(browser); 
 	  test.log(Status.INFO, "0. Driver initialisation. Open browser");
@@ -93,7 +95,6 @@ public class LoginTest extends TestBase{
 	log.info("8. Close browser");  
 	Reporter.log("8. Close browser<p/>");
 	test.log(Status.INFO, "8. Close browser");
-    extent.flush();
 	cleanUp(driver);  
   }
 
