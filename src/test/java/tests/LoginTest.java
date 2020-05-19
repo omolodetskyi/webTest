@@ -26,6 +26,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
+import utils.extentReports.ExtentReportsManager;
 
 public class LoginTest extends TestBase{
 	WebDriver driver;
@@ -80,13 +81,8 @@ public class LoginTest extends TestBase{
 	  initLogger(testName);
 	  log.info("0. Driver initialisation. Open browser");
 	  Reporter.log("0. Driver initialisation. Open browser<p/>");
-	  
-	  // start reporters
-      ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extentreports/report.html");
-   // create ExtentReports and attach reporter(s)
-      extent = new ExtentReports();
-      extent.attachReporter(htmlReporter);
-      test = extent.createTest(testName, "Testing login page with happy path");
+	  extent=ExtentReportsManager.getInstance();
+      test = extent.createTest(testName, "Testing login page with happy path(valid name/password)");
 	  //driver=firefoxWebDriver();
 	  driver=createWebDriver(browser); 
 	  test.log(Status.INFO, "0. Driver initialisation. Open browser");

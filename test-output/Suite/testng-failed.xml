@@ -4,17 +4,36 @@
   <listeners>
     <listener class-name="utils.Listener"/>
   </listeners>
-  <test name="Login with correct creds(failed)">
+  <test name="Login with wrong user(failed)">
+    <parameter name="password" value="SuperSecretPassword!"/>
     <parameter name="browser" value="chrome"/>
-    <parameter name="testName" value="Login with valid username/password"/>
+    <parameter name="errorMessage" value="Your username is invalid!"/>
+    <parameter name="userName" value="wrongUser"/>
+    <parameter name="testName" value="Login with wrong user"/>
     <classes>
-      <class name="tests.LoginTest">
+      <class name="tests.LoginTest_wrongCreds">
         <methods>
           <include name="closeBrowser"/>
+          <include name="loginWithWrongCreds"/>
           <include name="beforeTest"/>
-          <include name="loginTest"/>
         </methods>
-      </class> <!-- tests.LoginTest -->
+      </class> <!-- tests.LoginTest_wrongCreds -->
     </classes>
-  </test> <!-- Login with correct creds(failed) -->
+  </test> <!-- Login with wrong user(failed) -->
+  <test name="Login with wrong password(failed)">
+    <parameter name="password" value="wrongPassword"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="errorMessage" value="Your password is invalid!"/>
+    <parameter name="userName" value="tomsmith"/>
+    <parameter name="testName" value="Login with wrong password"/>
+    <classes>
+      <class name="tests.LoginTest_wrongCreds">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="loginWithWrongCreds"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- tests.LoginTest_wrongCreds -->
+    </classes>
+  </test> <!-- Login with wrong password(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>LoginTestSuite2.xml</span>
+                    <span>LoginTestSuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,16 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.LoginTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.LoginTest_wrongCreds" hash-for-method="loginWithWrongCreds(wrongUser, SuperSecretPassword!, Your username is invalid!)">loginWithWrongCreds(wrongUser, SuperSecretPassword!, Your username is invalid!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.LoginTest_wrongCreds" hash-for-method="loginWithWrongCreds(tomsmith, wrongPassword, Your password is invalid!)">loginWithWrongCreds(tomsmith, wrongPassword, Your password is invalid!)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -132,10 +142,34 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTest_wrongCreds</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithWrongCreds(wrongUser, SuperSecretPassword!, Your username is invalid!)">
+                  </a> <!-- loginWithWrongCreds(wrongUser, SuperSecretPassword!, Your username is invalid!) -->
+                  <span class="method-name">loginWithWrongCreds</span>
+                  <span class="parameters">(wrongUser, SuperSecretPassword!, Your username is invalid!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithWrongCreds(tomsmith, wrongPassword, Your password is invalid!)">
+                  </a> <!-- loginWithWrongCreds(tomsmith, wrongPassword, Your password is invalid!) -->
+                  <span class="method-name">loginWithWrongCreds</span>
+                  <span class="parameters">(tomsmith, wrongPassword, Your password is invalid!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/alexander/Documents/workspace2/newtest/LoginTestSuite2.xml</span>
+            <span class="header-content">/Users/alexander/Documents/workspace2/newtest/LoginTestSuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -152,6 +186,26 @@
       &lt;class name=&quot;tests.LoginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Login with correct creds --&gt;
+  &lt;test name=&quot;Login with wrong user&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;SuperSecretPassword!&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;errorMessage&quot; value=&quot;Your username is invalid!&quot;/&gt;
+    &lt;parameter name=&quot;userName&quot; value=&quot;wrongUser&quot;/&gt;
+    &lt;parameter name=&quot;testName&quot; value=&quot;Login with wrong user&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LoginTest_wrongCreds&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login with wrong user --&gt;
+  &lt;test name=&quot;Login with wrong password&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;wrongPassword&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;errorMessage&quot; value=&quot;Your password is invalid!&quot;/&gt;
+    &lt;parameter name=&quot;userName&quot; value=&quot;tomsmith&quot;/&gt;
+    &lt;parameter name=&quot;testName&quot; value=&quot;Login with wrong password&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LoginTest_wrongCreds&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login with wrong password --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -164,6 +218,12 @@
             <ul>
               <li>
                 <span class="test-name">Login with correct creds (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login with wrong user (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login with wrong password (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -189,16 +249,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginTest')
-data.setCell(0, 2, 'tests.LoginTest')
-data.setCell(0, 3, 2662);
+data.setCell(0, 1, 'loginWithWrongCreds')
+data.setCell(0, 2, 'tests.LoginTest_wrongCreds')
+data.setCell(0, 3, 11753);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginTest')
+data.setCell(1, 2, 'tests.LoginTest')
+data.setCell(1, 3, 5886);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginWithWrongCreds')
+data.setCell(2, 2, 'tests.LoginTest_wrongCreds')
+data.setCell(2, 3, 4356);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -221,6 +289,28 @@ return data;
                 <span class="reporter-method-output">7. Check message on Secure Area page<p/></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginWithWrongCreds(wrongUser, SuperSecretPassword!, Your username is invalid!)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">1. Open welcome Page<p/></span>
+                <span class="reporter-method-output">2. Welcome page has Available Examples title<p/></span>
+                <span class="reporter-method-output">3. Click on Form Authentication link<p/></span>
+                <span class="reporter-method-output">4. Check title on Login page<p/></span>
+                <span class="reporter-method-output">5. Enter invalid username/password<p/></span>
+                <span class="reporter-method-output">6. Check 'Your username is invalid!' error message on Login Page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginWithWrongCreds(tomsmith, wrongPassword, Your password is invalid!)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">1. Open welcome Page<p/></span>
+                <span class="reporter-method-output">2. Welcome page has Available Examples title<p/></span>
+                <span class="reporter-method-output">3. Click on Form Authentication link<p/></span>
+                <span class="reporter-method-output">4. Check title on Login page<p/></span>
+                <span class="reporter-method-output">5. Enter invalid username/password<p/></span>
+                <span class="reporter-method-output">6. Check 'Your password is invalid!' error message on Login Page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -238,16 +328,43 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(Login with valid username/password, chrome, org.testng.TestRunner@18e7143f)</span>
+                <span class="method-name">beforeTest(Login with valid username/password, chrome, org.testng.TestRunner@6134ac4a)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">2932 ms</span>
+                <span class="method-start">2247 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">5597 ms</span>
+                <span class="method-start">8135 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest_wrongCreds</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(Login with wrong user, chrome)</span>
+                <span class="method-start">8469 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginWithWrongCreds(wrongUser, SuperSecretPassword!, Your username is invalid!)</span>
+                <span class="method-start">9624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">21378 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(Login with wrong password, chrome)</span>
+                <span class="method-start">21497 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginWithWrongCreds(tomsmith, wrongPassword, Your password is invalid!)</span>
+                <span class="method-start">22557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">26914 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
