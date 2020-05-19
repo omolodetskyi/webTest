@@ -45,7 +45,7 @@ public class TestBase {
 		return driver;
 	}
 	private WebDriver chromeWebDriver(){
-		System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/alexander/Documents/workspace2/chromedriver");
 		ChromeOptions options=new ChromeOptions();
 	   // options.setProxy(null);
 		//options.setPageLoadStrategy(PageLoadStrategy.NONE);

@@ -1119,3 +1119,4 @@
 17:49:38.778 [main] INFO  Login with wrong password - 5. Enter invalid username/password
 17:49:39.449 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
 17:49:39.451 [main] INFO  Login with wrong password - 7. Close Driver
+23:28:07.796 [main] INFO  Shop test - Strated with driver onchrome
