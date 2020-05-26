@@ -11,8 +11,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.logging.LogEntries;
 import org.openqa.selenium.logging.LogEntry;
 import org.openqa.selenium.logging.LogType;
-public class Helpers {
 
+import io.qameta.allure.Attachment;
+public class Helpers {
 		public static String takeScreenshot(WebDriver driver, String fileName) throws IOException{
 			TakesScreenshot ts=(TakesScreenshot) driver;
 			String filePath="./screenshots/"+fileName+".png";

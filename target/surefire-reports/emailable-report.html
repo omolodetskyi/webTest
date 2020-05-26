@@ -9,14 +9,14 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Login with correct creds</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">12,379</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Login with wrong user</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">13,574</td><td></td><td></td></tr>
-<tr><td><a href="#t2">Login with wrong password</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">9,851</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num attn">1</th><th class="num">35,804</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Login with correct creds</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">9,585</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Login with wrong user</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">8,544</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Login with wrong password</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">7,587</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num attn">1</th><th class="num">25,716</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login with correct creds &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.LoginTest</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1590505600267</td><td rowspan="1">8538</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Login with wrong user &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.LoginTest_wrongCreds</td><td><a href="#m1">loginWithWrongCreds</a></td><td rowspan="1">1590505611354</td><td rowspan="1">12016</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Login with wrong password &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.LoginTest_wrongCreds</td><td><a href="#m2">loginWithWrongCreds</a></td><td rowspan="1">1590505624627</td><td rowspan="1">8663</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login with correct creds &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.LoginTest</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1590511790853</td><td rowspan="1">5315</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Login with wrong user &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.LoginTest_wrongCreds</td><td><a href="#m1">loginWithWrongCreds</a></td><td rowspan="1">1590511798682</td><td rowspan="1">7238</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Login with wrong password &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.LoginTest_wrongCreds</td><td><a href="#m2">loginWithWrongCreds</a></td><td rowspan="1">1590511807193</td><td rowspan="1">6390</td></tr></tbody>
 </table>
 <h2>Login with correct creds</h2><h3 id="m0">tests.LoginTest#loginTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">1. Open welcome Page<p/><br/>2. Welcome page has Available Examples title<p/><br/>3. Click on Form Authentication link<p/><br/>4. Check title on Login page<p/><br/>5. Enter valid username/password<p/><br/>6. Check title on Secure Area page<p/><br/><b>Test Failed!</b> See screenshot<p/><img src='../screenshots/loginTest.png'></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Secure Area2] but found [Secure Area]
 	at tests.LoginTest.checkSecureAreaPageTitle_aroundBody10(LoginTest.java:102)

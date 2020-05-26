@@ -1,6 +1,9 @@
 package utils;
 
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
@@ -12,6 +15,7 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.MediaEntityModelProvider;
 import com.aventstack.extentreports.Status;
 
+import io.qameta.allure.Allure;
 import utils.extentReports.ExtentReportsManager;
 import utils.extentReports.ExtentTestManager;
 
@@ -37,6 +41,8 @@ public class Listener implements ITestListener {
 			String imgPath=Helpers.takeScreenshot(driver, result.getName());
 			Reporter.log("<b>Test Failed!</b> See screenshot<p/><img src='."+imgPath+"'>");
 			ExtentTestManager.getTest().log(Status.FAIL, "Test Failed",MediaEntityBuilder.createScreenCaptureFromPath("."+imgPath).build());
+			Path content = Paths.get(imgPath);
+			Allure.addAttachment("Screenshot for failed Test", Files.newInputStream(content));
 			
 		} catch (IOException e) {
 			e.printStackTrace();
