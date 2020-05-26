@@ -1,8 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.842 s <<< FAILURE! - in TestSuite
-loginTest(tests.LoginTest)  Time elapsed: 3.313 s  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 37.54 s <<< FAILURE! - in TestSuite
+loginTest(tests.LoginTest)  Time elapsed: 8.544 s  <<< FAILURE!
 java.lang.AssertionError: expected [Secure Area2] but found [Secure Area]
-	at tests.LoginTest.loginTest(LoginTest.java:76)
+	at tests.LoginTest.checkSecureAreaPageTitle_aroundBody10(LoginTest.java:102)
+	at tests.LoginTest.checkSecureAreaPageTitle(LoginTest.java:97)
+	at tests.LoginTest.loginTest(LoginTest.java:53)
 

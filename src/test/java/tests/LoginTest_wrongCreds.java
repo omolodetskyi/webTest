@@ -6,6 +6,9 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Story;
+
 import org.testng.annotations.Test;
 
 import newtest.TestBase;
@@ -32,8 +35,11 @@ public class LoginTest_wrongCreds extends TestBase{
 	SecureAreaPage secureAreaPage;
 	ExtentTest test;
 	ExtentReports extent;
+  
   @Test
   @Parameters({"userName","password","errorMessage"})
+  @Story("As user I should not be logged and receive error in case of invalid username/password")
+  @Description("Checking login with invalid username/password.")
   public void loginWithWrongCreds(String userName,String password, String errorMessage) {
 	  welcomePage=new WelcomePage(driver);
 	  welcomePage.openPage();

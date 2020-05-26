@@ -8,6 +8,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Step;
 import io.qameta.allure.Story;
 
 import org.testng.AssertJUnit;
@@ -39,41 +40,69 @@ public class LoginTest extends TestBase{
 	SecureAreaPage secureAreaPage;
 	ExtentTest test;
 	ExtentReports extent;
-  @Story("Login Test")
-  @Description("Checking login with valid username/password.")
+  
   @Test
+  @Story("As user I should be able to login with valid username/password, so my account is protected")
+  @Description("Checking login with valid username/password.")
   public void loginTest() throws IOException {
-	  welcomePage=new WelcomePage(driver);
+	  openWelcomePage();
+	  checkWelcomePageTitle();
+	  clickFormAuthenticatioLink();
+	  checkLoginPageTitle();
+	  enterUserNameAndPassword();
+	  checkSecureAreaPageTitle();
+	  checkMessage();
+  }
+  @Step("Open welcome Page")
+  private void openWelcomePage(){
 	  welcomePage.openPage();
 	  log.info("1. Open welcome Page");
 	  Reporter.log("1. Open welcome Page<p/>");
 	  test.log(Status.INFO, "1. Open welcome Page");
+  }
+  @Step("Check that Welcome page has Available Examples title")
+  private void checkWelcomePageTitle(){
 	  String actualWelcomeTitle=welcomePage.getTitle();
 	  String expectedWelcomeTitle="Available Examples";
 	  log.info("2. Welcome page has Available Examples title");
 	  Reporter.log("2. Welcome page has Available Examples title<p/>");
 	  test.log(Status.INFO, "2. Welcome page has Available Examples title");
 	  Assert.assertEquals(actualWelcomeTitle, expectedWelcomeTitle);
+  }
+  @Step("Click on Form Authentication link")
+  private void clickFormAuthenticatioLink(){
 	  log.info("3. Click on Form Authentication link");
 	  Reporter.log("3. Click on Form Authentication link<p/>");
 	  test.log(Status.INFO, "3. Click on Form Authentication link");
 	  loginPage=welcomePage.clickFormAuthenticationLink();
+  }
+  @Step("Check title on Login page")
+  private void checkLoginPageTitle(){
 	  String actualLoginTitle=loginPage.getTitle();
 	  String expectedLoginTitle="Login Page";
 	  log.info("4. Check title on Login page");
 	  Reporter.log("4. Check title on Login page<p/>");
 	  test.log(Status.INFO, "4. Check title on Login page");
 	  Assert.assertEquals(actualLoginTitle, expectedLoginTitle);
+  }
+  @Step("Enter valid username/password")
+  private void enterUserNameAndPassword(){
 	  log.info("5. Enter valid username/password");
 	  Reporter.log("5. Enter valid username/password<p/>");
 	  test.log(Status.INFO, "5. Enter valid username/password");
-	  secureAreaPage=loginPage.enterUserNamePassword("tomsmith", "SuperSecretPassword!");
+	  secureAreaPage=loginPage.enterUserNamePassword("tomsmith", "SuperSecretPassword!");  
+  }
+  @Step("Check title on Secure Area page")
+  private void checkSecureAreaPageTitle(){
 	  String actualSecureAreaPageTitle=secureAreaPage.getTitle();
 	  log.info("6. Check title on Secure Area page");
 	  Reporter.log("6. Check title on Secure Area page<p/>");
 	  test.log(Status.INFO, "6. Check title on Secure Area page");
 	  String expectedSecureAreaPageTitle="Secure Area2";
 	  Assert.assertEquals(actualSecureAreaPageTitle, expectedSecureAreaPageTitle);
+  }
+  @Step("Check message on Secure Area page")
+  private void checkMessage(){
 	  String actualSecureAreaPageMsg=secureAreaPage.getMessage();
 	  String expectedSecureAreaPageMsg="You logged into a secure area!";
 	  log.info("7. Check message on Secure Area page");
@@ -83,6 +112,7 @@ public class LoginTest extends TestBase{
   }
   @BeforeTest
   @Parameters({"testName","browser"})
+  @Step("Driver initialisation. Open browser {1}")
   public void beforeTest(String testName, String browser, ITestContext context) throws MalformedURLException {
 	  initLogger(testName);
 	  log.info("0. Driver initialisation. Open browser");
@@ -94,8 +124,12 @@ public class LoginTest extends TestBase{
 	  driver=createWebDriver(browser); 
 	  test.log(Status.INFO, "0. Driver initialisation. Open browser");
 	  context.setAttribute("driver", driver);
+	  welcomePage=new WelcomePage(driver);
   }
+ 
+  
   @AfterTest
+  @Step("Close browser")
   public void closeBrowser(){
 	log.info("8. Close browser");  
 	Reporter.log("8. Close browser<p/>");
