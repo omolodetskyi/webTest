@@ -7,6 +7,9 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Story;
+
 import org.testng.AssertJUnit;
 import org.testng.ITestContext;
 import org.testng.Reporter;
@@ -36,6 +39,8 @@ public class LoginTest extends TestBase{
 	SecureAreaPage secureAreaPage;
 	ExtentTest test;
 	ExtentReports extent;
+  @Story("Login Test")
+  @Description("Checking login with valid username/password.")
   @Test
   public void loginTest() throws IOException {
 	  welcomePage=new WelcomePage(driver);

@@ -1,0 +1,17 @@
+tests/jsErrorTest.class
+tests/HoverTest.class
+tests/ShopTest.class
+tests/LoginTest_wrongCreds.class
+tests/SliderTest.class
+tests/DropDownTest.class
+tests/Calendar.class
+tests/LoginTest.class
+tests/AlertsTest.class
+tests/CheckCheckbox.class
+tests/DynamicLoadingTest.class
+tests/ScrollTest.class
+tests/ScreenShotTest.class
+tests/FrameTest.class
+tests/WindowsTest.class
+tests/DragAndDropTest.class
+tests/FileUploadTest.class
