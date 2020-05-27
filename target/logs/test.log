@@ -1119,3 +1119,567 @@
 17:49:38.778 [main] INFO  Login with wrong password - 5. Enter invalid username/password
 17:49:39.449 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
 17:49:39.451 [main] INFO  Login with wrong password - 7. Close Driver
+14:16:14.639 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+14:16:17.333 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+14:16:19.047 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+14:20:17.437 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+14:20:20.068 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+14:20:21.772 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+14:24:59.465 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+14:25:01.873 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+14:25:03.608 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+14:29:56.834 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+14:29:57.598 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+14:29:57.701 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+14:32:23.574 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+14:32:26.077 [main] INFO  Login with valid username/password - Strated with driver onchrome
+14:32:27.616 [main] INFO  Login with valid username/password - 1. Open welcome Page
+14:32:27.646 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+14:32:27.647 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+14:32:28.172 [main] INFO  Login with valid username/password - 4. Check title on Login page
+14:32:28.172 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+14:32:29.392 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+14:32:29.418 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+14:32:29.944 [main] INFO  Login with valid username/password - 8. Close browser
+14:32:30.055 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+14:32:31.194 [main] INFO  Login with wrong user - Strated with driver onchrome
+14:32:32.651 [main] INFO  Login with wrong user - 1. Open welcome Page
+14:32:32.680 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+14:32:32.680 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+14:32:33.221 [main] INFO  Login with wrong user - 4. Check Login title
+14:32:33.221 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+14:32:33.977 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+14:32:33.979 [main] INFO  Login with wrong user - 7. Close Driver
+14:32:34.123 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+14:32:35.190 [main] INFO  Login with wrong password - Strated with driver onchrome
+14:32:36.690 [main] INFO  Login with wrong password - 1. Open welcome Page
+14:32:36.717 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+14:32:36.717 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+14:32:37.221 [main] INFO  Login with wrong password - 4. Check Login title
+14:32:37.221 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+14:32:37.878 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+14:32:37.880 [main] INFO  Login with wrong password - 7. Close Driver
+14:33:57.070 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+14:33:58.730 [main] INFO  Login with valid username/password - Strated with driver onchrome
+14:34:00.169 [main] INFO  Login with valid username/password - 1. Open welcome Page
+14:34:00.199 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+14:34:00.201 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+14:34:00.702 [main] INFO  Login with valid username/password - 4. Check title on Login page
+14:34:00.702 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+14:34:01.383 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+14:34:01.406 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+14:34:01.411 [main] INFO  Login with valid username/password - 8. Close browser
+14:34:01.581 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+14:34:02.766 [main] INFO  Login with wrong user - Strated with driver onchrome
+14:34:04.855 [main] INFO  Login with wrong user - 1. Open welcome Page
+14:34:04.884 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+14:34:04.884 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+14:34:05.421 [main] INFO  Login with wrong user - 4. Check Login title
+14:34:05.422 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+14:34:06.101 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+14:34:06.103 [main] INFO  Login with wrong user - 7. Close Driver
+14:34:06.195 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+14:34:07.345 [main] INFO  Login with wrong password - Strated with driver onchrome
+14:34:08.778 [main] INFO  Login with wrong password - 1. Open welcome Page
+14:34:08.809 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+14:34:08.809 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+14:34:09.339 [main] INFO  Login with wrong password - 4. Check Login title
+14:34:09.341 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+14:34:10.011 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+14:34:10.012 [main] INFO  Login with wrong password - 7. Close Driver
+14:38:35.053 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+14:38:36.845 [main] INFO  Login with valid username/password - Strated with driver onchrome
+14:38:38.753 [main] INFO  Login with valid username/password - 1. Open welcome Page
+14:38:38.785 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+14:38:38.787 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+14:38:39.326 [main] INFO  Login with valid username/password - 4. Check title on Login page
+14:38:39.326 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+14:38:40.024 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+14:38:40.048 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+14:38:40.053 [main] INFO  Login with valid username/password - 8. Close browser
+14:38:40.190 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+14:38:41.297 [main] INFO  Login with wrong user - Strated with driver onchrome
+14:38:42.777 [main] INFO  Login with wrong user - 1. Open welcome Page
+14:38:42.803 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+14:38:42.804 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+14:38:43.306 [main] INFO  Login with wrong user - 4. Check Login title
+14:38:43.306 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+14:38:43.993 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+14:38:43.994 [main] INFO  Login with wrong user - 7. Close Driver
+14:38:44.097 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+14:38:45.253 [main] INFO  Login with wrong password - Strated with driver onchrome
+14:38:46.852 [main] INFO  Login with wrong password - 1. Open welcome Page
+14:38:46.877 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+14:38:46.877 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+14:38:47.412 [main] INFO  Login with wrong password - 4. Check Login title
+14:38:47.412 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+14:38:48.067 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+14:38:48.068 [main] INFO  Login with wrong password - 7. Close Driver
+14:40:40.777 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+14:40:42.450 [main] INFO  Login with valid username/password - Strated with driver onchrome
+14:40:43.986 [main] INFO  Login with valid username/password - 1. Open welcome Page
+14:40:44.024 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+14:40:44.026 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+14:40:44.535 [main] INFO  Login with valid username/password - 4. Check title on Login page
+14:40:44.535 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+14:40:45.233 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+14:40:45.257 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+14:40:45.261 [main] INFO  Login with valid username/password - 8. Close browser
+14:40:45.388 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+14:40:46.550 [main] INFO  Login with wrong user - Strated with driver onchrome
+14:40:48.045 [main] INFO  Login with wrong user - 1. Open welcome Page
+14:40:48.072 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+14:40:48.073 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+14:40:48.600 [main] INFO  Login with wrong user - 4. Check Login title
+14:40:48.601 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+14:40:49.313 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+14:40:49.315 [main] INFO  Login with wrong user - 7. Close Driver
+14:40:49.463 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+14:40:50.682 [main] INFO  Login with wrong password - Strated with driver onchrome
+14:40:52.170 [main] INFO  Login with wrong password - 1. Open welcome Page
+14:40:52.198 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+14:40:52.198 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+14:40:52.960 [main] INFO  Login with wrong password - 4. Check Login title
+14:40:52.960 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+14:40:53.629 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+14:40:53.631 [main] INFO  Login with wrong password - 7. Close Driver
+14:49:38.555 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+14:49:40.245 [main] INFO  Login with valid username/password - Strated with driver onchrome
+14:49:42.652 [main] INFO  Login with valid username/password - 1. Open welcome Page
+14:49:42.686 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+14:49:42.689 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+14:49:43.176 [main] INFO  Login with valid username/password - 4. Check title on Login page
+14:49:43.177 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+14:49:44.152 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+14:49:44.179 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+14:49:44.184 [main] INFO  Login with valid username/password - 8. Close browser
+14:49:44.367 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+14:49:45.611 [main] INFO  Login with wrong user - Strated with driver onchrome
+14:49:47.047 [main] INFO  Login with wrong user - 1. Open welcome Page
+14:49:47.078 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+14:49:47.079 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+14:49:47.605 [main] INFO  Login with wrong user - 4. Check Login title
+14:49:47.606 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+14:49:48.299 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+14:49:48.301 [main] INFO  Login with wrong user - 7. Close Driver
+14:49:48.400 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+14:49:49.557 [main] INFO  Login with wrong password - Strated with driver onchrome
+14:49:52.035 [main] INFO  Login with wrong password - 1. Open welcome Page
+14:49:52.064 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+14:49:52.065 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+14:49:52.557 [main] INFO  Login with wrong password - 4. Check Login title
+14:49:52.558 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+14:49:53.252 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+14:49:53.255 [main] INFO  Login with wrong password - 7. Close Driver
+14:51:28.460 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+14:51:30.162 [main] INFO  Login with valid username/password - Strated with driver onchrome
+14:51:31.662 [main] INFO  Login with valid username/password - 1. Open welcome Page
+14:51:31.696 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+14:51:31.698 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+14:51:32.205 [main] INFO  Login with valid username/password - 4. Check title on Login page
+14:51:32.205 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+14:51:32.950 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+14:51:32.976 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+14:51:33.552 [main] INFO  Login with valid username/password - 8. Close browser
+14:51:33.709 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+14:51:34.838 [main] INFO  Login with wrong user - Strated with driver onchrome
+14:51:36.297 [main] INFO  Login with wrong user - 1. Open welcome Page
+14:51:36.325 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+14:51:36.325 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+14:51:36.837 [main] INFO  Login with wrong user - 4. Check Login title
+14:51:36.837 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+14:51:37.532 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+14:51:37.534 [main] INFO  Login with wrong user - 7. Close Driver
+14:51:37.707 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+14:51:38.844 [main] INFO  Login with wrong password - Strated with driver onchrome
+14:51:40.401 [main] INFO  Login with wrong password - 1. Open welcome Page
+14:51:40.428 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+14:51:40.428 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+14:51:40.951 [main] INFO  Login with wrong password - 4. Check Login title
+14:51:40.951 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+14:51:42.026 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+14:51:42.027 [main] INFO  Login with wrong password - 7. Close Driver
+14:54:00.042 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+14:54:01.702 [main] INFO  Login with valid username/password - Strated with driver onchrome
+14:54:03.620 [main] INFO  Login with valid username/password - 1. Open welcome Page
+14:54:03.653 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+14:54:03.655 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+14:54:04.217 [main] INFO  Login with valid username/password - 4. Check title on Login page
+14:54:04.217 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+14:54:04.946 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+14:54:04.970 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+14:54:05.510 [main] INFO  Login with valid username/password - 8. Close browser
+14:54:05.622 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+14:54:06.762 [main] INFO  Login with wrong user - Strated with driver onchrome
+14:54:08.349 [main] INFO  Login with wrong user - 1. Open welcome Page
+14:54:08.379 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+14:54:08.379 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+14:54:09.863 [main] INFO  Login with wrong user - 4. Check Login title
+14:54:09.863 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+14:54:10.525 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+14:54:10.527 [main] INFO  Login with wrong user - 7. Close Driver
+14:54:10.614 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+14:54:11.652 [main] INFO  Login with wrong password - Strated with driver onchrome
+14:54:13.114 [main] INFO  Login with wrong password - 1. Open welcome Page
+14:54:13.142 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+14:54:13.142 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+14:54:13.674 [main] INFO  Login with wrong password - 4. Check Login title
+14:54:13.675 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+14:54:14.320 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+14:54:14.322 [main] INFO  Login with wrong password - 7. Close Driver
+14:55:57.113 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+14:55:58.815 [main] INFO  Login with valid username/password - Strated with driver onchrome
+14:56:00.314 [main] INFO  Login with valid username/password - 1. Open welcome Page
+14:56:00.353 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+14:56:00.354 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+14:56:00.857 [main] INFO  Login with valid username/password - 4. Check title on Login page
+14:56:00.857 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+14:56:01.551 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+14:56:01.574 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+14:56:02.194 [main] INFO  Login with valid username/password - 8. Close browser
+14:56:02.360 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+14:56:03.848 [main] INFO  Login with wrong user - Strated with driver onchrome
+14:56:06.455 [main] INFO  Login with wrong user - 1. Open welcome Page
+14:56:06.482 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+14:56:06.483 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+14:56:07.022 [main] INFO  Login with wrong user - 4. Check Login title
+14:56:07.022 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+14:56:07.809 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+14:56:07.811 [main] INFO  Login with wrong user - 7. Close Driver
+14:56:07.972 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+14:56:09.296 [main] INFO  Login with wrong password - Strated with driver onchrome
+14:56:10.769 [main] INFO  Login with wrong password - 1. Open welcome Page
+14:56:10.796 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+14:56:10.796 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+14:56:11.311 [main] INFO  Login with wrong password - 4. Check Login title
+14:56:11.311 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+14:56:12.049 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+14:56:12.051 [main] INFO  Login with wrong password - 7. Close Driver
+14:57:33.734 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+14:57:36.202 [main] INFO  Login with valid username/password - Strated with driver onchrome
+14:57:37.842 [main] INFO  Login with valid username/password - 1. Open welcome Page
+14:57:37.873 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+14:57:37.875 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+14:57:38.350 [main] INFO  Login with valid username/password - 4. Check title on Login page
+14:57:38.351 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+14:57:39.021 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+14:57:39.048 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+14:57:39.587 [main] INFO  Login with valid username/password - 8. Close browser
+14:57:39.725 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+14:57:40.861 [main] INFO  Login with wrong user - Strated with driver onchrome
+14:57:42.321 [main] INFO  Login with wrong user - 1. Open welcome Page
+14:57:42.350 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+14:57:42.351 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+14:57:42.894 [main] INFO  Login with wrong user - 4. Check Login title
+14:57:42.895 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+14:57:43.596 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+14:57:43.598 [main] INFO  Login with wrong user - 7. Close Driver
+14:57:43.690 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+14:57:44.858 [main] INFO  Login with wrong password - Strated with driver onchrome
+14:57:46.542 [main] INFO  Login with wrong password - 1. Open welcome Page
+14:57:46.567 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+14:57:46.568 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+14:57:47.102 [main] INFO  Login with wrong password - 4. Check Login title
+14:57:47.102 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+14:57:47.790 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+14:57:47.792 [main] INFO  Login with wrong password - 7. Close Driver
+15:11:11.301 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+15:11:13.323 [main] INFO  Login with valid username/password - Strated with driver onchrome
+15:11:15.513 [main] INFO  Login with valid username/password - 1. Open welcome Page
+15:11:15.550 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+15:11:15.552 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+15:11:16.029 [main] INFO  Login with valid username/password - 4. Check title on Login page
+15:11:16.029 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+15:11:16.737 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+15:11:16.762 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+15:11:17.280 [main] INFO  Login with valid username/password - 8. Close browser
+15:18:31.516 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+15:18:33.176 [main] INFO  Login with valid username/password - Strated with driver onchrome
+15:18:34.744 [main] INFO  Login with valid username/password - 1. Open welcome Page
+15:18:34.780 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+15:18:34.783 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+15:18:35.372 [main] INFO  Login with valid username/password - 4. Check title on Login page
+15:18:35.373 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+15:18:36.071 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+15:18:36.096 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+15:18:36.632 [main] INFO  Login with valid username/password - 8. Close browser
+15:18:36.968 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+15:18:38.090 [main] INFO  Login with wrong user - Strated with driver onchrome
+15:18:39.542 [main] INFO  Login with wrong user - 1. Open welcome Page
+15:18:39.570 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+15:18:39.570 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+15:18:40.080 [main] INFO  Login with wrong user - 4. Check Login title
+15:18:40.080 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+15:18:40.765 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+15:18:40.767 [main] INFO  Login with wrong user - 7. Close Driver
+15:18:40.891 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+15:18:42.038 [main] INFO  Login with wrong password - Strated with driver onchrome
+15:18:44.489 [main] INFO  Login with wrong password - 1. Open welcome Page
+15:18:44.518 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+15:18:44.518 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+15:18:45.011 [main] INFO  Login with wrong password - 4. Check Login title
+15:18:45.011 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+15:18:45.678 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+15:18:45.679 [main] INFO  Login with wrong password - 7. Close Driver
+15:27:58.651 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+15:28:00.377 [main] INFO  Login with valid username/password - Strated with driver onchrome
+15:28:02.499 [main] INFO  Login with valid username/password - 1. Open welcome Page
+15:28:02.536 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+15:28:02.537 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+15:28:03.065 [main] INFO  Login with valid username/password - 4. Check title on Login page
+15:28:03.066 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+15:28:03.775 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+15:28:03.799 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+15:28:04.323 [main] INFO  Login with valid username/password - 8. Close browser
+15:28:04.744 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+15:28:05.890 [main] INFO  Login with wrong user - Strated with driver onchrome
+15:28:07.320 [main] INFO  Login with wrong user - 1. Open welcome Page
+15:28:07.348 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+15:28:07.348 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+15:28:07.879 [main] INFO  Login with wrong user - 4. Check Login title
+15:28:07.879 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+15:28:08.568 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+15:28:08.569 [main] INFO  Login with wrong user - 7. Close Driver
+15:28:08.709 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+15:28:09.890 [main] INFO  Login with wrong password - Strated with driver onchrome
+15:28:11.542 [main] INFO  Login with wrong password - 1. Open welcome Page
+15:28:11.570 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+15:28:11.570 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+15:28:12.504 [main] INFO  Login with wrong password - 4. Check Login title
+15:28:12.504 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+15:28:13.166 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+15:28:13.168 [main] INFO  Login with wrong password - 7. Close Driver
+15:30:10.455 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+15:30:12.113 [main] INFO  Login with valid username/password - Strated with driver onchrome
+15:30:13.688 [main] INFO  Login with valid username/password - 1. Open welcome Page
+15:30:13.725 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+15:30:13.728 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+15:30:14.248 [main] INFO  Login with valid username/password - 4. Check title on Login page
+15:30:14.248 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+15:30:14.958 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+15:30:14.982 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+15:30:15.513 [main] INFO  Login with valid username/password - 8. Close browser
+15:30:15.869 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+15:30:17.008 [main] INFO  Login with wrong user - Strated with driver onchrome
+15:30:19.186 [main] INFO  Login with wrong user - 1. Open welcome Page
+15:30:19.215 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+15:30:19.215 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+15:30:19.718 [main] INFO  Login with wrong user - 4. Check Login title
+15:30:19.718 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+15:30:20.401 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+15:30:20.403 [main] INFO  Login with wrong user - 7. Close Driver
+15:30:20.625 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+15:30:21.769 [main] INFO  Login with wrong password - Strated with driver onchrome
+15:30:23.325 [main] INFO  Login with wrong password - 1. Open welcome Page
+15:30:23.354 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+15:30:23.354 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+15:30:23.837 [main] INFO  Login with wrong password - 4. Check Login title
+15:30:23.837 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+15:30:24.529 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+15:30:24.530 [main] INFO  Login with wrong password - 7. Close Driver
+15:34:55.267 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+15:34:57.052 [main] INFO  Login with valid username/password - Strated with driver onchrome
+15:34:58.551 [main] INFO  Login with valid username/password - 1. Open welcome Page
+15:34:58.586 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+15:34:58.588 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+15:34:59.096 [main] INFO  Login with valid username/password - 4. Check title on Login page
+15:34:59.096 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+15:34:59.810 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+15:34:59.835 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+15:34:59.841 [main] INFO  Login with valid username/password - 8. Close browser
+15:36:13.626 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+15:36:15.333 [main] INFO  Login with valid username/password - Strated with driver onchrome
+15:36:16.909 [main] INFO  Login with valid username/password - 1. Open welcome Page
+15:36:16.945 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+15:36:16.947 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+15:36:17.453 [main] INFO  Login with valid username/password - 4. Check title on Login page
+15:36:17.453 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+15:36:18.183 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+15:36:18.207 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+15:36:18.759 [main] INFO  Login with valid username/password - 8. Close browser
+15:36:19.112 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+15:36:20.324 [main] INFO  Login with wrong user - Strated with driver onchrome
+15:36:21.802 [main] INFO  Login with wrong user - 1. Open welcome Page
+15:36:21.832 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+15:36:21.833 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+15:36:22.361 [main] INFO  Login with wrong user - 4. Check Login title
+15:36:22.361 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+15:36:23.058 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+15:36:23.060 [main] INFO  Login with wrong user - 7. Close Driver
+15:36:23.281 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+15:36:24.444 [main] INFO  Login with wrong password - Strated with driver onchrome
+15:36:26.912 [main] INFO  Login with wrong password - 1. Open welcome Page
+15:36:26.940 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+15:36:26.941 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+15:36:27.458 [main] INFO  Login with wrong password - 4. Check Login title
+15:36:27.458 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+15:36:28.130 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+15:36:28.132 [main] INFO  Login with wrong password - 7. Close Driver
+15:41:22.188 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+15:41:23.839 [main] INFO  Login with valid username/password - Strated with driver onchrome
+15:41:25.956 [main] INFO  Login with valid username/password - 1. Open welcome Page
+15:41:25.992 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+15:41:25.994 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+15:41:27.010 [main] INFO  Login with valid username/password - 4. Check title on Login page
+15:41:27.011 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+15:41:27.866 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+15:41:27.889 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+15:41:28.475 [main] INFO  Login with valid username/password - 8. Close browser
+15:41:28.915 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+15:41:30.092 [main] INFO  Login with wrong user - Strated with driver onchrome
+15:41:32.126 [main] INFO  Login with wrong user - 1. Open welcome Page
+15:41:32.155 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+15:41:32.155 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+15:41:32.662 [main] INFO  Login with wrong user - 4. Check Login title
+15:41:32.663 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+15:41:33.397 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+15:41:33.398 [main] INFO  Login with wrong user - 7. Close Driver
+15:41:33.583 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+15:41:34.749 [main] INFO  Login with wrong password - Strated with driver onchrome
+15:41:36.445 [main] INFO  Login with wrong password - 1. Open welcome Page
+15:41:36.472 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+15:41:36.473 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+15:41:37.017 [main] INFO  Login with wrong password - 4. Check Login title
+15:41:37.017 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+15:41:37.703 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+15:41:37.705 [main] INFO  Login with wrong password - 7. Close Driver
+15:48:16.131 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+15:48:18.369 [main] INFO  Login with valid username/password - Strated with driver onchrome
+15:48:20.127 [main] INFO  Login with valid username/password - 1. Open welcome Page
+15:48:20.163 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+15:48:20.165 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+15:48:20.679 [main] INFO  Login with valid username/password - 4. Check title on Login page
+15:48:20.679 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+15:48:21.384 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+15:48:21.410 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+15:48:22.059 [main] INFO  Login with valid username/password - 8. Close browser
+15:48:22.594 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+15:48:23.886 [main] INFO  Login with wrong user - Strated with driver onchrome
+15:48:25.342 [main] INFO  Login with wrong user - 1. Open welcome Page
+15:48:25.373 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+15:48:25.373 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+15:48:25.869 [main] INFO  Login with wrong user - 4. Check Login title
+15:48:25.869 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+15:48:26.579 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+15:48:26.581 [main] INFO  Login with wrong user - 7. Close Driver
+15:48:26.734 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+15:48:27.872 [main] INFO  Login with wrong password - Strated with driver onchrome
+15:48:29.333 [main] INFO  Login with wrong password - 1. Open welcome Page
+15:48:29.360 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+15:48:29.360 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+15:48:29.862 [main] INFO  Login with wrong password - 4. Check Login title
+15:48:29.863 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+15:48:30.559 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+15:48:30.561 [main] INFO  Login with wrong password - 7. Close Driver
+15:51:39.995 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+15:51:42.309 [main] INFO  Login with valid username/password - Strated with driver onchrome
+15:51:44.407 [main] INFO  Login with valid username/password - 1. Open welcome Page
+15:51:44.450 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+15:51:44.452 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+15:51:44.978 [main] INFO  Login with valid username/password - 4. Check title on Login page
+15:51:44.979 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+15:51:45.684 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+15:51:45.708 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+15:51:46.422 [main] INFO  Login with valid username/password - 8. Close browser
+15:51:47.160 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+15:51:48.419 [main] INFO  Login with wrong user - Strated with driver onchrome
+15:51:50.022 [main] INFO  Login with wrong user - 1. Open welcome Page
+15:51:50.050 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+15:51:50.051 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+15:51:50.557 [main] INFO  Login with wrong user - 4. Check Login title
+15:51:50.557 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+15:51:51.259 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+15:51:51.262 [main] INFO  Login with wrong user - 7. Close Driver
+15:51:51.476 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+15:51:52.746 [main] INFO  Login with wrong password - Strated with driver onchrome
+15:51:54.221 [main] INFO  Login with wrong password - 1. Open welcome Page
+15:51:54.253 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+15:51:54.253 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+15:51:55.464 [main] INFO  Login with wrong password - 4. Check Login title
+15:51:55.464 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+15:51:56.160 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+15:51:56.164 [main] INFO  Login with wrong password - 7. Close Driver
+16:04:20.973 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+16:04:23.230 [main] INFO  Login with valid username/password - Strated with driver onchrome
+16:04:26.006 [main] INFO  Login with valid username/password - 1. Open welcome Page
+16:04:26.043 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+16:04:26.045 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+16:04:26.816 [main] INFO  Login with valid username/password - 4. Check title on Login page
+16:04:26.817 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+16:04:27.529 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+16:04:27.554 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+16:04:28.195 [main] INFO  Login with valid username/password - 8. Close browser
+16:04:28.678 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+16:04:30.154 [main] INFO  Login with wrong user - Strated with driver onchrome
+16:04:32.215 [main] INFO  Login with wrong user - 1. Open welcome Page
+16:04:32.248 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+16:04:32.249 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+16:04:32.746 [main] INFO  Login with wrong user - 4. Check Login title
+16:04:32.747 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+16:04:33.584 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+16:04:33.589 [main] INFO  Login with wrong user - 7. Close Driver
+16:04:33.815 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+16:04:34.976 [main] INFO  Login with wrong password - Strated with driver onchrome
+16:04:36.799 [main] INFO  Login with wrong password - 1. Open welcome Page
+16:04:36.826 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+16:04:36.826 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+16:04:37.353 [main] INFO  Login with wrong password - 4. Check Login title
+16:04:37.353 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+16:04:38.082 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+16:04:38.084 [main] INFO  Login with wrong password - 7. Close Driver
+16:08:12.351 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+16:08:14.439 [main] INFO  Login with valid username/password - Strated with driver onchrome
+16:08:16.133 [main] INFO  Login with valid username/password - 1. Open welcome Page
+16:08:16.171 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+16:08:16.173 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+16:08:16.662 [main] INFO  Login with valid username/password - 4. Check title on Login page
+16:08:16.663 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+16:08:17.389 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+16:08:17.412 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+16:08:18.046 [main] INFO  Login with valid username/password - 8. Close browser
+16:08:18.534 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+16:08:19.818 [main] INFO  Login with wrong user - Strated with driver onchrome
+16:08:21.489 [main] INFO  Login with wrong user - 1. Open welcome Page
+16:08:21.520 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+16:08:21.521 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+16:08:22.088 [main] INFO  Login with wrong user - 4. Check Login title
+16:08:22.089 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+16:08:22.843 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+16:08:22.848 [main] INFO  Login with wrong user - 7. Close Driver
+16:08:23.057 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+16:08:24.208 [main] INFO  Login with wrong password - Strated with driver onchrome
+16:08:26.692 [main] INFO  Login with wrong password - 1. Open welcome Page
+16:08:26.721 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+16:08:26.721 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+16:08:27.230 [main] INFO  Login with wrong password - 4. Check Login title
+16:08:27.231 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+16:08:27.945 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+16:08:27.948 [main] INFO  Login with wrong password - 7. Close Driver
+16:10:07.142 [main] INFO  Login with valid username/password - 0. Driver initialisation. Open browser
+16:10:09.834 [main] INFO  Login with valid username/password - Strated with driver onchrome
+16:10:11.619 [main] INFO  Login with valid username/password - 1. Open welcome Page
+16:10:11.656 [main] INFO  Login with valid username/password - 2. Welcome page has Available Examples title
+16:10:11.658 [main] INFO  Login with valid username/password - 3. Click on Form Authentication link
+16:10:12.471 [main] INFO  Login with valid username/password - 4. Check title on Login page
+16:10:12.471 [main] INFO  Login with valid username/password - 5. Enter valid username/password
+16:10:13.176 [main] INFO  Login with valid username/password - 6. Check title on Secure Area page
+16:10:13.201 [main] INFO  Login with valid username/password - 7. Check message on Secure Area page
+16:10:13.862 [main] INFO  Login with valid username/password - 8. Close browser
+16:10:14.706 [main] INFO  Login with wrong user - 0. Driver initialisation. Open browser
+16:10:15.979 [main] INFO  Login with wrong user - Strated with driver onchrome
+16:10:18.096 [main] INFO  Login with wrong user - 1. Open welcome Page
+16:10:18.125 [main] INFO  Login with wrong user - 2. Welcome page has Available Examples title
+16:10:18.125 [main] INFO  Login with wrong user - 3. Click Form Authentication link
+16:10:23.646 [main] INFO  Login with wrong user - 4. Check Login title
+16:10:23.647 [main] INFO  Login with wrong user - 5. Enter invalid username/password
+16:10:29.553 [main] INFO  Login with wrong user - 6. Check 'Your username is invalid!' error message on Login Page
+16:10:29.557 [main] INFO  Login with wrong user - 7. Close Driver
+16:10:29.689 [main] INFO  Login with wrong password - 0. Driver initialisation. Open browser
+16:10:30.942 [main] INFO  Login with wrong password - Strated with driver onchrome
+16:10:32.974 [main] INFO  Login with wrong password - 1. Open welcome Page
+16:10:33.020 [main] INFO  Login with wrong password - 2. Welcome page has Available Examples title
+16:10:33.021 [main] INFO  Login with wrong password - 3. Click Form Authentication link
+16:10:33.581 [main] INFO  Login with wrong password - 4. Check Login title
+16:10:33.581 [main] INFO  Login with wrong password - 5. Enter invalid username/password
+16:10:34.250 [main] INFO  Login with wrong password - 6. Check 'Your password is invalid!' error message on Login Page
+16:10:34.252 [main] INFO  Login with wrong password - 7. Close Driver
